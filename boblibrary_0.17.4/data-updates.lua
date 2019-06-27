@@ -1,0 +1,1 @@
+resource_generator.finalise_resource_autoplace()

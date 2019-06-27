@@ -1,0 +1,8 @@
+{
+	"name": "AllFurnaceswithModules",
+	"version": "0.0.2",
+	"title": "All Furnaces with Modules",
+	"author": "DellAquila",	
+	"factorio_version": "0.17",
+"description": "You can put modules in Stone Furnaces and Steel Furnaces too. All Furnaces, modded included, accepts Modules. As a bonus you can also put modules in mining drills and assembling machines that you could not before."
+}

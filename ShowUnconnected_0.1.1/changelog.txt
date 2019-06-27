@@ -1,0 +1,13 @@
+0.1.1 
+- probably fixed bug with Factorissimo2, that I cannot reproduce
+
+0.1.0 
+ - Port to version 0.17; just replaced version in info.json
+
+0.0.3
+ - added new mark: no energy for electric poles without connected energy source
+
+0.0.2
+ - fixed bug "LuaEntity was invalid"
+ 
+0.0.1 - first release.

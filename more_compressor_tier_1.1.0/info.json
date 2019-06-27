@@ -1,0 +1,11 @@
+{
+"name":"more_compressor_tier",
+"version":"1.1.0",
+"title":"Omnicompression - More Compressor Tier",
+"author":"Erythion",
+"description":"Adds more tiers of compressors to Omnicompression and changes compression rate from 24/s to 25/s per tier (balance feedback needed)",
+"factorio_version":"0.17",
+"dependencies":["base",
+	"omnilib >= 3.0.7",
+	"omnimatter_compression >= 3.0.3"]
+}

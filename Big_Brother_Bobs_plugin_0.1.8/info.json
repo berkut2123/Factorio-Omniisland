@@ -1,0 +1,15 @@
+{
+  "name": "Big_Brother_Bobs_plugin",
+  "version": "0.1.8",
+  "title": "Big Brother Bob's plugin",
+  "author": "Tron842",
+  "homepage": "",
+  "description": "Bob's radars and big poles can now affect by Big Brothers research. Energy values have been rescaled to account for the new changes as well. Credit to Afforess",
+  "factorio_version": "0.17",
+  "dependencies": [
+	"base >= 0.17.0", 
+	"?bobwarfare >= 0.16.0",
+	"?bobpower >= 0.16.0",
+	"Big_Brother >= 0.4.6"
+	]
+}

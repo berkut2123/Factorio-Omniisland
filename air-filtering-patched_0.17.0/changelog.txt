@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 3. 2. 2019
+	Info:
+		- Updated mod to 0.17. If you had this mods settings enabled for bob's or angel's and you currently dont have them you must disable the settings or you game wont load. (edit or remove your "mod-settings.dat" file in "%AppData%/Factorio/Mods"
+---------------------------------------------------------------------------------------------------
+Version: 0.6.16
+Date: 28. 11. 2018
+	Info:
+		- Updated Rusian locale (thanks MasterLogick) and added changelog file.
+---------------------------------------------------------------------------------------------------

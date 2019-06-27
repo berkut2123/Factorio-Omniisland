@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 15. 06. 2019
+  Changes:
+    -added electric offshore pump, needs 1200 kW and makes 1200 water/second, can use modules
+    -rebalance, now burner offshore pump needs 180 kW and makes 120 water / second
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1 
+Date: 01. 05. 2019
+  Changes:
+    -first release

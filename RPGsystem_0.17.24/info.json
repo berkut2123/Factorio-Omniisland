@@ -1,0 +1,11 @@
+{
+    "name": "RPGsystem",
+    "author": "MFerrari",
+    "version": "0.17.24",
+    "title": "RPG System",
+    "contact": "ferrarimaf@gmail.com",
+    "homepage":"",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17.35"],
+    "description": "This mod adds an RPG system to the game (XP and level-up)"
+}

@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019.05.16
+  Features:
+    - Introduced 1 new item group: transport.
+    - Options on order of group tab. (Default: After “Logistics” tab.)
+  Locale:
+    - English, German, traditional Chinese, simplified Chinese are available.
+  License:
+    - Using Bob's Copyright License.  Document included.

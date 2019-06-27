@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+  Changes:
+    - Code optimizations.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+  Changes:
+    - Fixed remote interface call.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+  Changes:
+    - Attrition can now be altered per-surface by mods, this can multiply or override the mod setting.
+    - Surfaces with attrition rates of 0.001 and below do not process attrition at all (saves UPS).
+    - Further UPS optimisations.
+    - Fixed bots dropping items on belts.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+  Changes:
+    - Code optimizations.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+  Changes:
+    - Updated description.
+    - Minimum attrition multiplier is now 0.001.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Changes:
+    - Re-worked the code for continuous processing instead of batches on longer interval. (Reduces UPS stutters).
+    - Default attrition factor is now 1 instead of 10 to match the new code structure (actual crash rate is slightly lower).
+    - Minimum attrition multiplier is now 0.01.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+  Changes:
+    - Changed robots creating fire on death to robots doing weak AOE explosion damage (fire did not make sense in space).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Info:
+    - Updated for Factorio 0.17.
+
+---------------------------------------------------------------------------------------------------

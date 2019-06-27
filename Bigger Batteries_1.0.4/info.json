@@ -1,0 +1,10 @@
+{
+	"name": "Bigger Batteries",
+	"author": "Raeon",
+	"version": "1.0.4",
+	"factorio_version": "0.17",
+	"title": "Bigger Batteries",
+	"homepage": "",
+	"description": "Additional tiers of batteries for all your equipment grid needs.",
+	"dependencies": ["base >= 0.17.0"]
+}

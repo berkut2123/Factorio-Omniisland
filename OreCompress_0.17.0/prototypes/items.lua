@@ -1,0 +1,50 @@
+data:extend(
+{
+  {
+    type = "item",
+    name = "compressed-coal",
+    icon = "__OreCompress__/graphics/compressed-coal.png",
+    icon_size = 32,
+    fuel_value = "128MJ",
+    fuel_category = "chemical",
+    subgroup = "intermediate-product",
+    order = "[compressed-ore1-coal]",
+    stack_size = 100,
+  },
+  {
+    type = "item",
+    name = "compressed-stone",
+    icon = "__OreCompress__/graphics/compressed-stone.png",
+    icon_size = 32,
+    subgroup = "intermediate-product",
+    order = "[compressed-ore1-stone]",
+    stack_size = 100,
+  },
+  {
+    type= "item",
+    name= "compressed-copper-ore",
+    icon = "__OreCompress__/graphics/compressed-copper-ore.png",
+    icon_size = 32,
+    subgroup = "intermediate-product",
+    order = "[compressed-ore2-copper]",
+    stack_size = 100,
+  },
+  {
+    type= "item",
+    name= "compressed-iron-ore",
+    icon = "__OreCompress__/graphics/compressed-iron-ore.png",
+    icon_size = 32,
+    subgroup = "intermediate-product",
+    order= "[compressed-ore2-iron]",
+    stack_size= 100,
+  },
+  {
+    type = "item",
+    name = "compressed-uranium-ore",
+    icon = "__OreCompress__/graphics/compressed-uranium-ore.png",
+    icon_size = 32,
+    subgroup = "intermediate-product",
+    order = "[compressed-ore2-uranium]",
+    stack_size = 100,
+  }
+})

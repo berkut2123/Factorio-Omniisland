@@ -1,0 +1,1 @@
+{"name":"OmnicSalt_Sorting","author":"kremnari","version":"0.17.1","title":"Omnic Salt Sorting","description":"Omni Salts now require Angels Sorting Machines to obtain ore salts.  Also will work with OmniCrystal - Clowns","factorio_version":"0.17","dependencies":["base >= 0.17","omnimatter >= 3.0.0","omnimatter_crystal >= 3.0.0","angelsrefining >= 0.10.1","? OmniCrystal_Clowns"]}

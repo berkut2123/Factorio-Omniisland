@@ -1,0 +1,11 @@
+{
+  "name": "Advanced_Machines",
+  "version": "0.1.9",
+  "factorio_version": "0.17",
+  "title": "Advanced Machines",
+  "author": "DWolf0_0",
+  "contact": "drewwbutler@gmail.com",
+  "homepage": "",
+  "description": "Adds many advanced versions of machines sutch as the\nElectric Furnace,\nCrafting Machine, \nProcessing Plant,\nOil Refinery,\nBeacon,\nAnd also MK4 and MK5 Modules including a God Module\nThe God Module has the perks of all Modules and it can be MK1-5.",
+  "dependencies": ["base >= 0.17.0"]
+}

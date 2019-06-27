@@ -1,0 +1,9 @@
+{
+  "name": "ConstructionQueue",
+  "version": "0.0.2",
+  "title": "ConstructionQueue",
+  "author": "Kenira",
+  "dependencies": ["base >= 0.17.0"],
+  "description": "More construction per tick",
+  "factorio_version":"0.17"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "more-fusion-reactors",
+  "version": "2.4.0",
+  "factorio_version": "0.17",
+  "title": "More Fusion Reactors",
+  "author": "DiegoPro_77",
+  "contact": "",
+  "homepage": "",
+  "description": "This mod adds 4 new tiers of fusion reactor for boost your power production. (Needs Better Power Armor Grid)",
+  "dependencies": ["base"]
+}

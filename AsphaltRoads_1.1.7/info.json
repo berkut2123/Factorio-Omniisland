@@ -1,0 +1,10 @@
+{
+  "name": "AsphaltRoads",
+  "version": "1.1.7",
+  "title": "Asphalt Roads",
+  "author": "Arcitos",
+  "homepage": "",
+  "description": "Asphalt pavement for increased vehicle speed. Also includes tiles for lane marking (single and double lines) and various hazard areas.",
+  "factorio_version": "0.17",
+  "dependencies": ["base >= 0.16.13", "?Bio-Industries >= 2.0.3", "?Dectorio >= 0.8.4", "?Wood-Gasification >= 0.5.1"]
+}

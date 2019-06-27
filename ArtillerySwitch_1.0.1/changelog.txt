@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 05. 04. 2019
+  Bugfixes:
+    - fixed the UI not updating when you get kicked out of a train
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 04. 04. 2019
+  Features:
+    - Disable artillery wagons when in a train

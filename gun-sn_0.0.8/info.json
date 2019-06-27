@@ -1,0 +1,9 @@
+{
+  "name": "gun-sn",
+  "version": "0.0.8",
+  "title": "sniper rifle",
+  "author": "badway",
+  "description": "Can not come to the base of the enemy? Do worms kill you without letting you get close? There is a solution - a sniper rifle, punish the enemies!",
+  "dependencies": ["base >= 0.16"],
+  "factorio_version": "0.17"
+}

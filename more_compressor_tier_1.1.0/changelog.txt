@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2019.04.19 1842
+  Changes:
+    - .17 initial update
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2018.10.29
+  Changes:
+    - initial upload
+    - adds 3 additional tiers of autocompressor, trading significantly more difficult crafting cost for compression speed and space. (balance feedback needed)
+	- changes compression speed from 24/s to 25/s per tier

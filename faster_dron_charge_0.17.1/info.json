@@ -1,0 +1,11 @@
+{
+	"name": "faster_dron_charge",
+	"version": "0.17.1",
+	"factorio_version": "0.17",
+	"title": "Faster drone charge and capacity",
+	"author": "Aidan647",
+	"contact": "kirillkotka@gmail.com",
+	"homepage": "https://mods.factorio.com/mods",
+	"description": "",
+	"dependencies": ["base","?5dim_logistic", "?boblogistics","?bobvehicleequipment"]
+}

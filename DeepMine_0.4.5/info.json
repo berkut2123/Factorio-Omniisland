@@ -1,0 +1,11 @@
+{
+  "name": "DeepMine",
+  "version": "0.4.5",
+  "title": "Deep Mine",
+  "author": "Optera",
+  "description": "Adds underground mines, randomly extracting ores that can be mined without fluid input.",
+  "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
+  "homepage": "https://mods.factorio.com/mod/DeepMine",
+	"factorio_version": "0.17",
+	"dependencies": ["base >= 0.17.15", "?angelsinfiniteores >= 0.5.4"]
+}

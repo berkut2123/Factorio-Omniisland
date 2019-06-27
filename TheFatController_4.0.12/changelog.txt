@@ -1,0 +1,82 @@
+---------------------------------------------------------------------------------------------------
+Version: 4.0.12
+Date: 18. 06. 2019
+  Bugfixes:
+    - fixed error when starting a tutorial
+---------------------------------------------------------------------------------------------------
+Version: 4.0.11
+Date: 26. 05. 2019
+  Bugfixes:
+    - fixed player ending up as a god controller when the original character died while remote controlling a train
+---------------------------------------------------------------------------------------------------
+Version: 4.0.10
+Date: 22. 05. 2019
+  Changes:
+    - added option to show color indicators for trains
+---------------------------------------------------------------------------------------------------
+Version: 4.0.9
+Date: 02. 05. 2019
+  Bugfixes:
+    - fixed error when loading with 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 4.0.8
+Date: 01. 05. 2019
+  Changes:
+    - updated for Factorio 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 4.0.7
+Date: 29. 04. 2019
+  Bugfixes:
+    - fixed errors with modded trains without a fuel inventory
+---------------------------------------------------------------------------------------------------
+Version: 4.0.6
+Date: 26. 04. 2019
+  Bugfixes:
+    - fixed errors when gui root became invalid
+---------------------------------------------------------------------------------------------------
+Version: 4.0.5
+Date: 28. 03. 2019
+  Bugfixes:
+    - fixed fluid icons not being shown in the train info
+---------------------------------------------------------------------------------------------------
+Version: 4.0.4
+Date: 25. 03. 2019
+  Bugfixes:
+    - fixed not being able to change the number of displayed trains with the page number button
+---------------------------------------------------------------------------------------------------
+Version: 4.0.3
+Date: 04. 03. 2019
+  Bugfixes:
+    - fixed loading error without SmartTrains mod
+---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 04. 03. 2019
+  Changes:
+    - updated for Factorio 0.17
+    - updated 2 alarm icons
+---------------------------------------------------------------------------------------------------
+Version: 3.0.4
+Date: 03. 05. 2018
+  Bugfixes:
+    - fixed error when opening/closing power armor
+---------------------------------------------------------------------------------------------------
+Version: 3.0.3
+Date: 26. 03. 2018
+  Bugfixes:
+    - fixed checkboxes not working
+---------------------------------------------------------------------------------------------------
+Version: 3.0.2
+Date: 05. 02. 2018
+  Bugfixes:
+    - fixed error loading with Factorio 0.16.22
+---------------------------------------------------------------------------------------------------
+Version: 3.0.1
+Date: 06. 01. 2018
+  Changes:
+    - fixed errors with fluid wagons
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 06. 01. 2018
+  Changes:
+    - Updated for Factorio 0.16
+    - Temporarily disabled remote controlling trains, needs a Factorio fix first

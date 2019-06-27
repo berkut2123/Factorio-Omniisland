@@ -1,0 +1,57 @@
+data:extend({
+    {
+        type = "int-setting",
+        name = "bigger-batteries-tier-amount",
+        setting_type = "startup",
+        default_value = 6,
+        minimum_value = 1,
+        maximum_value = 12,
+        order = "bigger-batteries-aa[tier-amount]",
+    },
+    {
+        type = "double-setting",
+        name = "bigger-batteries-cost-mult",
+        setting_type = "startup",
+        default_value = 1,
+        minimum_value = 1,
+        maximum_value = 10,
+        order = "bigger-batteries-bb[cost-mult]",
+    },
+    {
+        type = "int-setting",
+        name = "bigger-batteries-cost-amount",
+        setting_type = "startup",
+        default_value = 4,
+        minimum_value = 2,
+        maximum_value = 100,
+        order = "bigger-batteries-cc[cost-amount]",
+    },
+    {
+        type = "double-setting",
+        name = "bigger-batteries-capacity-mult",
+        setting_type = "startup",
+        default_value = 2,
+        minimum_value = 1,
+        maximum_value = 100,
+        order = "bigger-batteries-dd[capacity-mult]",
+    },
+    {
+        type = "double-setting",
+        name = "bigger-batteries-technology-mult",
+        setting_type = "startup",
+        default_value = 2,
+        minimum_value = 1,
+        maximum_value = 100,
+        order = "bigger-batteries-ee[technology-mult]",
+    },
+    {
+        type = "int-setting",
+        name = "bigger-batteries-pack-per-tiers",
+        setting_type = "startup",
+        default_value = 2,
+        minimum_value = 1,
+        maximum_value = 12,
+        order = "bigger-batteries-ff[pack-per-tiers]",
+    }
+
+})

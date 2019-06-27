@@ -1,0 +1,54 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 2019-06-05
+  Bugfixes:
+    - Set icon_size for deployer chest.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 2019-06-05
+  Bugfixes:
+    - script_raised_built now sets entity.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 2019-04-18
+  Bugfixes:
+    - Changed on_robot_built_entity to script_raised_built for mod compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 2019-03-22
+  Bugfixes:
+    - Handles script_raised_revive correctly.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 2019-03-21
+  Bugfixes:
+    - Now works in fog of war.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019-03-20
+  Features:
+    - Upgrade planner.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019-03-12
+  Features:
+    - Compatible with Factorio 0.17.
+    - High resolution deployer chest graphics.
+    - Filtered deconstruction planner.
+  Changes:
+    - Cancel deconstruction command changed to "deconstruction-planner = -3".
+    - Deployer chest now unlocks with tech Construction robotics.
+    - Deployer chest recipe changed to match logistics chests.
+    - Deployer chest recipe moved to the same tab as logistics chests.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.6
+Date: 2019-02-06
+  Bugfixes:
+    - net_cache garbage collection actually works.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.5
+Date: 2018-12-11
+  Changes:
+    - Added net_cache to global to fix possible desync.
+    - Added net_cache garbage collection.
+    - Now runs 10% faster.

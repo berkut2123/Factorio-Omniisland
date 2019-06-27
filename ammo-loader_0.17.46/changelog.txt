@@ -1,0 +1,435 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.46
+Date: 09. 03. 2019
+
+  Bugfixes:
+    - Potential fix for crash with big monster mod
+    - Potential fix for entity invalid crash
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.45
+Date: 09. 03. 2019
+
+  Bugfixes:
+    - Potential fix for stack overflow error
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.44
+Date: 02. 03. 2019
+
+  Changes:
+    - Range indicators now use the LuaRendering class rather than placeholder entities
+
+  Features:
+    - When using the 'draw range' option, chests will now draw a line to entities they are currently supplying
+    - Hovering over a chest will highlight any candidate entities in range
+    - Hovering over turrets/vehicles will show which chest is supplying them (if any)
+
+  Bugfixes:
+    - Potential fix for crash when playing wave defense
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.43
+Date: 02. 03. 2019
+
+  Bugfixes:
+    - Fixed crash on startup when using high res sprites
+
+---------------------------------------------------------------------------------------------------
+Version: 0.17.42
+Date: 01. 03. 2019
+
+  Changes:
+    - Updated to factorio base 0.17
+    - Hidden inserters now use 'void' energy source
+    - ammo-loader-superfuel item removed
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.41
+Date: 30. 12. 2018
+
+  Bugfixes:
+    - Fixed some stack overflow errors.
+    - Fixed memory leak/unusually long load times since 0.16.38
+    - Fixed chests not upgrading when first storage chest is placed
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.40
+Date: 30. 12. 2018
+
+  Bugfixes:
+    - Another potential fix for memory leaks. Reverted some changes made to the upgrade system in 0.16.38.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.39
+Date: 28. 12. 2018
+
+  Bugfixes:
+    - Potential fix for possible memory leak.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.38
+Date: 27. 12. 2018
+
+  Bugfixes:
+    - Potential fix for stack overflow errors
+    - Fix for chests inserting ammo/fuel into assemblers/chemical plants as ingredients or output
+    - Fix for research that modifies in-game turrets (Endgame Combat)
+
+  Changes:
+    - Storage Chests can now show range
+    - improved performance
+    - changed upgrading to make it more responsive
+    - ammo/fuel is now ranked based on 1.) total damage 2.) magazine size 3.) alphabetical
+    - Requester Loader chests now have 4 logistic slots
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.37
+Date: 26. 11. 2018
+
+  Changes:
+    - removed some settings that were problematic if set incorrectly.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.36
+Date: 25. 11. 2018
+
+  Bugfixes:
+    - Fix for stack overflow error
+    - Fix for modded entities not being filled (rampant arsenal, etc.)
+    - Fix for hidden inserters sometimes not being removed
+    - Fix capsule turrets not being filled
+    - Fix Robotank incompatibility
+    - Fix for Helicopter incompatibility
+
+  Changes:
+    - chests now only supply entites on the same surface unless chest radius is set to 0 (infinite)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.35
+Date: 09. 09. 2018
+
+  Bugfixes:
+    - Attempted fix for rare conditions allowing hidden inserters to be mined.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.34
+Date: 09. 09. 2018
+
+  Bugfixes:
+    - Fixed burner inserter not being filled correctly.
+
+  Changes:
+    - Changed default value of fill-x options to true.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.33
+Date: 07. 09. 2018
+
+  Bugfixes:
+    - Fixed chests loading assembler recipes/ingredients.
+    - Potentially fixed ItemStack call bug.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.32
+Date: 06. 09. 2018
+
+  Bugfixes:
+    - Fixed vehicles not reloading fuel when fill burner structures option is disabled
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.31
+Date: 04. 09. 2018
+
+  Bugfixes:
+    - Fixed rare out of inventory bounds error
+
+  Changes:
+    - Changed the way providers and consumers are tracked to hopefully increase resonsiveness.
+    - Non-moving entity positions are now cached to make range checking faster.
+    - Added option to disable drawing range indicator on hover.
+    - Chests once again support multiple items.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.30
+Date: 02. 09. 2018
+
+  Bugfixes:
+    - Boilers are properly excluded from being filled
+    - Disabling technology no longer makes it impossible to get its functionality
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.29
+Date: 02. 09. 2018
+
+  Bugfixes:
+    - Removed unnecessary migrations.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.28
+Date: 02. 09. 2018
+
+  Bugfixes:
+    - Fixed on_load error
+    - Added migrations for fuel-loader-chest and technologies.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.27
+Date: 01. 09. 2018
+
+  Bugfixes:
+    - Reduced load and save times by ~70%
+    - Changed data structure to prevent memory leaks.
+    - Entities on surfaces other than nauvis will no longer randomly disconnect
+
+  Changes:
+    - Inventories now use hidden inserters to restock, allowing for much more efficiency.
+    - New requester and storage chests
+    - Locked some functionality behind new technologies
+    - Mod can now return items to storage chests when picking up/placing entities
+    - Support for multiple surfaces
+    - New hotkey for returning all items to storage
+    - New range indicator with hotkey to toggle all ranges
+    - New graphics
+    - Chests will now only distribute a single item at a time; other items are ignored
+    - Fuel Loader Chest functionality merged with Ammo Loader Chest
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.26
+Date: 26. 05. 2018
+
+  Bugfixes:
+    - Fixed chests not appearing when not using technology research.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.25
+Date: 18. 05. 2018
+
+  Bugfixes:
+    - Fixed deleting items when max slot option > item stack size.
+
+  Changes:
+    - Removed max items per inventory setting for now due to performance issues.
+    - Added fill locomotives setting
+    - Added fill artillery setting
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.24
+Date: 15. 05. 2018
+
+  Bugfixes:
+    - Hopefully fixed bug causing crash when using burner structure option.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.23
+Date: 04. 05. 2018
+
+  Bugfixes:
+    - Fixed crash on load under certain conditions.
+
+  Changes:
+    - Chests must now be unlocked through research.
+    - Updated icons.
+    - Added option to fill burner buildings.
+    - Upgrade option now works as intended.
+    - Added startup option to bypass research requirements.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.22
+Date: 29. 04. 2018
+
+  Bugfixes:
+    - Fixed inventories already on map not being tracked after configuration changed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.21
+Date: 29. 04. 2018
+
+  Bugfixes:
+    - Fixed bug causing crash on load.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.20
+Date: 29. 04. 2018
+
+  Bugfixes:
+    - Fixed infinite ammo bug.
+    - Improved compatibility with some mods.
+    - Code cleanup to reduce spaghetti.
+
+  Changes:
+    - Implemented distance restriction on chests (accessible in mod options, defaults to zero).
+    - Added Fuel Loader Chest into the game, separating chests that load ammo from those that load fuel.
+    - Restructured data models to make code easier to understand.
+    - Revised main looping algorithm, resulting in more steady performance.
+    - Revised ammo upgrade algorithm, greatly reducing the number of turrets that fail to get the best ammo.
+    - New icons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.19
+Date: 10. 02. 2018
+
+  Changes:
+    - Performance update, approx. ~30% improvement (on my personal machine).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.18
+Date: 10. 02. 2018
+
+  Bugfixes:
+    - fixed chests would stop working after load game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.17
+Date: 04. 02. 2018
+
+  Bugfixes:
+    - fixed turret would stop being loaded if ammo was taken out by player.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.16
+Date: 04. 02. 2018
+
+  Bugfixes:
+    - fixed crash when starting new game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.15
+Date: 04. 02. 2018
+
+  Changes:
+    - added "finished" queue for turrets that are already full of the best ammo, roughly ~50% performance increase when there are lots of gun turrets (500+).
+    - added setting to control the number of new entities that will be scanned per tick when placing large blueprints, etc.
+    - added explanations to all settings.
+    - set min/max values for integer settings.
+
+  Bugfixes:
+    - fixed locale file so settings will be named properly.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.14
+Date: 05. 01. 2018
+
+  Changes:
+    - added limit to number of entities that can be added per tick (50 at the moment) for performance issues with blueprints.
+
+  Bugfixes:
+    - fixed bug where turrets already on map when mod was installed not being recognized.
+    - added check to remove invalid items when mods change.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.13
+Date: 04. 1. 2018
+
+  Changes:
+    - made ammo loader chest available from the start of the game, since it's actually useless before turret research anyway.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.12
+Date: 03. 01. 2018
+
+  Bugfixes:
+    - small bugfix for crash due to incorrect file name.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.16.11
+Date: 02. 01. 2018
+
+  Changes:
+    - update to factorio v16
+    - rewritten once again.
+    - performance improvements.
+    - add support for vehicles with multiple guns.
+    - hopefully improved compatibility.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.15.10
+Date: 22. 08. 2017
+
+  Changes:
+    - empty inventories will now be loaded first, this may come at a cost to performance, so please let me know if you have any issues.
+    - improved support for aai programmable vehicles mod, multiple bugs that occurred when using this mod should be fixed.
+
+  Bugfixes:
+    - fixed recipe not becoming available when mod was added to game in progress.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.15.9
+Date: 21. 08. 2017
+
+  Changes:
+    - update to factorio v15.
+    - rewritten from the ground up, performance should now be stable regardless of the amount of chests/turrets.
+    - should now be multiplayer compatible.
+    - options now available through menu.
+
+  Bugfixes:
+    - fixed entity sprite selection offset.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.8
+Date: 29. 03. 2017
+
+  Bugfixes:
+    - fixed a bug where picking up chests would cause a crash.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.7
+Date: 28. 03. 2017
+
+  Changes:
+    - added support for loading fuel into vehicles.
+    - more optimizations that will hopefully improve performance when the number of turrets gets very high.
+
+  Bugfixes:
+    - fixed a bug with some vehicle mods where new vehicles were taking too long to start receiving ammo and fuel.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.6
+Date: 27. 03. 2017
+
+  Changes:
+    - changed how main loop iterates chests and turrets.
+
+  Bugfixes:
+    - fixed several bugs causing program to "stick" to one turret if specific conditions were met, as a result, should be fully compatible with bob's mods (tested with bob's+additional+predictabowl) and more compatible with others.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.5
+Date: 26. 03. 2017
+
+  Bugfixes:
+    - temporary fix for compatibility with some mods.
+    - Added ignore list to config.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.4
+Date: 25. 03. 2017
+
+  Bugfixes:
+    - fixed bug causing crash when lists were not properly purged of invalid entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.3
+Date: 24. 03. 2017
+
+  Changes:
+    - included several optimizations that should increase performace.
+    - max_rounds_per_stack and upgrades are now both configurable by individual ammo type, see config for more info, by default it is set to upgrade firearm mags with piercing and cannon shells with explosive cannon shells.
+    - Support for vehicles added, fully tested with aai-programmable-vehicles suite, should work with any modded vehicles that use defines,inventory,car_ammo
+    - added config options max_turrets_per_cycle and max_chests_per_cycle, Leaving these both at 1 greatly improves performance at the cost of insertion speed, bumped max_ammo_per_turret up to 5 to compensate.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.2
+Date: 23. 03. 2017
+
+  Changes:
+    - added option to limit max ammo in a single turret.
+    - Moved editable variables to config file.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.14.1
+Date: 22. 03. 2017
+
+  Changes:
+    - first release

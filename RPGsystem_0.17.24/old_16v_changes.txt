@@ -1,0 +1,25 @@
+v. 0.16.21: small changes to mod event
+v. 0.16.20: changed the reset commands the admin may type in the tag editor:
+	{reset-all} If you want to reset everything (all XP and levels)
+	{reset-points} reset all habilities to zero, so players can spent all points again
+v. 0.16.19: New xp table formula. New button image. Fix a reported crash.
+v. 0.16.18: Mining rocks or trees gives XP. Added a setting for XP multiplier. Add events for compatibility with other mods that also alters character status.
+v. 0.16.16: Fixed XP bar when max level (100) is reached. XP by Rockets are reduced for multiple rockets sent.
+v. 0.16.15: New Gui, cleaner code. Techs will give a bit more XP.
+	Changed default XP Table values, each upgrade will always cost 1 point. 
+        If you want to reset all spent points, type {resetall} in the tag editor
+v. 0.16.12-13: Try to fix the gui error caused by the previous version
+v. 0.16.11: Added gui: XP progress bar always visible. Compatibility with creative_mod_fix. 
+v. 0.16.10: gui option to use character Reach level to pick up items from the floor. Default is disabled.
+v. 0.16.9: crash fix when player spend a point when he is dead
+v. 0.16.8: crash fix when player self killed
+v. 0.16.7: minimum XP ratio reduced to 5%
+v. 0.16.6: fixed xp ratio by player; killing nests now gives doubled XP
+v. 0.16.5: 
+-added a mod option (per player) to always print XP earned; 
+-XP ratio based in time played is shown in the character GUI
+v. 0.16.4: 
+- Added custom alert sound when a player level up;
+-Added a mod option to give a proportional XP based on player game time (so that new players that joined in the middle of the game does not level up too fast);
+-Added habilities bonus description tip;
+-Added a new hability: quickbar inventory bonus (minimal cost: 2);

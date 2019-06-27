@@ -1,0 +1,9 @@
+{
+  "name": "RUSLocalizationsModsForFactorio",
+  "version": "0.0.7",
+  "title": "RUSLocalizationsModsForFactorio",
+  "author": "WiliDiss",
+  "factorio_version": "0.17",
+  "description": "Перевод многих модов на Русский язык",
+  "dependencies": ["base >= 0.17.0"]
+}

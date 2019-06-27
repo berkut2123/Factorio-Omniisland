@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.24
+  Improvements:
+    - Some mods prevent the on_player_respawn event to fire, this affects player bonuses to be lost. This version checks and fix this problem.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.23
+  Release:
+    - Made compatible with game version 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 0.17.22
+  Release:
+    - v17 initial release.
+  Changes:
+    - Quickbar bonus levels removed.
