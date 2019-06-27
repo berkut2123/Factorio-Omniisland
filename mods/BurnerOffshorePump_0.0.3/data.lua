@@ -15,7 +15,7 @@ local fixed_recipe = {
   icon_size = 32,
   energy_required = 1, -- default is 0.5
   ingredients = {},
-  results = {{type = "fluid", name = "water", amount = 300}},
+  results = {{type = "fluid", name = "omnic-water", amount = 300}},
   subgroup = "fluid-recipes",
 }
 
