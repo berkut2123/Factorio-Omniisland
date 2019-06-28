@@ -385,7 +385,7 @@
     
     {
       "name": "creative-mod",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -725,6 +725,11 @@
     
     {
       "name": "ShinyBob_Techs_Update",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShinyIcons",
       "enabled": true
     },
     

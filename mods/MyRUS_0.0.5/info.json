@@ -1,0 +1,10 @@
+{
+  "name": "MyRUS",
+  "version": "0.0.5",
+  "title": "Russian locale for some mods",
+  "author": "godOFslaves",
+  "homepage": "https://mods.factorio.com/mod/MyRUS",
+  "factorio_version": "0.17",
+  "description": "Russian locale for some mods. Full list inside. Локализация некоторых модов на Русский язык. Полный список модов смотрите на сайте",
+  "dependencies": ["base >= 0.16.0"]
+}
