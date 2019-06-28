@@ -1,5 +1,5 @@
 ItemGen:create("omnimatter","omnite"):
-setFuelValue(1.5):
+setFuelValue(4.0):
 setStacksize(500):extend()
 
 RecGen:create("omnimatter","stone"):

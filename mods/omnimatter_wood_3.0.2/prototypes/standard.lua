@@ -40,7 +40,7 @@ local b = BuildGen:create("omnimatter_wood","omnimutator"):
     }):extend()
 
 RecGen:create("omnimatter_wood","wasteMutation"):
-	setFuelValue(3):
+	setFuelValue(8):
 	setSubgroup("omnimutator-items"):
 	setStacksize(100):
 	setIcons("omniwood","omnimatter_wood"):

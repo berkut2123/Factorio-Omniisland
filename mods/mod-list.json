@@ -254,11 +254,6 @@
     },
     
     {
-      "name": "bobclasses",
-      "enabled": true
-    },
-    
-    {
       "name": "bobelectronics",
       "enabled": true
     },
@@ -765,11 +760,6 @@
     
     {
       "name": "Squeak Through",
-      "enabled": true
-    },
-    
-    {
-      "name": "StackSizeCombinator",
       "enabled": true
     },
     
