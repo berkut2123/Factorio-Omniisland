@@ -1,0 +1,5 @@
+{
+  "starting-level": "level-01",
+  "order": "d",
+  "difficulties": [ "easy", "normal", "hard" ]
+}

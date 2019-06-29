@@ -1,0 +1,1 @@
+require("__base__.lualib.npe.main")

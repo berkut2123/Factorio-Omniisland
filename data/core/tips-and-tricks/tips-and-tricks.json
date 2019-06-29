@@ -1,0 +1,67 @@
+[
+  {
+    "key": "show-info",
+    "image": "show-info.png"
+  },
+  {
+    "key": "two-sides-of-belts",
+    "image": "two-sides-of-belts.png"
+  },
+  {
+    "key": "boiler-connections",
+    "image": "boiler-connections.png"
+  },
+  {
+    "key": "flow-between-boilers",
+    "image": "flow-between-boilers.png"
+  },
+  {
+    "key": "electric-network-info",
+    "image": "electric-network-info.png"
+  },
+  {
+    "key": "other-furnace-usage",
+    "image": "other-furnace-usage.png"
+  },
+  {
+    "key": "build-tiles",
+    "image": "build-tiles.png"
+  },
+  {
+    "key": "repair-packs",
+    "image": "repair-packs.png"
+  },
+  {
+    "key": "pump-connection",
+    "image": "pump-connection.png"
+  },
+  {
+    "key": "fluid-backup",
+    "image": "fluid-backup.png"
+  },
+  {
+    "key": "connect-switch",
+    "image": "connect-switch.png"
+  },
+  {
+    "key": "filter-inserter",
+    "image": "filter-inserter.png"
+  },
+  {
+    "key": "move-between-labs",
+    "image": "move-between-labs.png"
+  },
+  {
+    "key": "gate-over-rail",
+    "image": "gate-over-rail.png"
+  },
+  {
+    "key": "limit-chests",
+    "image": "limit-chests.png"
+  },
+  {
+    "key": "rotating-assemblers",
+    "image": "rotating-assemblers.png"
+  }
+  
+]
