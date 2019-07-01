@@ -115,6 +115,7 @@ end
 data.raw.item["copper-ore"].stack_size = 200
 data.raw.item["iron-ore"].stack_size = 200
 data.raw.item["stone"].stack_size = 200
---data.raw.item["coal"].stack_size = 200
+data.raw.item["coal"].stack_size = 200
 data.raw.item["uranium-ore"].stack_size = 200
 data.raw.item["sulfur"].stack_size = 200
+data.raw.item["coal"].fuel_value = "12MJ"

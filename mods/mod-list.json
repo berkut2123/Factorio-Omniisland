@@ -109,11 +109,6 @@
     },
     
     {
-      "name": "angelsaddons-nilaus",
-      "enabled": true
-    },
-    
-    {
       "name": "angelsaddons-oresilos",
       "enabled": true
     },
@@ -380,6 +375,11 @@
     
     {
       "name": "creative-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "customarathon",
       "enabled": true
     },
     
@@ -785,11 +785,6 @@
     
     {
       "name": "TheFatController",
-      "enabled": true
-    },
-    
-    {
-      "name": "Turret-Shields",
       "enabled": true
     },
     

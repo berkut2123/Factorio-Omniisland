@@ -1,0 +1,14 @@
+{
+  "name": "customarathon",
+  "version": "0.17.3",
+  "factorio_version": "0.17",
+  "title": "Custom Marathon",
+  "author": "Syrcan",
+  "description": "Reworks the way marathon is being done by allowing several custom configurations. Be sure to check mod settings before diving in.",
+  "dependencies": 
+  [
+    "base",
+	"?omnimatter",
+	"?omnimatter_research"
+  ]
+}
