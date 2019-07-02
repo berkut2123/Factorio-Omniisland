@@ -79,16 +79,6 @@
     },
     
     {
-      "name": "air-filtering",
-      "enabled": true
-    },
-    
-    {
-      "name": "air-filtering-patched",
-      "enabled": true
-    },
-    
-    {
       "name": "AllFurnaceswithModules",
       "enabled": true
     },
@@ -429,6 +419,11 @@
     },
     
     {
+      "name": "FluidMustFlow",
+      "enabled": true
+    },
+    
+    {
       "name": "FNEI",
       "enabled": true
     },
@@ -520,11 +515,6 @@
     
     {
       "name": "more-fusion-reactors",
-      "enabled": true
-    },
-    
-    {
-      "name": "more_compressor_tier",
       "enabled": true
     },
     
@@ -695,11 +685,6 @@
     
     {
       "name": "ScanningRadar",
-      "enabled": true
-    },
-    
-    {
-      "name": "scattergun_turret",
       "enabled": true
     },
     

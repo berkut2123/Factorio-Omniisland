@@ -1,0 +1,11 @@
+{
+  "name": "FluidMustFlow",
+  "version": "1.0.2",
+  "title": "Fluid Must Flow",
+  "author": "Linver, Krastor",
+  "contact": "Linver",
+  "homepage": "",
+  "description": "Add huge ducts to help transport a lot of liquids and gases",
+  "dependencies": ["base >= 0.17.0"],
+  "factorio_version": "0.17"
+}

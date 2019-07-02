@@ -26,11 +26,11 @@ data:extend({
 		energy_required = 2,
 		enabled = true,
 		ingredients = {
-			{type="item", name="omni-scrap", amount=11},
+			{type="item", name="omni-scrap", amount=6},
 		},
 		results = {
-			{type="item", name="omniwood", amount=2},
-			{type="item", name="stone-crushed", amount=4},
+			{type="item", name="omniwood", amount=3},
+			{type="item", name="stone-crushed", amount=3},
 		},
 		icon = "__omniIsland__/graphics/icons/recipe-waterwood.png",
 		icon_size = 32,
