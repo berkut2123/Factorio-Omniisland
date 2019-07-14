@@ -94,11 +94,6 @@
     },
     
     {
-      "name": "angelsaddons-newlocales",
-      "enabled": true
-    },
-    
-    {
       "name": "angelsaddons-oresilos",
       "enabled": true
     },
@@ -369,11 +364,6 @@
     },
     
     {
-      "name": "customarathon",
-      "enabled": true
-    },
-    
-    {
       "name": "DeathNotice",
       "enabled": true
     },
@@ -639,11 +629,6 @@
     },
     
     {
-      "name": "recursive-blueprints",
-      "enabled": true
-    },
-    
-    {
       "name": "Reinforced-Walls",
       "enabled": true
     },
@@ -654,17 +639,7 @@
     },
     
     {
-      "name": "reverse-factory",
-      "enabled": true
-    },
-    
-    {
       "name": "robot_attrition",
-      "enabled": true
-    },
-    
-    {
-      "name": "RPGsystem",
       "enabled": true
     },
     
@@ -685,6 +660,11 @@
     
     {
       "name": "ScanningRadar",
+      "enabled": true
+    },
+    
+    {
+      "name": "scattergun_turret",
       "enabled": true
     },
     
@@ -769,7 +749,7 @@
     },
     
     {
-      "name": "TheFatController",
+      "name": "Turret-Shields",
       "enabled": true
     },
     

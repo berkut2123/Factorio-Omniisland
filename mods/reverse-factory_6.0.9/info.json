@@ -1,9 +1,0 @@
-{
-  "name": "reverse-factory",
-  "version": "6.0.9",
-  "factorio_version": "0.17",
-  "title": "Reverse Factory",
-  "author": "Victor Ros, Kryzeth",
-  "description": "Reverse Factory machine will recycle (uncraft) nearly any item placed inside. Supports all modded items.",
-  "dependencies": ["base >= 0.15", "? BobExtended", "? angelspetrochem", "? aai-industry", "? mini-machines", "? omnimatter_wood", "? Bio_Industries", "? kry-inserters", "? GDIW", "? bobassembly"]
-}
