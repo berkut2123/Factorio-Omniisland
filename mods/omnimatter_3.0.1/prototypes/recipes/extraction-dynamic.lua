@@ -295,7 +295,7 @@ for _,ore_tiers in pairs(omnisource) do
 			for j,r in pairs(sp) do
 				local focused_ore = RecGen:create("omnimatter","omnirec-focus-"..j.."-"..ore.name.."-"..ord[i]):
 				setLocName("impure-omnitraction",{"item-name."..ore.name}):
-				setIngredients({name="omnite",type="item",amount=10}):
+				setIngredients({name="omnite",type="item",amount=12}):
 				setSubgroup("omni-impure-solids"):
 				setEnergy(5*(math.floor(t/2+0.5))):
 				setIcons("omnite"):

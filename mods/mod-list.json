@@ -74,12 +74,27 @@
     },
     
     {
-      "name": "Advanced_Machines",
+      "name": "Advanced-Electric-Revamped-v16",
+      "enabled": true
+    },
+    
+    {
+      "name": "Advanced_Electric",
+      "enabled": true
+    },
+    
+    {
+      "name": "AfraidOfTheDark",
       "enabled": true
     },
     
     {
       "name": "AllFurnaceswithModules",
+      "enabled": true
+    },
+    
+    {
+      "name": "AllLanguageswiththeEnglishnamestoo",
       "enabled": true
     },
     
@@ -90,7 +105,7 @@
     
     {
       "name": "angelsaddons-cab",
-      "enabled": true
+      "enabled": false
     },
     
     {
@@ -375,7 +390,7 @@
     
     {
       "name": "DragonIndustries",
-      "enabled": true
+      "enabled": false
     },
     
     {
@@ -450,6 +465,11 @@
     
     {
       "name": "helmod",
+      "enabled": true
+    },
+    
+    {
+      "name": "helmod-optimized",
       "enabled": false
     },
     
@@ -490,6 +510,11 @@
     
     {
       "name": "LootChestPlus",
+      "enabled": true
+    },
+    
+    {
+      "name": "LSlib",
       "enabled": true
     },
     
@@ -624,6 +649,11 @@
     },
     
     {
+      "name": "quick-bar-blueprint",
+      "enabled": true
+    },
+    
+    {
       "name": "RailPowerSystem",
       "enabled": true
     },
@@ -694,6 +724,11 @@
     },
     
     {
+      "name": "Shortcuts",
+      "enabled": true
+    },
+    
+    {
       "name": "ShowUnconnected",
       "enabled": true
     },
@@ -745,6 +780,11 @@
     
     {
       "name": "textplates",
+      "enabled": true
+    },
+    
+    {
+      "name": "TimeTools",
       "enabled": true
     },
     
