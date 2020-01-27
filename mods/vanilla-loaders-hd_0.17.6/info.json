@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-loaders-hd",
+  "version": "0.17.6",
+  "factorio_version": "0.17",
+  "title": "Vanilla Loaders HD",
+  "author": "Kirazy",
+  "contact": "kirazy@live.com",
+  "description": "Adds tiered loaders with a vanilla look and feel, now including HD sprites. Settings available for more complex recipes, particularly when paired with Bob's logistics. Supports Loader Redux integration.",
+  "dependencies": [	"base >= 0.17.0",
+          "? angelsindustries >= 0.2.0",
+          "? boblibrary >=0.17.0",
+					"? boblogistics >=0.17.1",					
+					"? bobplates >=0.17.0",
+          "? bobelectronics >= 0.17.0",
+          "? bob-basic-belt-reskin >= 0.17.1",
+          "? LoaderRedux >= 1.4.0"]
+}

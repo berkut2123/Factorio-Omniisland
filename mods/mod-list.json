@@ -59,11 +59,6 @@
     },
     
     {
-      "name": "accumulator-wagon",
-      "enabled": true
-    },
-    
-    {
       "name": "adrizz-magazines",
       "enabled": true
     },
@@ -105,7 +100,17 @@
     
     {
       "name": "angelsaddons-cab",
-      "enabled": false
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-insulatedcablecoil",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsaddons-newlocales",
+      "enabled": true
     },
     
     {
@@ -134,6 +139,11 @@
     },
     
     {
+      "name": "angelsextended-remelting",
+      "enabled": true
+    },
+    
+    {
       "name": "angelsindustries",
       "enabled": true
     },
@@ -154,27 +164,12 @@
     },
     
     {
-      "name": "angelssmelting-extended-upgradet",
-      "enabled": true
-    },
-    
-    {
       "name": "AngelsUsedCoolant",
       "enabled": true
     },
     
     {
-      "name": "Armored-train",
-      "enabled": true
-    },
-    
-    {
       "name": "Armor_pockets",
-      "enabled": true
-    },
-    
-    {
-      "name": "ArtillerySwitch",
       "enabled": true
     },
     
@@ -205,6 +200,11 @@
     
     {
       "name": "beautiful_bridge_railway",
+      "enabled": true
+    },
+    
+    {
+      "name": "belt-balancer",
       "enabled": true
     },
     
@@ -384,21 +384,6 @@
     },
     
     {
-      "name": "DeepMine",
-      "enabled": true
-    },
-    
-    {
-      "name": "DragonIndustries",
-      "enabled": false
-    },
-    
-    {
-      "name": "EAB",
-      "enabled": false
-    },
-    
-    {
       "name": "entity-symmetry",
       "enabled": true
     },
@@ -410,6 +395,11 @@
     
     {
       "name": "extendedangels",
+      "enabled": true
+    },
+    
+    {
+      "name": "Factorissimo2",
       "enabled": true
     },
     
@@ -469,11 +459,6 @@
     },
     
     {
-      "name": "helmod-optimized",
-      "enabled": false
-    },
-    
-    {
       "name": "HermiosLibs",
       "enabled": true
     },
@@ -490,16 +475,6 @@
     
     {
       "name": "LoaderRedux",
-      "enabled": true
-    },
-    
-    {
-      "name": "logistic-cargo-wagon",
-      "enabled": true
-    },
-    
-    {
-      "name": "LogisticTrainNetwork",
       "enabled": true
     },
     
@@ -545,11 +520,6 @@
     
     {
       "name": "NapalmArtillery",
-      "enabled": true
-    },
-    
-    {
-      "name": "NaturalTreeExpansionReloaded_016",
       "enabled": true
     },
     
@@ -639,22 +609,12 @@
     },
     
     {
-      "name": "PavementDriveAssist",
-      "enabled": true
-    },
-    
-    {
       "name": "pollution-detector",
       "enabled": true
     },
     
     {
       "name": "quick-bar-blueprint",
-      "enabled": true
-    },
-    
-    {
-      "name": "RailPowerSystem",
       "enabled": true
     },
     
@@ -690,11 +650,6 @@
     
     {
       "name": "ScanningRadar",
-      "enabled": true
-    },
-    
-    {
-      "name": "scattergun_turret",
       "enabled": true
     },
     
@@ -789,11 +744,6 @@
     },
     
     {
-      "name": "Turret-Shields",
-      "enabled": true
-    },
-    
-    {
       "name": "upgrade-planner-next",
       "enabled": true
     },
@@ -809,17 +759,7 @@
     },
     
     {
-      "name": "VoidChestPlus",
-      "enabled": true
-    },
-    
-    {
       "name": "vtk-cannon-turret",
-      "enabled": true
-    },
-    
-    {
-      "name": "WagonColors",
       "enabled": true
     },
     

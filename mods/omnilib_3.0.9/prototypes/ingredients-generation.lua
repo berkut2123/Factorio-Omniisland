@@ -24,6 +24,7 @@ component["omni-bob-alloys"] = {"omnicium-plate","omnicium-iron-alloy","omnicium
 component["bob-crystallo-circuit"]=omni.lib.union(omni.lib.cutTable(component["bob-circuit"],2),component["crystallonics"])
 component["vanilla-crystallo-circuit"]=omni.lib.union(omni.lib.cutTable(component["vanilla-circuit"],2),component["crystallonics"])
 
+
 if mods["bobelectronics"] then
 	if mods["omnimatter_crystal"] then
 		component["circuit"]=component["bob-crystallo-circuit"]

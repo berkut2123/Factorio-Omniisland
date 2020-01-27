@@ -1,0 +1,118 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 31. 07. 2019
+  Modding:
+    - For mod compatibility giving errors, converted LSlib to be a seperate mod to prevent future issues
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 30. 03. 2019
+  Changes:
+    - Reinforced wall recipe now only require 2 stone walls (previously required 5)
+    - Reinforced wall technology now require military instead of chemical science packs and amount of packs changed (50 -> 100)
+    - Acid resistant wall technology amount of packs changed (100 -> 250)
+    - Damage reflecting wall technology now also require utility science packs and amount of packs changed (1000 -> 500)
+  Bugfixes:
+    - Fixed damaged/destroyed message was showing black walls instead of the correct color
+    - Fixed changelog categories to use the default categories
+  Modding:
+    - Now utilizes LSlib instead of own custom functions
+    - Added build script for easy coding
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0 - 0.17 release
+Date: 26. 02. 2019
+  Minor Features:
+    - Updated to Factorio 0.17
+  Changes:
+    - Reinforced walls now require stone walls as ingredient (since there is no more limit count on assembling ingredients)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 25. 02. 2019
+  Features:
+    - Added gates to go with the (already existing) walls
+  Changes:
+    - All walls have new colors to distinguish them beter
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0 - 0.16 release
+Date: 6. 7. 2018
+  Minor Features:
+    - Mod taken over by lovely_santa (previously owned by ChurchOrganist).
+    - Updated to Factorio 0.16
+---------------------------------------------------------------------------------------------------
+Version: 0.15.2
+Date: 11. 11. 2017
+  Features:
+    - Added (traditional) Chinese translation
+---------------------------------------------------------------------------------------------------
+Version: 0.15.1 - 0.15 release
+Date: 1. 5. 2017
+  Minor Features:
+    - Updated to Factorio 0.15.x
+---------------------------------------------------------------------------------------------------
+Version: 0.14.10
+Date: 9. 9. 2016
+  Features:
+    - Added German translation
+---------------------------------------------------------------------------------------------------
+Version: 0.14.9
+Date: 29. 8. 2016
+  Features:
+    - Added icons
+  Changes:
+    - Version counting change to reflect Factorio versioning
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 28. 8. 2016
+  Changes:
+    - Balancing of damage reflecting
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 28. 8. 2016
+  Minor Features:
+    - Updated for factorio 0.14
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0 - 0.14 release
+Date: 27. 8. 2016
+  Minor Features:
+    - Updated for factorio 0.14
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 1. 8. 2016
+  Bugfixes:
+    - Fixed bounding box problem when using double thickness walls.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 28. 7. 2016
+  Features:
+    - Added icons for acid resist wall
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 28. 7. 2016
+  Bugfixes:
+    - Fixed icon order in inventory/crafting
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 27. 7. 2016
+  Features:
+    - Added acid resistant walls
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 16. 7. 2016
+  Bugfixes:
+    - Fixed icon order in technology, crafting and inventory guis
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 15. 7. 2016
+  Features:
+    - Added technology icons
+    - Added inventory icons
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 13. 7. 2016
+  Bugfixes:
+    - Fixed issues preventing mod from loading into Factorio
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0 - Initial release for factorio 0.13
+Date: 11. 7. 2016
+  Features:
+    - Initial release
+    - First complete commit to Github
