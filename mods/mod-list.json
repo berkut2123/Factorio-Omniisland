@@ -99,11 +99,6 @@
     },
     
     {
-      "name": "angelsaddons-cab",
-      "enabled": true
-    },
-    
-    {
       "name": "angelsaddons-insulatedcablecoil",
       "enabled": true
     },
@@ -220,11 +215,6 @@
     
     {
       "name": "Big_Brother_Bobs_plugin",
-      "enabled": true
-    },
-    
-    {
-      "name": "Bio_Industries",
       "enabled": true
     },
     
@@ -450,11 +440,6 @@
     
     {
       "name": "Helicopters",
-      "enabled": true
-    },
-    
-    {
-      "name": "helmod",
       "enabled": true
     },
     
