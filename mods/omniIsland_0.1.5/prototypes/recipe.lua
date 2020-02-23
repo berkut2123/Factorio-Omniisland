@@ -29,8 +29,8 @@ data:extend({
 			{type="item", name="omni-scrap", amount=10},
 		},
 		results = {
-			{type="item", name="omniwood", amount=2},
-			{type="item", name="stone-crushed", amount=6},
+			{type="item", name="omniwood", amount=4},
+			{type="item", name="stone-crushed", amount=4},
 		},
 		icon = "__omniIsland__/graphics/icons/recipe-waterwood.png",
 		icon_size = 32,
