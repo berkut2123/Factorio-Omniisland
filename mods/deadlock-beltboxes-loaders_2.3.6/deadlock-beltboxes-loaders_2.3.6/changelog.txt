@@ -1,0 +1,202 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.3.6
+Date: 26. 07. 2020
+  Bugfixes:
+    - Use icons property instead of icon when both are present and fix bad size assumption, courtesy of kirazy on GitHub
+---------------------------------------------------------------------------------------------------
+Version: 2.3.5
+Date: 11. 04. 2020
+  Bugfixes:
+    - Fix potential desync due to unneeded global variables
+---------------------------------------------------------------------------------------------------
+Version: 2.3.4
+Date: 22. 03. 2020
+  Changes:
+    - Thanks to shelaf for adding a Japanese translation
+---------------------------------------------------------------------------------------------------
+Version: 2.3.3
+Date: 07. 03. 2020
+  Bugfixes:
+    - Fix upgrade planner properties for new entity type
+---------------------------------------------------------------------------------------------------
+Version: 2.3.2
+Date: 01. 03. 2020
+  Changes:
+    - Allow stacking of rail items, thanks to billbo99
+---------------------------------------------------------------------------------------------------
+Version: 2.3.1
+Date: 17. 02. 2020
+  Bugfixes:
+    - Fix a crash when a base item for a stacked item is deleted
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 25. 01. 2020
+  Changes:
+    - Support 0.18 thanks to billbo99
+    - Loaders changed to use type = "loader-1x1"
+---------------------------------------------------------------------------------------------------
+Version: 2.2.3
+Date: 14. 12. 2019
+  Changes:
+    - Use an item's localised_name for stacked item name generation to match the underlying item if the locale file has been overridden for it
+---------------------------------------------------------------------------------------------------
+Version: 2.2.2
+Date: 28. 09. 2019
+  Changes:
+    - Attempt to prevent an failure to load when a deleted item is checked for stacking density
+---------------------------------------------------------------------------------------------------
+Version: 2.2.1
+Date: 25. 08. 2019
+  Changes:
+    - Improves loader snapping for adjacent loaders and inventory snapping belt hints - thanks to meonester on GitHub
+    - When auto-unstacking is enabled, automatically unstack items gained via mining an entity - thanks to Doublespin on GitHub
+    - Add stack density options for more powers of 2 instead of 10; reminder to understand the maximum stack size implications of these settings; a stack size of 128 will drastically cut the amount of items that can be stored in a train or chest for items that stack to 200.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 08. 06. 2019
+  Changes:
+    - Thanks to Linver for adding an Italian translation.
+  API:
+    - NEW: deadlock.destroy_stack(). This deletes the stacked version of an item, all recipes which use it, and all tech unlocks for those recipes.
+    - NEW: deadlock.destroy_vanilla_stacks(). This deletes all the vanilla stacked items and all references to them.
+    - deadlock.add_stack() now has an optional extra parameter for specifying mipmap level - this is only ever used if you supply your own icon for the stack.
+    - Added warnings in the standard log when deprecated legacy functions are used and a hint to use an alternative.
+    - Moved vanilla items-per-tier lists into shared data.
+    - Moved item/recipe order meta-tables into shared data.
+    - Moved player hand unstacking call out of shared data and into data-final-fixes (to prevent repetitions).
+---------------------------------------------------------------------------------------------------
+Version: 2.1.13
+Date: 02. 06. 2019
+  Changes:
+    - Added Russian translation courtesy of JohnTheCoolingFan on GitHub
+---------------------------------------------------------------------------------------------------
+Version: 2.1.12
+Date: 13. 05. 2019
+  Changes:
+    - Normalize beltbox and stack recipe speeds to 1/2/3 at vanilla speeds
+---------------------------------------------------------------------------------------------------
+Version: 2.1.11
+Date: 02. 05. 2019
+  Changes:
+    - Update for character name changes in 0.17.35
+---------------------------------------------------------------------------------------------------
+Version: 2.1.10
+Date: 13. 04. 2019
+  Changes:
+    - Change to using new emissions_per_minute parameter for pollution values
+---------------------------------------------------------------------------------------------------
+Version: 2.1.9
+Date: 12. 04. 2019
+  Changes:
+    - Improved tint mask graphics
+---------------------------------------------------------------------------------------------------
+Version: 2.1.8
+Date: 10. 04. 2019
+  Bugfixes:
+    - Updated beltbox render order to fix occasional flickering issues
+---------------------------------------------------------------------------------------------------
+Version: 2.1.7
+Date: 06. 04. 2019
+  Changes:
+    - Re-added optional dependency on ReStack
+    - Added new data stage helper function to the API to get the effective stack size for each item without having to dig into recipes, since it can now vary based on settings and the items themselves
+---------------------------------------------------------------------------------------------------
+Version: 2.1.6
+Date: 01. 04. 2019
+  Changes:
+    - Added a startup option to set a stack size other than 5
+    - Attempted to fix potential situations where recipes added by third party mods weren't unlocked for existing saves
+---------------------------------------------------------------------------------------------------
+Version: 2.1.5
+Date: 31. 03. 2019
+  Changes:
+    - Update some stacked item attributes late in the loading process to account for other mods' changes
+    - Removed optional dependency on bobplates that's no longer needed
+---------------------------------------------------------------------------------------------------
+Version: 2.1.4
+Date: 30. 03. 2019
+  Bugfixes:
+    - Fix recipe icon generation for items with 128 pixel icons
+---------------------------------------------------------------------------------------------------
+Version: 2.1.3
+Date: 25. 03. 2019
+  Changes:
+    - Added French translation courtesy of Krysh Nar on GitHub
+---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 24. 03. 2019
+  Changes:
+    - Update masks with corrected texture
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 24. 03. 2019
+  Changes:
+    - Drop pollution on beltboxes to bring it in line with the intended pollution amount.
+    - Re-add fast-replaceable-no-build-while-moving flag to loaders.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 23. 03. 2019
+  Changes:
+    - Brand new graphics for beltboxes and loaders which match the 0.17 belt style better.
+    - There is a new mod setting to turn off the alt-mode recipe icon shown on beltboxes.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.10
+Date: 19. 03. 2019
+  Changes:
+    - Add optional dep of bobplates because of the numerous changes it makes to vanilla items
+    - Alter localized name of the tier 1 beltbox to make more sense alongside a tier named "Basic"
+---------------------------------------------------------------------------------------------------
+Version: 2.0.9
+Date: 14. 03. 2019
+  Changes:
+    - Update beltbox emission attributes for new format in Factorio 0.17.12 (requires this version)
+    - Split loaders and beltboxes into their own subgroups
+    - Add options to split loaders and beltboxes into strict fast replace groups
+---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 10. 03. 2019
+  Changes:
+    - Alter the way the entity tables are created for loaders to be safe if the vanilla loaders have been changed - fixes conflict with Loader Redux
+    - Move loaders to the transport-belt fast replace group, matching beltboxes
+---------------------------------------------------------------------------------------------------
+Version: 2.0.7
+Date: 06. 03. 2019
+  Changes:
+    - Add a mechanism to the snapping logic to only work on loaders added by this mod
+---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 05. 03. 2019
+  Changes:
+    - Set the auto-unstack option back to disabled by default, those who prefer it can enable in settings
+    - Add upgrade relationships between loaders and beltboxes for the base upgrade planner tool
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 04. 03. 2019
+  Bugfixes:
+    - Fix error in tech dependencies when beltboxes are disabled
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 03. 03. 2019
+  Changes:
+    - Set each stacking tech to require the prior level
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 03. 03. 2019
+  Bugfixes:
+    - Allow for belts with old-style belt end animations in addition to the new belt_animation_set, fixing compatibility with FactorioExtended-Plus
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 02. 03. 2019
+  Bugfixes:
+    - Fix stacking of formerly raw wood
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 02. 03. 2019
+  Changes:
+    - Fix info.json version number causing odd display in mod portal
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 02. 03. 2019
+  Changes:
+    - Initial release - combines functionality of DeadlockLoaders and DeadlockStacking (if you don't want one or the other, disable them in options)
+    - If you have an existing save, you also need the updated versions of the old mods for the first load - please see the mod portal for instructions if you have issues

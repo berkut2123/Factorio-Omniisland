@@ -1,0 +1,10 @@
+{
+	"name": "DeadlockOmnimatter",
+	"version": "0.18.0",
+	"factorio_version": "0.18",
+	"title": "Deadlock for Omnimatter",
+	"description": "Addon to stack Omnimatter",
+	"author": "Thordus",
+	"homepage": "",
+	"dependencies": ["base", "omnimatter", "? deadlock-beltboxes-loaders", "? DeadlockCrating"]
+	}
