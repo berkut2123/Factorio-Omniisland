@@ -1,0 +1,13 @@
+{
+	"name": "example",
+	"version": "0.1.1",
+	"title": "Example",
+	"author": "Earendel",
+	"dependencies": [
+    "base >= 0.18.4",
+		"informatron >= 0.1.1"
+	],
+	"description": "An example implentation of Informatron pages.",
+	"factorio_version": "0.18",
+	"homepage":"https://discord.gg/ymjUVMv"
+}

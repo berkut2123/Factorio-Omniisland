@@ -69,6 +69,26 @@
     },
     
     {
+      "name": "advanced-combinator",
+      "enabled": false
+    },
+    
+    {
+      "name": "Advanced-Electric-Revamped-v16",
+      "enabled": true
+    },
+    
+    {
+      "name": "advanced-equipment",
+      "enabled": true
+    },
+    
+    {
+      "name": "Advanced_Electric",
+      "enabled": true
+    },
+    
+    {
       "name": "AfraidOfTheDark",
       "enabled": true
     },
@@ -90,11 +110,6 @@
     
     {
       "name": "AllFurnaceswithModules",
-      "enabled": true
-    },
-    
-    {
-      "name": "ammo-loader",
       "enabled": true
     },
     
@@ -199,6 +214,11 @@
     },
     
     {
+      "name": "Armor_pockets",
+      "enabled": true
+    },
+    
+    {
       "name": "AsphaltRoads",
       "enabled": true
     },
@@ -240,6 +260,11 @@
     
     {
       "name": "Big_Brother",
+      "enabled": true
+    },
+    
+    {
+      "name": "BlueprintExtensions",
       "enabled": true
     },
     
@@ -334,6 +359,11 @@
     },
     
     {
+      "name": "bobsflowcontrol-updated-0-18",
+      "enabled": true
+    },
+    
+    {
       "name": "bobtech",
       "enabled": true
     },
@@ -359,8 +389,8 @@
     },
     
     {
-      "name": "CanalBuilder17",
-      "enabled": false
+      "name": "CanalBuilder18",
+      "enabled": true
     },
     
     {
@@ -424,7 +454,17 @@
     },
     
     {
+      "name": "DectorioGateFix",
+      "enabled": true
+    },
+    
+    {
       "name": "EvoGUI",
+      "enabled": true
+    },
+    
+    {
+      "name": "example",
       "enabled": true
     },
     
@@ -564,6 +604,11 @@
     },
     
     {
+      "name": "miniloader",
+      "enabled": true
+    },
+    
+    {
       "name": "modding_tools",
       "enabled": true
     },
@@ -574,12 +619,27 @@
     },
     
     {
+      "name": "MustardArtilleryShell",
+      "enabled": true
+    },
+    
+    {
       "name": "MyRUS2",
       "enabled": true
     },
     
     {
       "name": "NapalmArtillery",
+      "enabled": true
+    },
+    
+    {
+      "name": "Natural_Evolution_Enemies",
+      "enabled": true
+    },
+    
+    {
+      "name": "nixie-tubes",
       "enabled": true
     },
     
@@ -604,12 +664,32 @@
     },
     
     {
+      "name": "omnimatter_energy",
+      "enabled": true
+    },
+    
+    {
       "name": "omnimatter_fluid",
       "enabled": false
     },
     
     {
       "name": "omnimatter_permutation",
+      "enabled": true
+    },
+    
+    {
+      "name": "omnimatter_science",
+      "enabled": false
+    },
+    
+    {
+      "name": "omnimatter_water",
+      "enabled": false
+    },
+    
+    {
+      "name": "omnimatter_wood",
       "enabled": true
     },
     
@@ -664,6 +744,11 @@
     },
     
     {
+      "name": "RUSLocaleModsForFactorio",
+      "enabled": true
+    },
+    
+    {
       "name": "RUSLocalizationsModsForFactorio",
       "enabled": true
     },
@@ -705,6 +790,26 @@
     
     {
       "name": "ShinyIcons",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-bridge-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-integration-control-2",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-loves-bob",
       "enabled": true
     },
     
@@ -765,6 +870,11 @@
     
     {
       "name": "Uranium Shotgun Shell",
+      "enabled": true
+    },
+    
+    {
+      "name": "vanilla-loaders-hd",
       "enabled": true
     },
     
