@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 24. 01. 2020
+  Bugfixes:
+    - Fixed crash when placing tiles in editor mode (thanks JD-Plays)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 23. 01. 2020
+  Changes:
+    - Updated to 0.18
+    - Crafting recipe now uses cliff explosives
