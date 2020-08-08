@@ -1,0 +1,85 @@
+{
+  "entity":
+  [
+    ["car-_-solid", "car-vehicle-machine-gun-_-solid"],
+    ["car-_-ghost", "car-vehicle-machine-gun-_-ghost"],
+    ["car-_-driver", "car-vehicle-machine-gun-_-driver"],
+    ["car-_-buffer", "car-vehicle-machine-gun-_-buffer"],
+
+    ["tank-_-solid", "tank-tank-cannon-_-solid"],
+    ["tank-_-ghost", "tank-tank-cannon-_-ghost"],
+    ["tank-_-driver", "tank-tank-cannon-_-driver"],
+    ["tank-_-buffer", "tank-tank-cannon-_-buffer"],
+
+    ["vehicle-chaingunner-_-solid", "vehicle-chaingunner-vehicle-chaingunner-gun-_-solid"],
+    ["vehicle-chaingunner-_-ghost", "vehicle-chaingunner-vehicle-chaingunner-gun-_-ghost"],
+    ["vehicle-chaingunner-_-driver", "vehicle-chaingunner-vehicle-chaingunner-gun-_-driver"],
+    ["vehicle-chaingunner-_-buffer", "vehicle-chaingunner-vehicle-chaingunner-gun-_-buffer"],
+
+    ["vehicle-hauler-_-solid", "vehicle-hauler-0-_-solid"],
+    ["vehicle-hauler-_-ghost", "vehicle-hauler-0-_-ghost"],
+    ["vehicle-hauler-_-driver", "vehicle-hauler-0-_-driver"],
+    ["vehicle-hauler-_-buffer", "vehicle-hauler-0-_-buffer"],
+
+    ["vehicle-miner-_-solid", "vehicle-miner-0-_-solid"],
+    ["vehicle-miner-_-ghost", "vehicle-miner-0-_-ghost"],
+    ["vehicle-miner-_-driver", "vehicle-miner-0-_-driver"],
+    ["vehicle-miner-_-buffer", "vehicle-miner-0-_-buffer"],
+
+    ["vehicle-miner-mk2-_-solid", "vehicle-miner-mk2-0-_-solid"],
+    ["vehicle-miner-mk2-_-ghost", "vehicle-miner-mk2-0-_-ghost"],
+    ["vehicle-miner-mk2-_-driver", "vehicle-miner-mk2-0-_-driver"],
+    ["vehicle-miner-mk2-_-buffer", "vehicle-miner-mk2-0-_-buffer"],
+
+    ["vehicle-miner-mk3-_-solid", "vehicle-miner-mk3-0-_-solid"],
+    ["vehicle-miner-mk3-_-ghost", "vehicle-miner-mk3-0-_-ghost"],
+    ["vehicle-miner-mk3-_-driver", "vehicle-miner-mk3-0-_-driver"],
+    ["vehicle-miner-mk3-_-buffer", "vehicle-miner-mk3-0-_-buffer"],
+
+    ["vehicle-miner-mk4-_-solid", "vehicle-miner-mk4-0-_-solid"],
+    ["vehicle-miner-mk4-_-ghost", "vehicle-miner-mk4-0-_-ghost"],
+    ["vehicle-miner-mk4-_-driver", "vehicle-miner-mk4-0-_-driver"],
+    ["vehicle-miner-mk4-_-buffer", "vehicle-miner-mk4-0-_-buffer"],
+
+    ["vehicle-miner-mk5-_-solid", "vehicle-miner-mk5-0-_-solid"],
+    ["vehicle-miner-mk5-_-ghost", "vehicle-miner-mk5-0-_-ghost"],
+    ["vehicle-miner-mk5-_-driver", "vehicle-miner-mk5-0-_-driver"],
+    ["vehicle-miner-mk5-_-buffer", "vehicle-miner-mk5-0-_-buffer"],
+
+    ["vehicle-warden-_-solid", "vehicle-warden-electro-bolter-gun-_-solid"],
+    ["vehicle-warden-_-ghost", "vehicle-warden-electro-bolter-gun-_-ghost"],
+    ["vehicle-warden-_-driver", "vehicle-warden-electro-bolter-gun-_-driver"],
+    ["vehicle-warden-_-buffer", "vehicle-warden-electro-bolter-gun-_-buffer"],
+
+    ["vehicle-laser-tank-_-solid", "vehicle-laser-tank-laser-tank-cannon-_-solid"],
+    ["vehicle-laser-tank-_-ghost", "vehicle-laser-tank-laser-tank-cannon-_-ghost"],
+    ["vehicle-laser-tank-_-driver", "vehicle-laser-tank-laser-tank-cannon-_-driver"],
+    ["vehicle-laser-tank-_-buffer", "vehicle-laser-tank-laser-tank-cannon-_-buffer"],
+
+    ["vehicle-flame-tank-_-solid", "vehicle-flame-tank-flame-tank-flamethrower-_-solid"],
+    ["vehicle-flame-tank-_-ghost", "vehicle-flame-tank-flame-tank-flamethrower-_-ghost"],
+    ["vehicle-flame-tank-_-driver", "vehicle-flame-tank-flame-tank-flamethrower-_-driver"],
+    ["vehicle-flame-tank-_-buffer", "vehicle-flame-tank-flame-tank-flamethrower-_-buffer"],
+
+    ["vehicle-flame-tumbler-_-solid", "vehicle-flame-tumbler-flame-tumbler-flamethrower-_-solid"],
+    ["vehicle-flame-tumbler-_-ghost", "fvehicle-lame-tumbler-flame-tumbler-flamethrower-_-ghost"],
+    ["vehicle-flame-tumbler-_-driver", "vehicle-flame-tumbler-flame-tumbler-flamethrower-_-driver"],
+    ["vehicle-flame-tumbler-_-buffer", "vehicle-flame-tumbler-flame-tumbler-flamethrower-_-buffer"]
+  ],
+  "virtual-signal":
+  [
+    ["car-_-signal", "car-vehicle-machine-gun-_-signal"],
+    ["tank-_-signal", "tank-tank-cannon-_-signal"],
+    ["vehicle-chaingunner-_-signal", "vehicle-chaingunner-vehicle-chaingunner-gun-_-signal"],
+    ["vehicle-hauler-_-signal", "vehicle-hauler-0-_-signal"],
+    ["vehicle-miner-_-signal", "vehicle-miner-0-_-signal"],
+    ["vehicle-miner-mk2-_-signal", "vehicle-miner-mk2-0-_-signal"],
+    ["vehicle-miner-mk3-_-signal", "vehicle-miner-mk3-0-_-signal"],
+    ["vehicle-miner-mk4-_-signal", "vehicle-miner-mk4-0-_-signal"],
+    ["vehicle-miner-mk5-_-signal", "vehicle-miner-mk5-0-_-signal"],
+    ["vehicle-warden-_-signal", "vehicle-warden-electro-bolter-gun-_-signal"],
+    ["vehicle-laser-tank-_-signal", "vehicle-laser-tank-laser-tank-cannon-_-signal"],
+    ["vehicle-flame-tank-_-signal", "vehicle-flame-tank-flame-tank-flamethrower-_-signal"],
+    ["vehicle-flame-tumbler-_-signal", "vehicle-flame-tumbler-flame-tumbler-flamethrower-_-signal"]
+  ]
+}
