@@ -1,0 +1,11 @@
+{
+    "name":"AngelsIndustriesMainLab",
+    "version":"0.18.2",
+    "factorio_version":"0.18",
+    "title":"Angels Industries Main Lab",
+    "author":"triktor5",
+    "contact":"",
+    "homepage":"",
+    "description":"Adds a recipe for the first tier of the Angel's Industries Technical Archive",
+    "dependencies":["angelsindustries >= 0.3.6","? extendedangels >= 0.3.3"]
+}
