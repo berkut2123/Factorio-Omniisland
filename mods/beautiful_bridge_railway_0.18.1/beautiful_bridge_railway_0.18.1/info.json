@@ -1,0 +1,11 @@
+{
+    "name": "beautiful_bridge_railway",
+    "version": "0.18.1",
+    "title": "Beautiful Bridge Railway",
+    "author": "kapaer",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.18",
+    "dependencies": ["base >= 0.15"],
+    "description": "Add some beautiful bridge-rails (wood, iron, stone-brick) that can be placed on water, and change default Big-electric-pole and rail-signals to be placeable on water."
+}
