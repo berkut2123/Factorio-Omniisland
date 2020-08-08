@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.7
+  Release:
+    - v18 release
+  Changes:
+    - Changed recipe of the artillery shell	(a bit more expensive)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+  Localization:
+    - Added Russian localization strings, thanks to Va7ya
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+  Changes:
+    - Changed recipe of the artillery shell
+    - Added mod setting to change the shell stack size
+    - Added German localization strings, thanks to Yes-Man
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+  Changes:
+    - Changed technology to require Space Science Packs
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+  Info:
+    - Initial v17 release
+  Locale:
+    - English
+    - Brazilian Portuguese
+---------------------------------------------------------------------------------------------------
+Version: 0.16.4
+  Compatibility:
+    - Added compatibility with Bobs Plates mod (uses liquid fuel instead of heavy oil)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+  Changes:
+    - Added configs to set area size and the number of fire fragments.
+    - Reduced area to 200 as default
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+  Changes:
+    - Shell stack size set to 20
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+  Changes:
+    - changed recipe to be allowed before rocket silo
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+  Info:
+    - Initial release
+  Locale:
+    - English
+    - Brazilian Portuguese

@@ -1,0 +1,9 @@
+{
+	"name": "modding_tools",
+	"version": "0.18.4",
+	"title": "Modding Tools",
+	"author": "OwnlyMe",
+	"dependencies": ["base", "?DeadlockStacking"],
+	"description": "Tools to make your modding life easier",
+	"factorio_version": "0.18"
+}
