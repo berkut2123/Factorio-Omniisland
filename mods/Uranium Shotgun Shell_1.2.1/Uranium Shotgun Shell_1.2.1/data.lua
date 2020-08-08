@@ -1,0 +1,1 @@
+require("uranium-shotgun-shell")

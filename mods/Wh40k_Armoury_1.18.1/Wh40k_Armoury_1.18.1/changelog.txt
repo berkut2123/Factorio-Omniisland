@@ -1,0 +1,11 @@
+1.18.1:
+Fix for damage-type "piercing"
+
+1.17.1:
+Fix for damage-type "piercing"
+
+1.0.1:
+Initial release for 0.18
+
+1.0.0:
+Initial release for 0.17
