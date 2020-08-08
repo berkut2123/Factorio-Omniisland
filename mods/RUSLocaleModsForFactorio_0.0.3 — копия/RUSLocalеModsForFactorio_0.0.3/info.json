@@ -1,9 +1,0 @@
-{
-  "name": "RUSLocaleModsForFactorio",
-  "version": "0.0.3",
-  "factorio_version": "0.18",
-  "title": "RUSLocaleModsForFactorio",
-  "author": "WiliDiss",
-  "description": "Перевод модов на Русский язык. \nНа данный момент не работает - у меня точноне работает. Почему не работает? - вопрос, на который я не могу найти ответа. \nЕсли у вас работает - это хорошо. \nНо не ждите серьезных обновлений.",
-  "dependencies": ["base"]
-}

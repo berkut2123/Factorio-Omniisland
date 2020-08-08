@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 2020.07.30
+  Optimisations:
+    - Code refactoring.
+    - Added validity checks, so should be more tolerant against mods removing vanilla items.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 2020.07.30
+  Optimisations:
+    - Code refactoring.
+    - Added validity checks, so should be more tolerant against mods removing vanilla items.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 2020.02.20
+  Changes:
+    - Mod renamed as "Schall Transport Group".
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 2020.02.20
+  Changes:
+    - Mod renamed as "Schall Transport Group".
+  Locale:
+    - All locale are moved to separate mod "Schall Language Pack".
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 2020.02.04
+  Features:
+    - Updated to 0.18.
+  Locale:
+    - All locale are moved to separate mod "Schall Language Pack".
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 2019.08.08
+  Locale:
+    - Russian is available.  (Credit to avek.)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019.08.01
+  Locale:
+    - Brazilian Portuguese is available.  (Credit to NickFury23.)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019.05.16
+  Features:
+    - Introduced 1 new item group: transport.
+    - Options on order of group tab.  (Default: After “Logistics” tab.)
+  Locale:
+    - English, German, traditional Chinese, simplified Chinese are available.
+  License:
+    - Using Bob's Copyright License.  Document included.
