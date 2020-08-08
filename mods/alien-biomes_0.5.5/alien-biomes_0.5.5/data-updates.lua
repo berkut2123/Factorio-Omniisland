@@ -1,0 +1,3 @@
+-- don't place grass
+--data.raw.item.landfill.place_as_tile.result = "landfill"
+--data.raw.item.landfill.icon = "__alien-biomes__/graphics/icons/landfill.png"

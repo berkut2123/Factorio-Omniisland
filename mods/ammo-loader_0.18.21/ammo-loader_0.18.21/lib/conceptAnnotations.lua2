@@ -1,0 +1,431 @@
+--- @class LocalisedString
+--- @field width number @
+--- @field height number @
+--- @class DisplayResolution
+--- @field width number @
+--- @field height number @
+--- @class PersonalLogisticParameters
+--- @field name string @Optional.
+--- @field min number @Optional.
+--- @field max number @Optional.
+--- @class Position
+--- @class ChunkPosition
+--- @class TilePosition
+--- @class ChunkPositionAndArea
+--- @field x number @
+--- @field y number @
+--- @field area BoundingBox @
+--- @class GuiLocation
+--- @class OldTileAndPosition
+--- @field old_tile LuaTilePrototype @
+--- @field position TilePosition @
+--- @class Tags
+--- @class SmokeSource
+--- @field name string @
+--- @field frequency number @
+--- @field offset number @
+--- @field position Vector @Optional.
+--- @field north_position Vector @Optional.
+--- @field east_position Vector @Optional.
+--- @field south_position Vector @Optional.
+--- @field west_position Vector @Optional.
+--- @field deviation Position @Optional.
+--- @field starting_frame_speed number @
+--- @field starting_frame_speed_deviation number @
+--- @field starting_frame number @
+--- @field starting_frame_deviation number @
+--- @field slow_down_factor number @
+--- @field height number @
+--- @field height_deviation number @
+--- @field starting_vertical_speed number @
+--- @field starting_vertical_speed_deviation number @
+--- @field vertical_speed_slowdown number @
+--- @class Vector
+--- @class BoundingBox
+--- @field left_top Position @
+--- @field right_bottom Position @
+--- @field orientation number @
+--- @class ScriptArea
+--- @field area BoundingBox @
+--- @field name string @
+--- @field color Color @
+--- @field id number @
+--- @class ScriptPosition
+--- @field position Position @
+--- @field name string @
+--- @field color Color @
+--- @field id number @
+--- @class Color
+--- @field r number @Optional.
+--- @field g number @Optional.
+--- @field b number @Optional.
+--- @field a number @Optional.
+--- @class ColorModifier
+--- @class PathFindFlags
+--- @field allow_destroy_friendly_entities boolean @Optional.
+--- @field allow_paths_through_own_entities boolean @Optional.
+--- @field cache boolean @Optional.
+--- @field prefer_straight_paths boolean @Optional.
+--- @field low_priority boolean @Optional.
+--- @field no_break boolean @Optional.
+--- @class GameViewSettings
+--- @class <span class="element-name">show_controller_gui</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_minimap</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_research_info</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_entity_info</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_alert_gui</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">update_entity_selection</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_rail_block_visualisation</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_side_menu</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_map_view_options</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_quickbar</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">show_shortcut_bar</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#boolean">boolean</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class TileProperties
+--- @class <span class="element-name">tier_from_start</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">roughness</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">elevation</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">available_water</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class <span class="element-name">temperature</span><span class="attribute-type"> :: <span class="param-type"><a href="Builtin-Types.html#double">double</a></span></span><span class="attribute-mode"> [Read-Write]</span>
+--- @class MapViewSettings
+--- @field show-logistic-network boolean @Optional.
+--- @field show-electric-network boolean @Optional.
+--- @field show-turret-range boolean @Optional.
+--- @field show-pollution boolean @Optional.
+--- @field show-train-station-names boolean @Optional.
+--- @field show-player-names boolean @Optional.
+--- @field show-networkless-logistic-members boolean @Optional.
+--- @field show-non-standard-map-info boolean @Optional.
+--- @class MapSettings
+--- @class DifficultySettings
+--- @field recipe_difficulty defines.difficulty_settings.recipe_difficulty @
+--- @field technology_difficulty defines.difficulty_settings.technology_difficulty @
+--- @field technology_price_multiplier number @
+--- @field research_queue_setting string @
+--- @class MapExchangeStringData
+--- @field map_settings MapSettings with DifficultySettings @
+--- @field map_gen_settings MapGenSettings @
+--- @class Fluid
+--- @field name string @
+--- @field amount number @
+--- @field temperature number @Optional.
+--- @class Ingredient
+--- @field type string @
+--- @field name string @
+--- @field amount number @
+--- @field minimum_temperature number @Optional.
+--- @field maximum_temperature number @Optional.
+--- @field catalyst_amount number @Optional.
+--- @class Product
+--- @field type string @
+--- @field name string @
+--- @field amount number @Optional.
+--- @field temperature number @Optional.
+--- @field amount_min number @Optional.
+--- @field amount_max number @Optional.
+--- @field probability number @Optional.
+--- @field catalyst_amount number @Optional.
+--- @class Loot
+--- @field item string @
+--- @field probability number @
+--- @field count_min number @
+--- @field count_max number @
+--- @class Modifier
+--- @field type string @
+--- @field ammo_category string @Optional.
+--- @class Offer
+--- @field price [] @
+--- @field offer Modifier @
+--- @class AutoplaceSpecification
+--- @field probability_expression NoiseExpression @
+--- @field richness_expression NoiseExpression @
+--- @field coverage number @
+--- @field sharpness number @
+--- @field max_probability number @
+--- @field placement_density number @
+--- @field richness_base number @
+--- @field richness_multiplier number @
+--- @field richness_multiplier_distance_bonus number @
+--- @field starting_area_size number @
+--- @field order string @
+--- @field default_enabled boolean @
+--- @field peaks [] @Optional.
+--- @field control string @Optional.
+--- @field tile_restriction [] @Optional.
+--- @field force string @
+--- @field random_probability_penalty number @
+--- @class NoiseExpression
+--- @field type string @
+--- @class Resistances
+--- @field decrease number @
+--- @field percent number @
+--- @class MapGenSize
+--- @class AutoplaceSettings
+--- @field treat_missing_as_default boolean @
+--- @field settings table<dictionary, undefined> @
+--- @class CliffPlacementSettings
+--- @field name string @
+--- @field cliff_elevation_0 number @
+--- @field cliff_elevation_interval number @
+--- @field richness MapGenSize @
+--- @class MapGenSettings
+--- @field terrain_segmentation MapGenSize @
+--- @field water MapGenSize @
+--- @field autoplace_controls table<dictionary, undefined> @
+--- @field default_enable_all_autoplace_controls boolean @
+--- @field autoplace_settings table<dictionary, undefined> @
+--- @field cliff_settings CliffPlacementSettings @
+--- @field seed number @
+--- @field width number @
+--- @field height number @
+--- @field starting_area MapGenSize @
+--- @field starting_points [] @
+--- @field peaceful_mode boolean @
+--- @field property_expression_names table<dictionary, undefined> @
+--- @class SignalID
+--- @field type string @
+--- @field name string @Optional.
+--- @class Signal
+--- @field signal SignalID @
+--- @field count number @
+--- @class UpgradeFilter
+--- @field type string @
+--- @field name string @Optional.
+--- @class InfinityInventoryFilter
+--- @field name string @
+--- @field count number @Optional.
+--- @field mode string @Optional.
+--- @field index number @
+--- @class InfinityPipeFilter
+--- @field name string @
+--- @field percentage number @Optional.
+--- @field temperature number @Optional.
+--- @field mode string @Optional.
+--- @class HeatSetting
+--- @field temperature number @Optional.
+--- @field mode string @Optional.
+--- @class FluidBoxConnection
+--- @field max_underground_distance number @Optional.
+--- @field type string @
+--- @field positions [] @
+--- @class ArithmeticCombinatorParameters
+--- @field first_signal SignalID @Optional.
+--- @field second_signal SignalID @Optional.
+--- @field first_constant number @Optional.
+--- @field second_constant number @Optional.
+--- @field operation string @Optional.
+--- @field output_signal SignalID @Optional.
+--- @class ConstantCombinatorParameters
+--- @field signal SignalID @
+--- @field count number @
+--- @field index number @
+--- @class ComparatorString
+--- @class DeciderCombinatorParameters
+--- @field first_signal SignalID @Optional.
+--- @field second_signal SignalID @Optional.
+--- @field constant number @Optional.
+--- @field comparator ComparatorString @Optional.
+--- @field output_signal SignalID @Optional.
+--- @field copy_count_from_input boolean @Optional.
+--- @class CircuitCondition
+--- @field comparator ComparatorString @Optional.
+--- @field first_signal SignalID @Optional.
+--- @field second_signal SignalID @Optional.
+--- @field constant number @Optional.
+--- @class CircuitConditionSpecification
+--- @field condition CircuitCondition @
+--- @field fulfilled boolean @Optional.
+--- @class Filter
+--- @field index number @
+--- @field name string @
+--- @class PlaceAsTileResult
+--- @field result LuaTilePrototype @
+--- @field condition_size number @
+--- @field condition table @
+--- @class RaiseEventParameters
+--- @class SimpleItemStack
+--- @field name string @
+--- @field count number @Optional.
+--- @field health number @Optional.
+--- @field durability number @Optional.
+--- @field ammo number @Optional.
+--- @field tags [] @Optional.
+--- @class Command
+--- @field type defines.command @
+--- @field target LuaEntity @Optional.
+--- @class PathfindFlags
+--- @field allow_destroy_friendly_entities number @Optional.
+--- @field allow_paths_through_own_entities number @Optional.
+--- @field cache boolean @Optional.
+--- @field prefer_straight_paths boolean @Optional.
+--- @field low_priority boolean @Optional.
+--- @field no_break boolean @Optional.
+--- @class ForceSpecification
+--- @class TechnologySpecification
+--- @class SurfaceSpecification
+--- @class PlayerSpecification
+--- @class ItemStackSpecification
+--- @class EntityPrototypeSpecification
+--- @class ItemPrototypeSpecification
+--- @class WaitCondition
+--- @field type string @
+--- @field compare_type string @
+--- @field ticks number @Optional.
+--- @field condition CircuitCondition @Optional.
+--- @class TrainScheduleRecord
+--- @field station string @Optional.
+--- @field rail LuaEntity @Optional.
+--- @field wait_conditions [] @
+--- @field temporary boolean @Optional.
+--- @class TrainSchedule
+--- @field current number @
+--- @field records [] @
+--- @class GuiArrowSpecification
+--- @field type string @
+--- @field entity LuaEntity @
+--- @class AmmoType
+--- @field action [] @Optional.
+--- @field target_type string @
+--- @field clamp_position boolean @Optional.
+--- @field category string @
+--- @field energy_consumption number @Optional.
+--- @class BeamTarget
+--- @field entity LuaEntity @Optional.
+--- @field position Position @Optional.
+--- @class RidingState
+--- @field acceleration defines.riding.acceleration @
+--- @field direction defines.riding.direction @
+--- @class SpritePath
+--- @class SoundPath
+--- @class ModConfigurationChangedData
+--- @field old_version string @
+--- @field new_version string @
+--- @class ConfigurationChangedData
+--- @field old_version string @Optional.
+--- @field new_version string @Optional.
+--- @field mod_changes table<dictionary, undefined> @
+--- @field mod_startup_settings_changed boolean @
+--- @field migration_applied boolean @
+--- @class EffectValue
+--- @field bonus number @
+--- @class Effects
+--- @class EntityPrototypeFlags
+--- @class ItemPrototypeFlags
+--- @class CollisionMaskLayer
+--- @class CollisionMask
+--- @class CollisionMaskWithFlags
+--- @class TriggerTargetMask
+--- @class TriggerEffectItem
+--- @field type string @
+--- @field repeat_count number @
+--- @field affects_target boolean @
+--- @field show_in_tooltip boolean @
+--- @class TriggerDelivery
+--- @field type string @
+--- @field source_effects [] @
+--- @field target_effects [] @
+--- @class TriggerItem
+--- @field type string @
+--- @field action_delivery [] @Optional.
+--- @field source_effects [] @
+--- @field entity_flags EntityPrototypeFlags @Optional.
+--- @field ignore_collision_condition boolean @
+--- @field collision_mask CollisionMask @
+--- @field trigger_target_mask TriggerTargetMask @
+--- @field force ForceCondition @
+--- @field repeat_count number @
+--- @class Trigger
+--- @class AttackParameters
+--- @field range number @
+--- @field min_range number @
+--- @field turn_range number @
+--- @field fire_penalty number @
+--- @field min_attack_distance number @
+--- @field damage_modifier number @
+--- @field ammo_consumption_modifier number @
+--- @field cooldown number @
+--- @field warmup number @
+--- @field movement_slow_down_factor number @
+--- @field movement_slow_down_cooldown number @
+--- @field ammo_type AmmoType @Optional.
+--- @field ammo_categories [] @Optional.
+--- @class CapsuleAction
+--- @field type string @
+--- @field attack_parameters AttackParameters @Optional.
+--- @field equipment string @Optional.
+--- @class SelectionModeFlags
+--- @class LogisticFilter
+--- @field index number @
+--- @field name string @
+--- @field count number @
+--- @class ModSetting
+--- @field value number @
+--- @class Any
+--- @class ProgrammableSpeakerParameters
+--- @field playback_volume number @
+--- @field playback_globally boolean @
+--- @field allow_polyphony boolean @
+--- @class ProgrammableSpeakerAlertParameters
+--- @field show_alert boolean @
+--- @field show_on_map boolean @
+--- @field icon_signal_id SignalID @
+--- @field alert_message string @
+--- @class ProgrammableSpeakerCircuitParameters
+--- @field signal_value_is_pitch boolean @
+--- @field instrument_id number @
+--- @field note_id number @
+--- @class ProgrammableSpeakerInstrument
+--- @field name string @
+--- @field notes [] @
+--- @class Alignment
+--- @class NthTickEvent
+--- @field tick number @
+--- @field nth_tick number @
+--- @class ScriptRenderTarget
+--- @field entity LuaEntity @Optional.
+--- @field entity_offset Vector @Optional.
+--- @field position Position @Optional.
+--- @class MouseButtonFlags
+--- @class CursorBoxRenderType
+--- @class ForceCondition
+--- @class RenderLayer
+--- @class CliffOrientation
+--- @class ItemPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class ModSettingPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class TechnologyPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class DecorativePrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class AchievementPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class FluidPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class EquipmentPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class TilePrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class RecipePrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
+--- @class EntityPrototypeFilters
+--- @field filter string @
+--- @field mode string @Optional.
+--- @field invert boolean @Optional.
