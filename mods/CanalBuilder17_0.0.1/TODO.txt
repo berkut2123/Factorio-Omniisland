@@ -1,9 +1,0 @@
-ISSUES
-- biter slowdown only occurs when taking damage
-- ripple when character in other vehicles (ie trains)
-- Add settings options
-
-SOLUTIONS
-
-OTHER
-- reduce collision box to work near water objects (waterway)

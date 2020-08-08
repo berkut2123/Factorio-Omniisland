@@ -1,1 +1,0 @@
-    require("prototypes.recipe.recipe-update")

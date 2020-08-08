@@ -1,9 +1,0 @@
-{
-  "name": "pollution-detector",
-  "version": "0.5.1",
-  "title": "Pollution detector",
-  "author": "Schorty, Optera",
-  "description": "Adds a new entity for detecting pollution",
-  "factorio_version": "0.17",
-	"dependencies": ["base >= 0.17.0"]
-}

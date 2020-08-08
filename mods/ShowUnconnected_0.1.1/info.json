@@ -1,9 +1,0 @@
-{
-  "name": "ShowUnconnected",
-  "description": "All underground belts, undeground pipes and electric poles have mark when not connected",
-  "version": "0.1.1",
-  "title": "Show Unconnected",
-  "author": "darkfrei",
-  "dependencies": ["base"],
-  "factorio_version": "0.17"
-}
