@@ -1,0 +1,11 @@
+{
+  "name": "boblogistics-belt-reskin",
+  "version": "0.18.5",
+  "factorio_version": "0.18",
+  "title": "Bob's Logistics Belt Reskin",
+  "author": "Kirazy",
+  "contact": "kirazy@live.com",
+  "description": "Reskins the belts in Bob's Logistics to have cleaner, brighter graphics, and adds debris and explosions!",
+  "dependencies": [	"base >= 0.18.0",
+        "boblogistics >=0.18.1"]
+}
