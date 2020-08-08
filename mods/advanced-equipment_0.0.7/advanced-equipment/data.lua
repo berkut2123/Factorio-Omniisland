@@ -1,0 +1,7 @@
+require("prototypes.technology.technology")
+require("prototypes.recipe.recipe")
+require("prototypes.recipe.equipment")
+require("prototypes.item.armor")
+require("prototypes.item.equipment")
+require("prototypes.equipment-grid")
+require("prototypes.equipment.equipment")

@@ -1,0 +1,45 @@
+language: minimal
+sudo: required
+
+git:
+  depth: false
+  quiet: true
+
+os:
+  - linux
+
+before_install:
+  - export FACTORIO_HEADLESS_COMPRESSED=${HOME}/factorio_headless_x64.tar.xz
+  - curl -L https://factorio.com/get-download/latest/headless/linux64 -o ${FACTORIO_HEADLESS_COMPRESSED}
+  - tar xvf ${FACTORIO_HEADLESS_COMPRESSED} --directory ${HOME}
+  - export MODS_DIRECTORY=${HOME}/mods
+  - mkdir ${MODS_DIRECTORY}
+
+install:
+  - export SOURCE_DIRECTORY=${PWD##*/}
+  - export ASSET_NAME=$(cat info.json | jq -r '"\(.name)_\(.version)"')
+  - pushd ..
+  - export MOD_PATH=${MODS_DIRECTORY}/${ASSET_NAME}.zip
+  - zip -0 --exclude=*.git* --exclude=.travis.yml -r ${MOD_PATH} ${SOURCE_DIRECTORY}
+  - popd
+
+script:
+  - export MAP_NAME=test
+  - export FACTORIO=${HOME}/factorio/bin/x64/factorio
+  - ${FACTORIO} -v --create ${MAP_NAME} --mod-directory ${MODS_DIRECTORY}
+  - ${FACTORIO} -v --benchmark ${MAP_NAME} --benchmark-ticks 1 --mod-directory ${MODS_DIRECTORY}
+
+before_deploy:  
+  - export TRAVIS_TAG=$(cat info.json | jq -r .version)
+  - git config --local user.name ${GIT_USER_NAME}
+  - git config --local user.email ${GIT_USER_EMAIL}
+  - git tag -l | grep $TRAVIS_TAG || git tag $TRAVIS_TAG
+
+deploy:
+  provider: releases
+  api_key:
+    secure: "i+axrESfLiDqsfymS3BkQ6tl1Kyzj8/MSJPzW3nl+K9jjwT2SJHiG7UwGFe945ifHgdLLxmAqfaYH+wMbI0mT5VaJXfxWcwChWXA7wGF+WEntG7YcHn0MwW+bTrdm53vHyCdc9w+x/YvHX3o7zdB8//bBpMrNMqlX/wg5qmMozuWclxVoLN8hATBHBW9SoQDpL/q8vSP0QoXU5OaHnYeG0XOY4JPHfK2VrMlQRLlu7SAEoKozaSb99TcM6bTErRC/Lw1ZsF7ObWw5ovT1Qh7B1O+AIibvC/LO3vXiG2IUWH/aCZ862xcf+gbZztF8CVdSuXL9TqYpn6yqY9A2/J+A64TKB3tVhgjBXhpnlVVkYkoiG1baHx2rUz04weUWhqQLImYXVx7G8WXgT5vRVLA4wKABr+7mCdHOcxNCih7FUQMZb5uu4W8oGAVDQ8gyd3x+uzugXXi6/OI+j8OhalPf43BWTNU0ZmSq+Y2IJLjssWFOt9Bd2wc5vH3q0/a6ItwBenzdRQNv6sBGp6LL6s4zngiGiPgdpJR+Fkg/yzYcjYLiKrZp2g45AmkfbwvkBImppQMYw1w3IE6iMpchZjj2U8/10WoaiUVMpUhBn2gGmk+qu95+2u0c+iD5Dr1xKjTOIDIbNaZl2nqYzMeXj2vVSTsdleLGuGCxjgfUCdaAJQ="
+  file: $MOD_PATH
+  skip_cleanup: true
+  on:
+    branch: master
