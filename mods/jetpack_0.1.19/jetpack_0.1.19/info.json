@@ -1,0 +1,12 @@
+{
+	"name": "jetpack",
+	"version": "0.1.19",
+	"title": "Jetpack",
+	"author": "Earendel",
+	"dependencies": [
+    "base >= 0.18.13"
+	],
+	"description": "Lets you build jetpack equipment that lets you rocket at high speeds to fly over buildings and water.",
+	"factorio_version": "0.18",
+	"homepage": "https://spaceexploration.miraheze.org"
+}

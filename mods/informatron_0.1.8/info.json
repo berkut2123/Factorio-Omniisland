@@ -1,0 +1,12 @@
+{
+	"name": "informatron",
+	"version": "0.1.8",
+	"title": "Informatron",
+	"author": "Earendel",
+	"dependencies": [
+    "base >= 0.18.4"
+	],
+	"description": "The helpful information directory and guide to the galaxy. Allows mods to put help and documentation pages in game. Default hotkey is I.",
+	"factorio_version": "0.18",
+	"homepage":"https://discord.gg/ymjUVMv"
+}
