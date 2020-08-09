@@ -213,7 +213,7 @@ end
 -- Red science level research for slag processing 1
 data.raw.technology['slag-processing-1'].unit = {
   count = 20,
-  ingredients = {{'automation-science-pack', 1}},
+  ingredients = {{'angels-science-pack-grey', 1}},
   time = 15
 }
 
@@ -817,9 +817,9 @@ for k,v in pairs(data.raw.module) do
 end
 
 -- Update circuit board tool icon to match mod settings
-data.raw.tool['sb-basic-circuit-board-tool'].icon = data.raw.item['basic-circuit-board'].icon
-data.raw.tool['sb-basic-circuit-board-tool'].icon_mipmaps = data.raw.item['basic-circuit-board'].icon_mipmaps
-data.raw.tool['sb-basic-circuit-board-tool'].icon_size = data.raw.item['basic-circuit-board'].icon_size
+data.raw.tool['sb-basic-circuit-board-tool'].icon = data.raw.item['circuit-grey'].icon
+data.raw.tool['sb-basic-circuit-board-tool'].icon_mipmaps = data.raw.item['circuit-grey'].icon_mipmaps
+data.raw.tool['sb-basic-circuit-board-tool'].icon_size = data.raw.item['circuit-grey'].icon_size
 
 -- Blue algae
 data.raw.technology['bio-processing-blue'].prerequisites = { 'bio-processing-green' }

@@ -66,16 +66,26 @@ function adjustContent(chest)
 		{"stone-brick", 500},
 		{"pipe", 27},
 		{"copper-pipe", 5},
-		{"iron-gear-wheel", 25},
-		{"iron-stick", 96},
+		--{"iron-gear-wheel", 25},
+		--{"iron-stick", 96},
+		{"angels-gear", 100},
+		{"angels-rod-iron", 200},	
 		{"pipe-to-ground", 2},
 		{"electronic-circuit", 10},
+		{"circuit-grey", 200},
+		{"circuit-red", 200},
+		{"circuit-red-loaded", 200},
 		{"wind-turbine-2", 40},
 --		{"omnidensator-1", 1}, --already in inventory
 		{"crystallizer", 1},
 		{"omnitractor-1", 1},
-		{"burner-omni-furnace", 1}
-
+		{"burner-omni-furnace", 1},
+		{"datacore-processing-1", 32},
+		{"datacore-logistic-1", 128},
+		{"angels-science-pack-red", 64},
+		{"angels-processing-lab-1", 1},
+		{"angels-basic-lab", 1},
+		{"angels-logistic-lab-1", 1}
 	}
 	for _,v in ipairs(stuff) do
 		chest.insert{name = v[1], count = v[2]}

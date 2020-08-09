@@ -665,7 +665,7 @@
     
     {
       "name": "omnimatter_energy",
-      "enabled": true
+      "enabled": false
     },
     
     {
@@ -675,7 +675,7 @@
     
     {
       "name": "omnimatter_permutation",
-      "enabled": true
+      "enabled": false
     },
     
     {

@@ -6,9 +6,10 @@ data:extend(
       icon = "__angelsbioprocessing__/graphics/technology/seed-extractor-tech.png",
       icon_size = 128,
       order = "c-a",
-      prerequisites = {
+--[[      prerequisites = {
         "steel-processing"
       },
+	  ]]--
       effects = {
         {
           type = "unlock-recipe",
@@ -696,8 +697,7 @@ data:extend(
       unit = {
         count = 40,
         ingredients = {
-          {type = "item", name = "automation-science-pack", amount = 1},
-          {type = "item", name = "logistic-science-pack", amount = 1}
+          {type = "item", name = "angels-science-pack-grey", amount = 1},
         },
         time = 30
       }

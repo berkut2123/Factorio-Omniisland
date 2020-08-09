@@ -33,8 +33,9 @@ seablock.giveitems = function(entity)
     {"stone-brick", 500},
     {"pipe", 27},
     {"copper-pipe", 5},
-    {"iron-gear-wheel", 25},
-    {"iron-stick", 96},
+    {"angels-gear", 25},
+    {"angels-rod-iron", 96},	
+    --{"iron-stick", 96},
     {"pipe-to-ground", 2},
     {"electronic-circuit", 10}
   }
@@ -90,13 +91,13 @@ local function init()
   setpvp()
   global.unlocks = {
     ['angels-ore3-crushed'] = 'sb-startup1',
-    ['basic-circuit-board'] = 'sb-startup2',
-    ['algae-green'] = 'bio-wood-processing',
+    ['circuit-grey'] = 'sb-startup2',
+    ['algae-brown'] = 'bio-wood-processing',
   }
   if game.technology_prototypes['sct-automation-science-pack'] then
-    global.unlocks['lab'] = 'sct-automation-science-pack'
+    global.unlocks['burner-lab'] = 'sct-automation-science-pack'
   else
-    global.unlocks['lab'] = 'sb-startup4'
+    global.unlocks['burner-lab'] = 'sb-startup4'
   end
 end
 local function haveitem(player, itemname, crafted)

@@ -10,6 +10,7 @@ if angelsmods.industries.tech then
   -- NO CORES -------------------------------------------------------------------
   -------------------------------------------------------------------------------
   OV.remove_science_pack("rocket-silo", "datacore-processing-1")
+  OV.remove_science_pack("slag-processing-1", "datacore-processing-1")
   OV.execute()
 
   -- catch most of the cores with the core builder
@@ -32,7 +33,7 @@ if angelsmods.industries.tech then
   core_replace("bio-processing-brown", "processing", "basic")
   core_replace("bio-paper-1", "processing", "basic")
   -- INDUSTRIES
-  OV.set_science_pack("tech-red-circuit", "datacore-basic", 2)
+--OV.set_science_pack("tech-red-circuit", "datacore-basic", 2)
   OV.set_science_pack("tech-green-circuit", "datacore-basic", 2)
   OV.set_science_pack("tech-orange-circuit", "datacore-basic", 2)
   OV.set_science_pack("tech-blue-circuit", "datacore-basic", 2)

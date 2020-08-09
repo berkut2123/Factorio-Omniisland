@@ -163,9 +163,10 @@ data:extend(
       name = "slag-processing-1",
       icon = "__angelsrefining__/graphics/technology/slag-processing.png",
       icon_size = 64,
-      prerequisites = {
+--[[      prerequisites = {
         "ore-crushing"
       },
+	  ]]--
       effects = {
         {
           type = "unlock-recipe",
@@ -219,8 +220,7 @@ data:extend(
       unit = {
         count = 75,
         ingredients = {
-          {type = "item", name = "automation-science-pack", amount = 1},
-          {type = "item", name = "logistic-science-pack", amount = 1}
+          {type = "item", name = "angels-science-pack-grey", amount = 1},
         },
         time = 15
       },

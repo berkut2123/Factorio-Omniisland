@@ -12,7 +12,7 @@ data:extend({
 {
   type = "tool",
   name = "sb-basic-circuit-board-tool",
-  localised_name = {"item-name.basic-circuit-board"},
+  localised_name = {"item-name.circuit-grey"},
   icon = "__bobelectronics__/graphics/icons/basic-circuit-board.png",
   icon_size = 128,
   flags = {"hidden"},
@@ -42,7 +42,7 @@ data:extend({
 {
   type = "tool",
   name = "sb-lab-tool",
-  localised_name = {"item-name.lab"},
+  localised_name = {"item-name.burner-lab"},
   icon = "__base__/graphics/icons/lab.png",
   icon_size = 64,
   icon_mipmaps = 4,
@@ -60,11 +60,13 @@ data:extend({
     {type = "unlock-recipe", recipe = "copper-cable"},
     {type = "unlock-recipe", recipe = "algae-farm"},
     {type = "unlock-recipe", recipe = "algae-brown"},
+	--{type = "unlock-recipe", recipe = "algae-green-simple"},
     {type = "unlock-recipe", recipe = "hydro-plant"},
     {type = "unlock-recipe", recipe = "clarifier"},
     {type = "unlock-recipe", recipe = "water-purification"},
     {type = "unlock-recipe", recipe = "iron-chest"},
-    {type = "unlock-recipe", recipe = "solid-alginic-acid"}
+    {type = "unlock-recipe", recipe = "solid-alginic-acid"},
+	{type = "unlock-recipe", recipe = "basic-circuit-board"}
   },
   unit = {
     count = 1,
@@ -85,7 +87,10 @@ data:extend({
     {type = "unlock-recipe", recipe = "pipe-to-ground"},
     {type = "unlock-recipe", recipe = "copper-pipe"},
     {type = "unlock-recipe", recipe = "copper-pipe-to-ground"},
-    {type = "unlock-recipe", recipe = "iron-stick"},
+    {type = "unlock-recipe", recipe = "angels-girder"},
+	--{type = "unlock-recipe", recipe = "angels-rod-iron"},
+	--{type = "unlock-recipe", recipe = "automation-science-pack"},
+	{type = "unlock-recipe", recipe = "iron-stick"},
     {type = "unlock-recipe", recipe = "iron-gear-wheel"},
     {type = "unlock-recipe", recipe = "burner-inserter"}
   },
