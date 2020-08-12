@@ -85,7 +85,7 @@ lib.substingredient('bob-rubber', 'resin', nil, 4)
 data.raw.recipe['small-electric-pole'].ingredients = {{ "wood-bricks", 1 }, { "copper-cable", 2}}
 
 -- Will need a lot of landfill
-data.raw.recipe['landfill'].ingredients = {{ "stone-crushed", 10 }}
+data.raw.recipe['landfill'].ingredients = {{ "stone-crushed", 5 }}
 for k,v in pairs(data.raw.item) do
   if string.sub(k, 1, 8) == "landfill" then
     v.stack_size = 1000
@@ -261,8 +261,8 @@ end
 
 -- No fuel value on these because they are also smelting inputs
 -- https://forums.factorio.com/viewtopic.php?f=23&t=46634
-data.raw.item['wood-bricks'].fuel_value = nil
-data.raw.item['wood-bricks'].fuel_category = nil
+--data.raw.item['wood-bricks'].fuel_value = nil
+--data.raw.item['wood-bricks'].fuel_category = nil
 
 -- First stage:                    pipe  pipe-to-ground iron-gear iron-stick
 -- Electrolyser  5 circuit board                                  20

@@ -97,11 +97,12 @@ data:extend(
       energy_required = 30,
       main_product = "algae-green",
       ingredients = {
+		--{type = "item", name = "omnialgae", amount = 40},
         {type = "fluid", name = "water", amount = 100}
       },
       results = {
-        {type = "item", name = "algae-green", amount = 25},
-        {type = "item", name = "algae-brown", amount = 5}
+        {type = "item", name = "algae-green", amount = 40},
+        --{type = "item", name = "algae-brown", amount = 5}
       },
       icons = {
         {

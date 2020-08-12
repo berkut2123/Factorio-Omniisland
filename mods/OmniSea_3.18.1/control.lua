@@ -81,10 +81,10 @@ function adjustContent(chest)
 		{"omnitractor-1", 1},
 		{"burner-omni-furnace", 1},
 		{"datacore-processing-1", 32},
-		{"datacore-logistic-1", 128},
-		{"angels-science-pack-red", 64},
+		{"datacore-logistic-1", 32},
+--		{"angels-science-pack-red", 64},
 		{"angels-processing-lab-1", 1},
-		{"angels-basic-lab", 1},
+--		{"angels-basic-lab", 1},
 		{"storage-tank", 10},
 		{"angels-logistic-lab-1", 1}
 	}

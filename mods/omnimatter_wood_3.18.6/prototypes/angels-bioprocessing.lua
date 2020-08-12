@@ -4,6 +4,7 @@ if mods["angelsbioprocessing"] then
 	omni.lib.remove_unlock_recipe("bio-processing-green","algae-farm")
 
 	omni.lib.add_recipe_ingredient("algae-green",{type="item",name="omnialgae",amount=40})
+	omni.lib.add_recipe_ingredient("algae-green-simple",{type="item",name="omnialgae",amount=40})
 	omni.lib.add_recipe_ingredient("algae-brown",{type="item",name="omnialgae",amount=40})
 	omni.lib.add_recipe_ingredient("algae-red",{type="item",name="omnialgae",amount=40})
 	omni.lib.add_recipe_ingredient("algae-blue",{type="item",name="omnialgae",amount=40})

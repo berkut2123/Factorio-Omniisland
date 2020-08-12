@@ -42,9 +42,9 @@ data:extend({
 {
   type = "tool",
   name = "sb-lab-tool",
-  localised_name = {"item-name.burner-lab"},
-  icon = "__base__/graphics/icons/lab.png",
-  icon_size = 64,
+  localised_name = {"item-name.angels-basic-lab"},
+  icon = "__angelsindustries__/graphics/icons/basic-lab-ico.png",
+  icon_size = 32,
   icon_mipmaps = 4,
   flags = {"hidden"},
   stack_size = 100,

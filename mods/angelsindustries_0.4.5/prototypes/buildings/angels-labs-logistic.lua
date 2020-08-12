@@ -91,6 +91,7 @@ data:extend(
       energy_usage = "125kW",
       researching_speed = 1,
       inputs = {
+		"angels-science-pack-grey",
         "angels-science-pack-red",
         "angels-science-pack-green",
         "angels-science-pack-orange",

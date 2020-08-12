@@ -33,10 +33,10 @@ local recipe = {
     name = name,
     ingredients =
     {
-      {"electronic-circuit", 20},
+      {"basic-circuit-board", 10},
       {"pipe", 8},
       {"iron-gear-wheel", 10},
-      {"steel-plate", 8}
+      {"iron-plate", 8}
     },
     result = name
   }
