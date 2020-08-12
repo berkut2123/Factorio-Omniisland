@@ -1,0 +1,18 @@
+{  
+    "name":   "Deadlock-AAII-bridge",
+    "version": 	"0.2.18",
+	"title":  "Deadlock beltbox-AAI Industry bridge",
+	"author":   "Mernom",
+	"dependencies":  [
+	    "base >= 0.18.0",  
+		"aai-industry >= 0.3.9",
+		"?deadlock-beltboxes-loaders",
+		"?DeadlockCrating",
+		"?bobplates",
+		"?pycoalprocessing",
+		"?DeadlocksStackingForPyanadon",
+		"?deadlock-stacking-crating-bobs"
+		],
+	"description":  "Provides stacking and or crating recipes for some AAI industry items.",
+	"factorio_version": "0.18"
+}	

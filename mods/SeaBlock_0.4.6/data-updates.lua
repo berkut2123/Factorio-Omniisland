@@ -499,7 +499,7 @@ if data.raw.technology['sct-lab-t1'] then
   data.raw.technology['sct-lab-t1'].effects = {}
 else
   table.insert(data.raw.technology['bio-wood-processing'].effects,
-    {type = "unlock-recipe", recipe = "lab"})
+    {type = "unlock-recipe", recipe = "angels-basic-lab"})
   if data.raw.recipe['lab'].normal then
     data.raw.recipe['lab'].normal.enabled = false
     data.raw.recipe['lab'].expensive.enabled = false

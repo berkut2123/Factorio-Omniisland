@@ -12,12 +12,15 @@ end
 -------------------------------------------------------------------------------
 -- AAI INDUSTRIES -------------------------------------------------------------
 -------------------------------------------------------------------------------
---[[if mods["aai-industry"] then
+if mods["aai-industry"] then
   pack_replace("electricity", "red","grey")
   pack_replace("basic-automation","red","grey")
+  pack_replace("basic-logistics","red","grey")
+  pack_replace("basic-logistics","datacore-logistic-1","datacore-basic")
   pack_replace("basic-fluid-handling","red","grey")
   core_replace("basic-automation","processing","basic")
   core_replace("basic-automation","logistic","basic")
+  core_replace("basic-logistics","logistic","basic")
   OV.add_prereq("basic-automation","angels-components-mechanical-1")
-end]]
+end
 end

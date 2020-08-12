@@ -69,11 +69,6 @@
     },
     
     {
-      "name": "advanced-combinator",
-      "enabled": false
-    },
-    
-    {
       "name": "Advanced-Electric-Revamped-v16",
       "enabled": true
     },
@@ -429,12 +424,22 @@
     },
     
     {
+      "name": "Deadlock-AAII-bridge",
+      "enabled": true
+    },
+    
+    {
       "name": "deadlock-beltboxes-loaders",
       "enabled": true
     },
     
     {
       "name": "deadlock-integrations",
+      "enabled": true
+    },
+    
+    {
+      "name": "deadlock-stacking-crating-bobs",
       "enabled": true
     },
     
@@ -800,6 +805,11 @@
     
     {
       "name": "space-exploration-bridge-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics",
       "enabled": true
     },
     

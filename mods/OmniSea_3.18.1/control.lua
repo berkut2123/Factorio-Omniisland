@@ -85,6 +85,7 @@ function adjustContent(chest)
 		{"angels-science-pack-red", 64},
 		{"angels-processing-lab-1", 1},
 		{"angels-basic-lab", 1},
+		{"storage-tank", 10},
 		{"angels-logistic-lab-1", 1}
 	}
 	for _,v in ipairs(stuff) do

@@ -162,6 +162,23 @@ data:extend(
       icon_size = 32,
       order = "b[cellulose-fiber-algae]"
     },
+--[[	    {
+      type = "recipe",
+      name = "cellulose-fiber-algae",
+      category = "crafting",
+      subgroup = "bio-processing-green",
+      enabled = false,
+      energy_required = 3,
+      ingredients = {
+        {type = "item", name = "algae-brown", amount = 10}
+      },
+      results = {
+        {type = "item", name = "cellulose-fiber", amount = 5}
+      },
+      icon = "__angelsbioprocessing__/graphics/icons/cellulose-fiber-algae.png",
+      icon_size = 32,
+      order = "b[cellulose-fiber-algae]"
+    },]]--
     {
       type = "recipe",
       name = "gas-methanol-from-wood",

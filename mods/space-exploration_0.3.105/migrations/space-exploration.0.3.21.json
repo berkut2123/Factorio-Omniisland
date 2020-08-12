@@ -1,0 +1,53 @@
+{
+  "item":
+  [
+    ["se-orbital-data", "se-machine-learning-data"],
+
+    ["se-exotic-singularity-data", "se-singularity-data"],
+    ["se-gravimetric-observation-data", "se-astrometric-data"],
+    ["se-gravity-wave-observation-data", "se-gravity-wave-data"],
+    ["se-gravimetric-test-data", "se-gravitational-lensing-data"],
+
+    ["se-nano-hot-thermodynamics-data", "se-experimental-alloys-data"],
+    ["se-nano-cold-thermodynamics-data", "se-electrical-shielding-data"],
+    ["se-nano-compressive-strength-data", "se-laser-shielding-data"],
+    ["se-nano-tensile-strength-data", "se-particle-beam-shielding-data"],
+
+    ["se-plasma-thermodynamics-data", "se-rigidity-data"],
+    ["se-plasma-electrodynamics-data", "se-electromagnetic-field-data"],
+    ["se-gammaray-test-data", "se-lepton-data"],
+    ["se-exotic-fission-data", "se-fusion-test-data"],
+    ["se-ion-spectrometry-data", "se-polarisation-data"],
+    ["se-bio-spectral-data", "se-biomechanical-data"],
+
+    ["se-material-decay-data", "se-corrosion-resistance-data"],
+    ["se-material-spectral-data", "se-rigidity-data"],
+    ["se-experimental-material-decay-data", "se-electrical-shielding-data"],
+    ["se-experimental-material-spectral-data", "se-ballistic-shielding-data"],
+
+    ["se-astronomic-science-pack", "se-astronomic-science-pack-1"],
+    ["se-biological-science-pack", "se-biological-science-pack-1"],
+    ["se-material-science-pack", "se-material-science-pack-1"],
+    ["se-energy-science-pack", "se-energy-science-pack-1"]
+  ],
+  "recipe":
+  [
+    ["se-orbital-data", "se-machine-learning-data"],
+
+    ["se-exotic-singularity-data", "se-singularity-data"],
+    ["se-gravimetric-observation-data", "se-gravitational-lensing-data"],
+    ["se-gravity-wave-observation-data", "se-gravity-wave-data"],
+
+    ["se-astronomic-science-pack", "se-astronomic-science-pack-1"],
+    ["se-biological-science-pack", "se-biological-science-pack-1"],
+    ["se-material-science-pack", "se-material-science-pack-1"],
+    ["se-energy-science-pack", "se-energy-science-pack-1"]
+  ],
+  "technology":
+  [
+    ["se-astronomic-science-pack", "se-astronomic-science-pack-1"],
+    ["se-biological-science-pack", "se-biological-science-pack-1"],
+    ["se-material-science-pack", "se-material-science-pack-1"],
+    ["se-energy-science-pack", "se-energy-science-pack-1"]
+  ]
+}
