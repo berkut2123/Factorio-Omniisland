@@ -95,12 +95,12 @@
     
     {
       "name": "alien-biomes",
-      "enabled": false
+      "enabled": true
     },
     
     {
       "name": "alien-biomes-hr-terrain",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -254,6 +254,11 @@
     },
     
     {
+      "name": "better-angels-plates",
+      "enabled": true
+    },
+    
+    {
       "name": "Big_Brother",
       "enabled": true
     },
@@ -390,7 +395,7 @@
     
     {
       "name": "CircuitProcessing",
-      "enabled": true
+      "enabled": false
     },
     
     {
@@ -614,6 +619,11 @@
     },
     
     {
+      "name": "ModDeveloperTools",
+      "enabled": true
+    },
+    
+    {
       "name": "modding_tools",
       "enabled": true
     },
@@ -669,28 +679,8 @@
     },
     
     {
-      "name": "omnimatter_energy",
-      "enabled": false
-    },
-    
-    {
-      "name": "omnimatter_fluid",
-      "enabled": false
-    },
-    
-    {
       "name": "omnimatter_permutation",
-      "enabled": false
-    },
-    
-    {
-      "name": "omnimatter_science",
-      "enabled": false
-    },
-    
-    {
-      "name": "omnimatter_water",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -730,6 +720,16 @@
     
     {
       "name": "Reinforced-Walls",
+      "enabled": true
+    },
+    
+    {
+      "name": "reskins-bobs",
+      "enabled": true
+    },
+    
+    {
+      "name": "reskins-library",
       "enabled": true
     },
     

@@ -222,11 +222,15 @@ end
 local function keeprecipe(r)
   local iset = {}
   local count = 0
-  if r.normal then
-    iset = {r.normal.ingredients, r.expensive.ingredients}
-  else
-    iset = {r.ingredients}
-  end
+if r.normal then
+iset = {r.normal.ingredients}
+end
+if r.expensive then
+iset = {r.expensive.ingredients}
+end
+if not (r.normal or r.expensive) then
+iset = {r.ingredients}
+end
   for _, ingredients in ipairs(iset) do
     for _,v in ipairs(ingredients) do
       local ingredient = v[1] or v.name

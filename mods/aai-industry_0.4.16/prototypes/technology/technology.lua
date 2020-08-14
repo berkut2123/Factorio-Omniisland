@@ -140,7 +140,7 @@ data:extend{
         name = "basic-automation",
         icon = "__base__/graphics/technology/automation.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         unit = {
             count = 10,
             ingredients = {
@@ -154,7 +154,7 @@ data:extend{
         name = "basic-logistics",
         icon = "__base__/graphics/technology/logistics.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         unit = {
             count = 10,
             ingredients = {
@@ -168,7 +168,7 @@ data:extend{
         name = "electricity",
         icon = "__base__/graphics/technology/electric-engine.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"basic-automation"},
         unit = {
             count = 50,
@@ -183,7 +183,7 @@ data:extend{
         name = "filter-inserter",
         icon = "__aai-industry__/graphics/technology/filter-inserter.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"automation-2", "fast-inserter"},
         unit = {
             count = 150,
@@ -199,7 +199,7 @@ data:extend{
         name = "stack-filter-inserter",
         icon = "__aai-industry__/graphics/technology/filter-stack-inserter.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"filter-inserter", "stack-inserter"},
         unit = {
             count = 150,
@@ -215,7 +215,7 @@ data:extend{
         name = "radar",
         icon = "__aai-industry__/graphics/technology/radar.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"electronics"},
         unit = {
             count = 50,
@@ -230,7 +230,7 @@ data:extend{
         name = "basic-fluid-handling",
         icon = "__base__/graphics/technology/fluid-handling.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"electricity"},
         unit = {
             count = 50,
@@ -245,7 +245,7 @@ data:extend{
         name = "steam-power",
         icon = "__aai-industry__/graphics/technology/steam-power.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"basic-fluid-handling"},
         unit = {
             count = 100,
@@ -260,7 +260,7 @@ data:extend{
         name = "electric-lab",
         icon = "__aai-industry__/graphics/technology/electric-lab.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"electronics", "glass-processing"},
         unit = {
             count = 100,
@@ -275,7 +275,7 @@ data:extend{
         name = "electric-mining",
         icon = "__aai-industry__/graphics/technology/electric-mining.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"electricity"},
         unit = {
             count = 100,
@@ -290,7 +290,7 @@ data:extend{
         name = "concrete-walls",
         icon = "__base__/graphics/technology/stone-walls.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"stone-walls", "concrete"},
         unit = {
             count = 200,
@@ -306,7 +306,7 @@ data:extend{
         name = "steel-walls",
         icon = "__base__/graphics/technology/stone-walls.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"concrete-walls", "military-science-pack"},
         unit = {
             count = 100,
@@ -323,7 +323,7 @@ data:extend{
         name = "sand-processing",
         icon = "__aai-industry__/graphics/technology/sand-processing.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"basic-automation"},
         unit = {
             count = 10,
@@ -338,7 +338,7 @@ data:extend{
         name = "glass-processing",
         icon = "__aai-industry__/graphics/technology/glass-processing.png",
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"sand-processing"},
         unit = {
             count = 40,
@@ -353,7 +353,7 @@ data:extend{
         name = "medium-electric-pole",
         icon = data.raw.technology["electric-energy-distribution-1"].icon,
         icon_size = 128,
-        order = "a",
+        order = "a-f-d",
         prerequisites = {"steel-processing", "electricity", "logistic-science-pack"},
         unit = {
             count = 75,

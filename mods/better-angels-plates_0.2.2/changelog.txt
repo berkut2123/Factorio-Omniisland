@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2020.07.24
+  Changes:
+    - Removed optional dependency so this correctly loads before the Deadlock Stacking quickfix
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020.07.23
+  Changes:
+    - Changed dependencies so you don't run into an incompatibility problem with Deadlock Stacking for Bobs and Angels.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020.07.23
+  Changes:
+    - Added graphics for most of the plates. (aluminium, cobalt steel alloy, invar, lead, nickel, nitinol, tin, titanium, tungsten and zinc)
+  TODO:
+    - Override technology icons
+    - Brass, bronze and gunmetal plates
+    - Bobenemies plates
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2020.07.22
+  Changes:
+    - Initial upload, only iron, copper and steel for now

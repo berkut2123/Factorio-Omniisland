@@ -45,12 +45,15 @@ lib.moveeffect = function(name, fromtech, totech, insertindex)
   end
 end
 lib.iteraterecipes = function(recipe, func)
-  if recipe.normal then
-    func(recipe.normal)
-    func(recipe.expensive)
-  else
-    func(recipe)
-  end
+if recipe.normal then
+func(recipe.normal)
+end
+if recipe.expensive then
+func(recipe.expensive)
+end
+if not (recipe.normal or recipe.expensive) then
+func(recipe)
+end
 end
 lib.recipeforeach = function(recipename, itemname, func, tablename)
   local doline = function(recipe)

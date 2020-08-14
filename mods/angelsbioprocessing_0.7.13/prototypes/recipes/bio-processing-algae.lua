@@ -98,7 +98,7 @@ data:extend(
       main_product = "algae-green",
       ingredients = {
 		--{type = "item", name = "omnialgae", amount = 40},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "water-purified", amount = 100}
       },
       results = {
         {type = "item", name = "algae-green", amount = 40},

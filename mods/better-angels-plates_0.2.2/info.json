@@ -1,0 +1,15 @@
+{
+    "name": "better-angels-plates",
+    "version": "0.2.2",
+    "title": "Better Angels Plate Graphics",
+    "author": "fuhnert",
+    "factorio_version": "0.18",
+    "dependencies":
+    [
+    	"base >= 0.18",
+    	"angelssmelting",
+    	"! deadlock-stacking-crating-bobs >= 0.0.1"
+    ],
+    "description": "This mod replaces Angel's Smelting plates with vanilla-like plate graphics."
+    
+  }
