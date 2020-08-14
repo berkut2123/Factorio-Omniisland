@@ -1,9 +1,0 @@
-{
-	"name": "speaker-signals-expansion",
-	"version": "0.17.2",
-	"title": "Speaker Signals Expansion",
-	"author": "OwnlyMe",
-	"dependencies": ["base", "?speaker-signals >= 0.16.1"],
-	"description": "Standalone expansion for Aidan647's 'Speaker Signals'",
-	"factorio_version": "0.17"
-}

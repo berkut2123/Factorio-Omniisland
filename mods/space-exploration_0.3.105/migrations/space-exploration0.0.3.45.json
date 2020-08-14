@@ -1,0 +1,10 @@
+{
+  "recipe":
+  [
+    ["se-radiating-space-coolant-veryslow", "se-radiating-space-coolant-slow"]
+  ],
+  "technology":
+  [
+    ["se-space-radiating-1", "se-space-radiating-efficiency"]
+  ]
+}

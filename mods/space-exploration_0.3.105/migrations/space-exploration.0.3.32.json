@@ -1,0 +1,22 @@
+{
+  "entity":
+  [
+    ["se-space-recycling-facility", "se-recycling-facility"],
+    ["se-space-lifesupport-facility", "se-lifesupport-facility"]
+  ],
+  "item":
+  [
+    ["se-space-recycling-facility", "se-recycling-facility"],
+    ["se-space-lifesupport-facility", "se-lifesupport-facility"]
+  ],
+  "recipe":
+  [
+    ["se-space-recycling-facility", "se-recycling-facility"],
+    ["se-space-lifesupport-facility", "se-lifesupport-facility"]
+  ],
+  "technology":
+  [
+    ["se-space-recycling-facility", "se-recycling-facility"],
+    ["se-space-lifesupport-facility", "se-lifesupport-facility"]
+  ]
+}

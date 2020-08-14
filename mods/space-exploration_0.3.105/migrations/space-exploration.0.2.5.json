@@ -1,0 +1,14 @@
+{
+  "item":
+  [
+    ["se-core-fragment-processor", "se-pulveriser"]
+  ],
+  "recipe":
+  [
+    ["se-core-fragment-processor", "se-pulveriser"]
+  ],
+  "entity":
+  [
+    ["se-core-fragment-processor", "se-pulveriser"]
+  ]
+}

@@ -1,0 +1,104 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.8.1
+Date: 05. 04. 2020
+  Changes:
+    - New items (cobalt-oxide, fertiliser, lead-oxide, solid-lithium, lithium-cobalt-oxide, lithium-perchlorate, rubber, silicon-carbide, thorium-232, , ingot-manganese, angels-plate-invar, angels-plate-nickel) based on user feedback (LargePrime, Zengineer, jarquafelmu).
+---------------------------------------------------------------------------------------------------
+Version: 0.8.0
+Date: 04. 02. 2020
+  Changes:
+    - Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.7.6
+Date: 02. 09. 2019
+  Features:
+    - Add gem ores. (Reported by Azornes)
+  Bugfixes:
+    - Fix sodium-hydroxide, silicon-nitride for Bob's without Angel's. (Reported by Recon777)
+---------------------------------------------------------------------------------------------------
+Version: 0.7.5
+Date: 17. 06. 2019
+  Features:
+    - Add slag. (Reported by Dr_MarkEy)
+    - Add sodium hydroxide, silicon nitride. (Reported by Recon777)
+    - Add sodium.
+  Changes:
+    - Use auto generated icons for Bob's batteries.
+    - Force auto generated icons for vanilla batteries and circuits.
+  Bugfixes:
+    - Fix carbon for Bob's without Angel's. (Reported by orzolek)
+    - Fix cobalt steel gears and bearings. (Reported by oaquasis)
+    - Opt-depend on ShinyBob and ShinyAngel to force use of modifed icons.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.4
+Date: 19. 03. 2019
+  Features:
+    - Add carbon. (Reported by orzolek)
+    - Add coke if coke pellets from Angel's aren't available. This is intended to become a setting.
+    - Add missing electronic boards and circuit boards. (Reported by Palius84)
+    - Add sodium hydroxide. (Reported by Recon777)
+  Changes:
+    - Revisit electronics tech levels.
+  Bugfixes:
+    - Emission multipliers for stacks of vanilla items touched by Bob's were missing, but this will be fixed on deadlock's side by shanemadden, be sure to update there.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.3
+Date: 15. 03. 2019
+  Bugfixes:
+    - Add PyCoalTBaA as optional dep to try and resolve "Error in assignID, item with name 'tinned-copper-cable' does not exist."
+  Changes:
+    - Move SigmarOne's nuclear stacks to tech level 3.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.2
+Date: 09. 03. 2019
+  Features:
+    - A few items from SigmarOne's nuclear. Thanks to ChaosRain112.
+    - Silicon wafers, Fluorite Ore.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.1
+Date: 07. 03. 2019
+  Features:
+    - A few items from extended industries. Thanks to ChaosRain112.
+  Changes:
+    - Drop more bobs handling of circuits for now, as it doesn't work correctly.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 05. 03. 2019
+  Features:
+    - The 0.17 update. Migrations might not work correctly. Please report bugs.
+  Changes:
+    - Support 0.17 and shanemaddens stacking continuation.
+    - Add icons from More Bobs by Naxalos.
+  Bugfixes:
+    - Fix alloys.
+    - Use Naxalos' code to switch stacked electronics icons on the fly.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 21. 06. 2018
+  Bugfixes:
+    - Fix glass mixture and Angel's glass pane.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 14. 06. 2018
+  Bugfixes:
+    - We had a broken upload before, sorry.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 14. 06. 2018
+  Changes:
+    - Removed every icon done by orzolek at his request. Lots of stacked items will miss dedicated icons, which can be bad for performance if you have tons of them on a belt on screen.
+    - Rewrote lua to make it my own independent work, it should result in the same item definitions as before.
+    - License is now ISC.
+  Bugfixes:
+    - Now without duplicated vanilla definitions (iron-plate etc).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 16. 05. 2018
+  Features:
+    - Added Angel's ingots and both concrete and glass mix.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 03. 03. 2018
+  Features:
+    - Published by orzolek in the forums: https://forums.factorio.com/viewtopic.php?f=185&t=58341
+

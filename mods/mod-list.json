@@ -9,17 +9,12 @@
     },
     
     {
-      "name": "AAI-CraftTab",
+      "name": "A Sea Block Config",
       "enabled": true
     },
     
     {
       "name": "aai-industry",
-      "enabled": true
-    },
-    
-    {
-      "name": "aai-locales",
       "enabled": true
     },
     
@@ -54,22 +49,32 @@
     },
     
     {
+      "name": "aai-vehicles-flame-tank",
+      "enabled": true
+    },
+    
+    {
       "name": "aai-zones",
       "enabled": true
     },
     
     {
-      "name": "adrizz-magazines",
+      "name": "AAI_Language_Pack",
       "enabled": true
     },
     
     {
-      "name": "advanced-combinator",
+      "name": "ABwirefix",
       "enabled": true
     },
     
     {
       "name": "Advanced-Electric-Revamped-v16",
+      "enabled": true
+    },
+    
+    {
+      "name": "advanced-equipment",
       "enabled": true
     },
     
@@ -84,22 +89,27 @@
     },
     
     {
+      "name": "Aircraft",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes-hr-terrain",
+      "enabled": true
+    },
+    
+    {
       "name": "AllFurnaceswithModules",
       "enabled": true
     },
     
     {
-      "name": "AllLanguageswiththeEnglishnamestoo",
-      "enabled": true
-    },
-    
-    {
-      "name": "ammo-loader",
-      "enabled": true
-    },
-    
-    {
-      "name": "angelsaddons-insulatedcablecoil",
+      "name": "angelsaddons-crawlertrain",
       "enabled": true
     },
     
@@ -124,6 +134,11 @@
     },
     
     {
+      "name": "angelsaddons-smeltingtrain",
+      "enabled": true
+    },
+    
+    {
       "name": "angelsaddons-warehouses",
       "enabled": true
     },
@@ -134,7 +149,12 @@
     },
     
     {
-      "name": "angelsextended-remelting",
+      "name": "angelscoolanttemperatureextension",
+      "enabled": true
+    },
+    
+    {
+      "name": "angelsexploration",
       "enabled": true
     },
     
@@ -144,7 +164,17 @@
     },
     
     {
+      "name": "AngelsIndustriesMainLab",
+      "enabled": true
+    },
+    
+    {
       "name": "angelspetrochem",
+      "enabled": true
+    },
+    
+    {
+      "name": "AngelsPetroChemExtension",
       "enabled": true
     },
     
@@ -159,7 +189,22 @@
     },
     
     {
-      "name": "AngelsUsedCoolant",
+      "name": "angelssmelting-extended-upgradet",
+      "enabled": true
+    },
+    
+    {
+      "name": "AngelsSmeltingExtension",
+      "enabled": true
+    },
+    
+    {
+      "name": "AngelsWarehouseExtension",
+      "enabled": true
+    },
+    
+    {
+      "name": "AnglesRefiningExtension",
       "enabled": true
     },
     
@@ -184,6 +229,11 @@
     },
     
     {
+      "name": "AutomaticTrainDeployment",
+      "enabled": true
+    },
+    
+    {
       "name": "Automatic_Coupling_System",
       "enabled": true
     },
@@ -194,17 +244,17 @@
     },
     
     {
+      "name": "Barrel_Coolant",
+      "enabled": true
+    },
+    
+    {
       "name": "beautiful_bridge_railway",
       "enabled": true
     },
     
     {
-      "name": "belt-balancer",
-      "enabled": true
-    },
-    
-    {
-      "name": "Bigger Batteries",
+      "name": "better-angels-plates",
       "enabled": true
     },
     
@@ -214,27 +264,17 @@
     },
     
     {
-      "name": "Big_Brother_Bobs_plugin",
-      "enabled": true
-    },
-    
-    {
       "name": "BlueprintExtensions",
       "enabled": true
     },
     
     {
-      "name": "BlueprintLab_Bud17",
-      "enabled": true
-    },
-    
-    {
-      "name": "bob-basic-belt-reskin",
-      "enabled": true
-    },
-    
-    {
       "name": "bobassembly",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobbeltdoubler",
       "enabled": true
     },
     
@@ -279,7 +319,17 @@
     },
     
     {
+      "name": "boblogistics-belt-reskin",
+      "enabled": true
+    },
+    
+    {
       "name": "bobmining",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobmods_gfxtweak",
       "enabled": true
     },
     
@@ -309,6 +359,11 @@
     },
     
     {
+      "name": "bobsflowcontrol-updated-0-18",
+      "enabled": true
+    },
+    
+    {
       "name": "bobtech",
       "enabled": true
     },
@@ -334,8 +389,13 @@
     },
     
     {
-      "name": "CanalBuilder17",
+      "name": "CanalBuilder18",
       "enabled": true
+    },
+    
+    {
+      "name": "CircuitProcessing",
+      "enabled": false
     },
     
     {
@@ -369,17 +429,57 @@
     },
     
     {
+      "name": "Deadlock-AAII-bridge",
+      "enabled": true
+    },
+    
+    {
+      "name": "deadlock-beltboxes-loaders",
+      "enabled": true
+    },
+    
+    {
+      "name": "deadlock-integrations",
+      "enabled": true
+    },
+    
+    {
+      "name": "deadlock-stacking-crating-bobs",
+      "enabled": true
+    },
+    
+    {
+      "name": "DeadlockOmnimatter",
+      "enabled": true
+    },
+    
+    {
       "name": "DeathNotice",
       "enabled": true
     },
     
     {
-      "name": "entity-symmetry",
+      "name": "Dectorio",
+      "enabled": true
+    },
+    
+    {
+      "name": "DectorioGateFix",
       "enabled": true
     },
     
     {
       "name": "EvoGUI",
+      "enabled": true
+    },
+    
+    {
+      "name": "example",
+      "enabled": true
+    },
+    
+    {
+      "name": "Explosive Excavation",
       "enabled": true
     },
     
@@ -395,6 +495,11 @@
     
     {
       "name": "faster_dron_charge",
+      "enabled": true
+    },
+    
+    {
+      "name": "flib",
       "enabled": true
     },
     
@@ -419,11 +524,6 @@
     },
     
     {
-      "name": "GameClock",
-      "enabled": true
-    },
-    
-    {
       "name": "GhostScanner",
       "enabled": true
     },
@@ -439,7 +539,7 @@
     },
     
     {
-      "name": "Helicopters",
+      "name": "HelicopterRevival",
       "enabled": true
     },
     
@@ -454,12 +554,32 @@
     },
     
     {
+      "name": "informatron",
+      "enabled": true
+    },
+    
+    {
+      "name": "jetpack",
+      "enabled": true
+    },
+    
+    {
       "name": "KS_Power",
       "enabled": true
     },
     
     {
+      "name": "LandfillPainting",
+      "enabled": true
+    },
+    
+    {
       "name": "LoaderRedux",
+      "enabled": true
+    },
+    
+    {
+      "name": "LogisticTrainNetwork",
       "enabled": true
     },
     
@@ -479,12 +599,32 @@
     },
     
     {
+      "name": "LtnManager",
+      "enabled": true
+    },
+    
+    {
+      "name": "LTN_Language_Pack",
+      "enabled": true
+    },
+    
+    {
       "name": "manual-inventory-sort",
       "enabled": true
     },
     
     {
       "name": "miniloader",
+      "enabled": true
+    },
+    
+    {
+      "name": "ModDeveloperTools",
+      "enabled": true
+    },
+    
+    {
+      "name": "modding_tools",
       "enabled": true
     },
     
@@ -499,7 +639,7 @@
     },
     
     {
-      "name": "MyRUS",
+      "name": "MyRUS2",
       "enabled": true
     },
     
@@ -524,16 +664,6 @@
     },
     
     {
-      "name": "OmnicSalt_Sorting",
-      "enabled": true
-    },
-    
-    {
-      "name": "omniIsland",
-      "enabled": true
-    },
-    
-    {
       "name": "omnilib",
       "enabled": true
     },
@@ -544,17 +674,7 @@
     },
     
     {
-      "name": "omnimatter_barrel_fix",
-      "enabled": true
-    },
-    
-    {
       "name": "omnimatter_crystal",
-      "enabled": true
-    },
-    
-    {
-      "name": "omnimatter_move",
       "enabled": true
     },
     
@@ -564,17 +684,12 @@
     },
     
     {
-      "name": "omnimatter_science",
-      "enabled": true
-    },
-    
-    {
-      "name": "omnimatter_water",
-      "enabled": true
-    },
-    
-    {
       "name": "omnimatter_wood",
+      "enabled": true
+    },
+    
+    {
+      "name": "OmniSea",
       "enabled": true
     },
     
@@ -589,17 +704,17 @@
     },
     
     {
-      "name": "OreCompress",
-      "enabled": true
-    },
-    
-    {
       "name": "pollution-detector",
       "enabled": true
     },
     
     {
-      "name": "quick-bar-blueprint",
+      "name": "profiler",
+      "enabled": true
+    },
+    
+    {
+      "name": "RaiLuaLib",
       "enabled": true
     },
     
@@ -609,7 +724,22 @@
     },
     
     {
+      "name": "reskins-bobs",
+      "enabled": true
+    },
+    
+    {
+      "name": "reskins-library",
+      "enabled": true
+    },
+    
+    {
       "name": "ReStack",
+      "enabled": true
+    },
+    
+    {
+      "name": "RLAmod",
       "enabled": true
     },
     
@@ -619,7 +749,7 @@
     },
     
     {
-      "name": "ruslocale",
+      "name": "RUSLocaleModsForFactorio",
       "enabled": true
     },
     
@@ -644,6 +774,11 @@
     },
     
     {
+      "name": "SeaBlock",
+      "enabled": true
+    },
+    
+    {
       "name": "ShinyAngelGFX",
       "enabled": true
     },
@@ -664,17 +799,27 @@
     },
     
     {
-      "name": "Shortcuts",
+      "name": "space-exploration",
       "enabled": true
     },
     
     {
-      "name": "ShowUnconnected",
+      "name": "space-exploration-bridge-mod",
       "enabled": true
     },
     
     {
-      "name": "smallNightvision",
+      "name": "space-exploration-graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-integration-control-2",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-loves-bob",
       "enabled": true
     },
     
@@ -684,12 +829,7 @@
     },
     
     {
-      "name": "SpaceXGAR",
-      "enabled": true
-    },
-    
-    {
-      "name": "speaker-signals",
+      "name": "speaker-signals-2",
       "enabled": true
     },
     
@@ -729,6 +869,11 @@
     },
     
     {
+      "name": "tvc-angelsquickfix",
+      "enabled": true
+    },
+    
+    {
       "name": "upgrade-planner-next",
       "enabled": true
     },
@@ -749,7 +894,7 @@
     },
     
     {
-      "name": "WarehouseAddons",
+      "name": "warehouse-resize",
       "enabled": true
     },
     
@@ -759,12 +904,12 @@
     },
     
     {
-      "name": "weaponSoundsRedone",
+      "name": "Warehousing-Compression",
       "enabled": true
     },
     
     {
-      "name": "Wind_Turbine V16",
+      "name": "Wh40k_Armoury",
       "enabled": true
     },
     

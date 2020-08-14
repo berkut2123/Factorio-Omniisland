@@ -1,0 +1,14 @@
+{
+  "name": "Warehousing-Compression",
+  "version": "0.18.1",
+  "factorio_version": "0.18",
+  "title": "Warehousing Compression",
+  "author": "JDOGG",
+  "homepage": "",
+  "contact": "",
+  "dependencies": [
+    "base >= 0.18.0",
+    "Warehousing >= 0.3.0"
+  ],
+  "description": "Make your warehouses smaller but keep their capacity."
+}

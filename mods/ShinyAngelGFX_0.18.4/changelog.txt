@@ -1,0 +1,15 @@
+Version: 0.18.4
+  Changes:
+    - fixed disabled recipe - sorry triktor
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+  Changes:
+    - iconsize and mipmap addition - thanks Kira
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+  Changes:
+    - fixed crash related to not using colored icons
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+  Changes:
+    - initial release, functional but lots to fix
