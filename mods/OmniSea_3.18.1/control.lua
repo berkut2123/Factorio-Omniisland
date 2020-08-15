@@ -55,14 +55,15 @@ function adjustContent(chest)
 	inventory.clear()
 	log("hey")
 	local stuff = {
-		{landfill, 1000},
+		{landfill, 1600},
 		{"stone", 50},
 		{"small-electric-pole", 50},
-		{"small-lamp", 12},
+		{"small-lamp", 20},
 		{"iron-plate", 1200},
+		{"copper-plate", 600},
 		{"basic-circuit-board", 200},
-		{"stone-pipe", 100},
-		{"stone-pipe-to-ground", 50},
+		{"stone-pipe", 200},
+		{"stone-pipe-to-ground", 100},
 		{"stone-brick", 500},
 		{"pipe", 27},
 		{"copper-pipe", 5},
@@ -76,16 +77,19 @@ function adjustContent(chest)
 		{"circuit-red", 200},
 		{"circuit-red-loaded", 200},
 		{"wind-turbine-2", 40},
---		{"omnidensator-1", 1}, --already in inventory
+		{"omnidensator-1", 2}, --already in inventory
 		{"crystallizer", 2},
 		{"omnitractor-1", 2},
 		{"burner-omni-furnace", 1},
 		{"datacore-basic", 32},
+		{"basic-transport-belt", 400},
+		{"inserter", 100},
 --		{"datacore-logistic-1", 32},
 --		{"angels-science-pack-red", 64},
 --		{"angels-processing-lab-1", 1},
 --		{"angels-basic-lab", 1},
 		{"storage-tank", 20},
+		{"assembling-machine-1", 20},
 --		{"angels-logistic-lab-1", 1}
 	}
 	for _,v in ipairs(stuff) do

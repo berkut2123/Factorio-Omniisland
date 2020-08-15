@@ -70,7 +70,7 @@ data:extend({
     subgroup = "bio-processing-green",
     enabled = true,
     energy_required = 2,
-    ingredients = {},
+    ingredients = {{type = "item", name = "algae-green", amount = 2}},
     results = {
       {type = "item", name = "cellulose-fiber", amount = 1}
     },

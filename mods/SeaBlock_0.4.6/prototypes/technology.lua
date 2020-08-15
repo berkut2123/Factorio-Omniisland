@@ -66,6 +66,7 @@ data:extend({
     {type = "unlock-recipe", recipe = "water-purification"},
     {type = "unlock-recipe", recipe = "iron-chest"},
     {type = "unlock-recipe", recipe = "solid-alginic-acid"},
+    {type = "unlock-recipe", recipe = "stone"},
 	{type = "unlock-recipe", recipe = "basic-circuit-board"}
   },
   unit = {
