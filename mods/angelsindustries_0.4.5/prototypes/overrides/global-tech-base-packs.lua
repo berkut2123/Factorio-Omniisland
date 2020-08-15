@@ -11,7 +11,7 @@ if angelsmods.industries.tech then
   for _, tech_name in pairs(
     {
       -- BASE GAME
-      "automation",
+      --"automation",
       "logistics",
       "turrets",
       -- REFINING
@@ -30,6 +30,7 @@ if angelsmods.industries.tech then
     pack_replace(tech_name, "red", "grey")
   end
   -- BASE GAME
+  pack_replace("automation", "red", "grey")
   OV.remove_prereq("turrets", "military")
   OV.add_prereq("turrets", "angels-components-weapons-basic")
   -- REFINING

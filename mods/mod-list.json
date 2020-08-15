@@ -94,16 +94,6 @@
     },
     
     {
-      "name": "alien-biomes",
-      "enabled": true
-    },
-    
-    {
-      "name": "alien-biomes-hr-terrain",
-      "enabled": true
-    },
-    
-    {
       "name": "AllFurnaceswithModules",
       "enabled": true
     },
@@ -254,11 +244,6 @@
     },
     
     {
-      "name": "better-angels-plates",
-      "enabled": true
-    },
-    
-    {
       "name": "Big_Brother",
       "enabled": true
     },
@@ -391,11 +376,6 @@
     {
       "name": "CanalBuilder18",
       "enabled": true
-    },
-    
-    {
-      "name": "CircuitProcessing",
-      "enabled": false
     },
     
     {
@@ -619,11 +599,6 @@
     },
     
     {
-      "name": "ModDeveloperTools",
-      "enabled": true
-    },
-    
-    {
       "name": "modding_tools",
       "enabled": true
     },
@@ -799,27 +774,7 @@
     },
     
     {
-      "name": "space-exploration",
-      "enabled": true
-    },
-    
-    {
-      "name": "space-exploration-bridge-mod",
-      "enabled": true
-    },
-    
-    {
       "name": "space-exploration-graphics",
-      "enabled": true
-    },
-    
-    {
-      "name": "space-exploration-integration-control-2",
-      "enabled": true
-    },
-    
-    {
-      "name": "space-exploration-loves-bob",
       "enabled": true
     },
     

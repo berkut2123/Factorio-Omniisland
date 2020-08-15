@@ -10,7 +10,8 @@ if angelsmods.industries.tech then
   -- NO CORES -------------------------------------------------------------------
   -------------------------------------------------------------------------------
   OV.remove_science_pack("rocket-silo", "datacore-processing-1")
-  OV.remove_science_pack("slag-processing-1", "datacore-processing-1")
+  OV.remove_science_pack("slag-processing-1", "datacore-base")
+ 
   OV.execute()
 
   -- catch most of the cores with the core builder
@@ -23,8 +24,13 @@ if angelsmods.industries.tech then
   -- BASE GAME
   core_replace("automation", "processing", "basic")
   core_replace("logistics", "logistic", "basic")
+  core_replace("basic-logistics","logistic","basic")
   core_replace("turrets", "war", "basic")
   core_replace("flammables", "war", "enhance")
+  core_replace("basic-fluid-handling","logistic","basic")
+  core_replace("slag-processing-1","processing","basic")
+  core_replace("fuel-processing","processing","basic")
+  OV.remove_science_pack("slag-processing-1", "datacore-base")
   -- REFINING
   core_replace("water-treatment", "processing", "basic")
   -- SMELTING

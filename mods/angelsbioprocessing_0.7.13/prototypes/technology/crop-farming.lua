@@ -697,7 +697,7 @@ data:extend(
       unit = {
         count = 40,
         ingredients = {
-          {type = "item", name = "angels-science-pack-grey", amount = 1},
+          {type = "item", name = "automation-science-pack", amount = 1},
         },
         time = 30
       }
