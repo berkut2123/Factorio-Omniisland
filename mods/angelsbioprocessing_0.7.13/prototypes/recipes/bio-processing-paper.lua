@@ -28,7 +28,7 @@ data:extend(
         {type = "item", name = "cellulose-fiber", amount = 12}
       },
       results = {
-        {type = "item", name = "wood-pellets", amount = 2}
+        {type = "item", name = "wood-pellets", amount = 4}
       },
       icon = "__angelsbioprocessing__/graphics/icons/wood-pellets.png",
       icon_size = 32,

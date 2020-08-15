@@ -33,6 +33,7 @@ if angelsmods.industries.tech then
   pack_replace("automation", "red", "grey")
   OV.remove_prereq("turrets", "military")
   OV.add_prereq("turrets", "angels-components-weapons-basic")
+  OV.add_prereq("slag-processing-1", "tech-speialised-labs")
   -- REFINING
   OV.remove_prereq("water-treatment", "electronics")
   OV.remove_prereq("water-treatment", "steel-processing")

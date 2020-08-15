@@ -700,12 +700,12 @@
     
     {
       "name": "reskins-bobs",
-      "enabled": true
+      "enabled": false
     },
     
     {
       "name": "reskins-library",
-      "enabled": true
+      "enabled": false
     },
     
     {
@@ -770,11 +770,6 @@
     
     {
       "name": "ShinyIcons",
-      "enabled": true
-    },
-    
-    {
-      "name": "space-exploration-graphics",
       "enabled": true
     },
     

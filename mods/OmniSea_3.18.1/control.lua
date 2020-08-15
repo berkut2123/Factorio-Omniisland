@@ -77,16 +77,16 @@ function adjustContent(chest)
 		{"circuit-red-loaded", 200},
 		{"wind-turbine-2", 40},
 --		{"omnidensator-1", 1}, --already in inventory
-		{"crystallizer", 1},
-		{"omnitractor-1", 1},
+		{"crystallizer", 2},
+		{"omnitractor-1", 2},
 		{"burner-omni-furnace", 1},
-		{"datacore-processing-1", 32},
-		{"datacore-logistic-1", 32},
+		{"datacore-basic", 32},
+--		{"datacore-logistic-1", 32},
 --		{"angels-science-pack-red", 64},
-		{"angels-processing-lab-1", 1},
+--		{"angels-processing-lab-1", 1},
 --		{"angels-basic-lab", 1},
-		{"storage-tank", 10},
-		{"angels-logistic-lab-1", 1}
+		{"storage-tank", 20},
+--		{"angels-logistic-lab-1", 1}
 	}
 	for _,v in ipairs(stuff) do
 		chest.insert{name = v[1], count = v[2]}

@@ -10,7 +10,8 @@ if angelsmods.industries.tech then
   -- NO CORES -------------------------------------------------------------------
   -------------------------------------------------------------------------------
   OV.remove_science_pack("rocket-silo", "datacore-processing-1")
-  OV.remove_science_pack("slag-processing-1", "datacore-base")
+  OV.remove_science_pack("slag-processing-1", "datacore-basic")
+  OV.remove_science_pack("bio-wood-processing", "datacore-processing-1")
  
   OV.execute()
 
@@ -30,7 +31,9 @@ if angelsmods.industries.tech then
   core_replace("basic-fluid-handling","logistic","basic")
   core_replace("slag-processing-1","processing","basic")
   core_replace("fuel-processing","processing","basic")
-  OV.remove_science_pack("slag-processing-1", "datacore-base")
+  core_replace("electric-mining","processing","basic")
+  core_replace("ore-crushing","processing","basic")
+  OV.remove_science_pack("slag-processing-1", "datacore-basic")
   -- REFINING
   core_replace("water-treatment", "processing", "basic")
   -- SMELTING
