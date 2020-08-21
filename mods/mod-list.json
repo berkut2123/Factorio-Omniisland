@@ -259,6 +259,11 @@
     },
     
     {
+      "name": "Bio_Industries",
+      "enabled": true
+    },
+    
+    {
       "name": "BlueprintExtensions",
       "enabled": true
     },

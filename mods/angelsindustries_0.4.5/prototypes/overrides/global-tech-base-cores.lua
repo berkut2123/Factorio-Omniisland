@@ -34,6 +34,7 @@ if angelsmods.industries.tech then
   core_replace("fuel-processing","processing","basic")
   core_replace("electric-mining","processing","basic")
   core_replace("ore-crushing","processing","basic")
+  core_replace("steam-power","energy","basic")
   core_replace("omnitech-water-omnitraction-1","processing","basic")
   core_replace("omnitech-water-omnitraction-2","processing","basic")
   OV.remove_science_pack("slag-processing-1", "datacore-basic")

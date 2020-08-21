@@ -25,6 +25,7 @@ if mods["aai-industry"] then
   pack_replace("ore-crushing", "red", "grey")
   pack_replace("omnitech-water-omnitraction-1","red","grey")
   pack_replace("omnitech-water-omnitraction-2","red","grey")
+  pack_replace("steam-power","red","grey")
 
   core_replace("basic-automation","processing","basic")
   core_replace("basic-automation","logistic","basic")
@@ -35,6 +36,7 @@ if mods["aai-industry"] then
   core_replace("basic-fluid-handling","processing","basic")
   core_replace("basic-fluid-handling","logistic","basic")
   core_replace("basic-fluid-handling","exploration","basic")
+  core_replace("steam-power","energy","basic")
 
   OV.add_prereq("basic-automation","angels-components-mechanical-1")
   OV.set_science_pack("basic-logistics", "datacore-basic", 2)

@@ -170,7 +170,7 @@ data:extend({{
       ingredients =
       {
         {type="item", name="motor", amount=10},
-        {type="item", name="copper-plate", amount=10},
+        {type="item", name="iron-plate", amount=10},
         {type="item", name="stone-brick", amount=5},
       },
       results= { {type="item", name="burner-lab", amount=1}, },
@@ -179,7 +179,7 @@ data:extend({{
       ingredients =
       {
         {type="item", name="motor", amount=20},
-        {type="item", name="copper-plate", amount=20},
+        {type="item", name="iron-plate", amount=20},
         {type="item", name="stone-brick", amount=10},
       },
       results= { {type="item", name="burner-lab", amount=1}, },

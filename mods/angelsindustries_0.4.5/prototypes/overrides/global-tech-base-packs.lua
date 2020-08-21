@@ -31,6 +31,7 @@ if angelsmods.industries.tech then
   end
   -- BASE GAME
   pack_replace("automation", "red", "grey")
+  core_replace("steam-power","red", "grey")
   OV.remove_prereq("turrets", "military")
   OV.add_prereq("turrets", "angels-components-weapons-basic")
   OV.add_prereq("slag-processing-1", "tech-speialised-labs")
