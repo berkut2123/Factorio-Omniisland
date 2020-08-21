@@ -64,6 +64,11 @@
     },
     
     {
+      "name": "AbandonedRuins",
+      "enabled": true
+    },
+    
+    {
       "name": "ABwirefix",
       "enabled": true
     },
@@ -244,6 +249,11 @@
     },
     
     {
+      "name": "BigBags",
+      "enabled": true
+    },
+    
+    {
       "name": "Big_Brother",
       "enabled": true
     },
@@ -300,11 +310,6 @@
     
     {
       "name": "boblogistics",
-      "enabled": true
-    },
-    
-    {
-      "name": "boblogistics-belt-reskin",
       "enabled": true
     },
     
@@ -384,6 +389,11 @@
     },
     
     {
+      "name": "Clockwork",
+      "enabled": true
+    },
+    
+    {
       "name": "color-coding",
       "enabled": true
     },
@@ -449,6 +459,16 @@
     },
     
     {
+      "name": "ElectricTrain",
+      "enabled": true
+    },
+    
+    {
+      "name": "Enhanced_Map_Colors",
+      "enabled": true
+    },
+    
+    {
       "name": "EvoGUI",
       "enabled": true
     },
@@ -470,6 +490,11 @@
     
     {
       "name": "Factorissimo2",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoryplanner",
       "enabled": true
     },
     
@@ -525,6 +550,11 @@
     
     {
       "name": "HermiosLibs",
+      "enabled": true
+    },
+    
+    {
+      "name": "Hovercrafts",
       "enabled": true
     },
     
@@ -619,6 +649,11 @@
     },
     
     {
+      "name": "Nanobots",
+      "enabled": true
+    },
+    
+    {
       "name": "NapalmArtillery",
       "enabled": true
     },
@@ -694,13 +729,28 @@
     },
     
     {
+      "name": "Rampant",
+      "enabled": false
+    },
+    
+    {
+      "name": "RampantArsenal",
+      "enabled": true
+    },
+    
+    {
+      "name": "Realistic_Electric_Trains",
+      "enabled": true
+    },
+    
+    {
       "name": "Reinforced-Walls",
       "enabled": true
     },
     
     {
       "name": "reskins-bobs",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -724,12 +774,22 @@
     },
     
     {
+      "name": "rso-mod",
+      "enabled": true
+    },
+    
+    {
       "name": "RUSLocaleModsForFactorio",
       "enabled": true
     },
     
     {
       "name": "RUSLocalizationsModsForFactorio",
+      "enabled": true
+    },
+    
+    {
+      "name": "rusty-locale",
       "enabled": true
     },
     
@@ -815,6 +875,11 @@
     
     {
       "name": "TimeTools",
+      "enabled": true
+    },
+    
+    {
+      "name": "Todo-List",
       "enabled": true
     },
     

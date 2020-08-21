@@ -163,10 +163,9 @@ data:extend(
       name = "slag-processing-1",
       icon = "__angelsrefining__/graphics/technology/slag-processing.png",
       icon_size = 64,
---[[      prerequisites = {
+    prerequisites = {
         "ore-crushing"
       },
-	  ]]--
       effects = {
         {
           type = "unlock-recipe",
@@ -224,7 +223,7 @@ data:extend(
         },
         time = 15
       },
-      order = "a-a-a1"
+      order = "a-f-d"
     },
     --TIER 2
     {

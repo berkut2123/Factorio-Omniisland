@@ -301,7 +301,7 @@ function core_tier_upgrade()
               ["orange"] = false,
               ["green"] = false,
               ["red"] = false,
-              --["grey"] = false
+              ["grey"] = false
             }
           ) do
             if pack_name == string.format("angels-science-pack-%s", pack_color) then

@@ -1,0 +1,11 @@
+{
+  "name": "Clockwork",
+  "version": "0.18.5",
+  "title": "Clockwork",
+  "author": "Yehn",
+  "contact": "",
+  "homepage": "",
+  "factorio_version": "0.18",
+  "dependencies": ["base >= 0.18.2"],
+  "description": "Changes the parameters of the solar cycle: Make days longer or shorter and control what portion of the cycle is night. Make nights darker if you like. Includes an optional Sun Never Rises mode."
+}

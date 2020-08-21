@@ -37,6 +37,9 @@ if angelsmods.industries.tech then
   -- REFINING
   OV.remove_prereq("water-treatment", "electronics")
   OV.remove_prereq("water-treatment", "steel-processing")
+  OV.add_prereq("base-impure-extraction","tech-specialised-labs")
+  OV.remove_prereq("base-impure-extraction", "tech-specialised-labs-basic")
+  OV.remove_science_pack("slag-processing-1", "datacore-basic",1)
 
   -------------------------------------------------------------------------------
   -- RED SCIENCE PACKS ----------------------------------------------------------

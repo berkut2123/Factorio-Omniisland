@@ -196,7 +196,7 @@ lib.moveeffect('slag-processing-6', 'slag-processing-2', 'slag-processing-1', sl
 lib.moveeffect('slag-processing-4', 'slag-processing-2', 'ore-advanced-crushing', slag2start + 2)
 
 -- Move crystallization ore recipes up above crushed ores
-data.raw['item-subgroup']['slag-processing-1'].order = "ab"
+data.raw['item-subgroup']['slag-processing-1'].order = "ad"
 
 -- Remove blue science requirement for slag-processing-2 technology
 -- Needed for gold ore

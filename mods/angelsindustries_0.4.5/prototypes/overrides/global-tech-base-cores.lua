@@ -12,6 +12,7 @@ if angelsmods.industries.tech then
   OV.remove_science_pack("rocket-silo", "datacore-processing-1")
   OV.remove_science_pack("slag-processing-1", "datacore-basic")
   OV.remove_science_pack("bio-wood-processing", "datacore-processing-1")
+  OV.add_prereq("slag-processing-1", "tech-specialised-labs")
  
   OV.execute()
 
@@ -33,7 +34,11 @@ if angelsmods.industries.tech then
   core_replace("fuel-processing","processing","basic")
   core_replace("electric-mining","processing","basic")
   core_replace("ore-crushing","processing","basic")
+  core_replace("omnitech-water-omnitraction-1","processing","basic")
+  core_replace("omnitech-water-omnitraction-2","processing","basic")
   OV.remove_science_pack("slag-processing-1", "datacore-basic")
+  OV.add_prereq("base-impure-extraction","tech-specialised-labs")
+  OV.remove_prereq("base-impure-extraction", "tech-specialised-labs-basic")
   -- REFINING
   core_replace("water-treatment", "processing", "basic")
   -- SMELTING
@@ -54,6 +59,9 @@ if angelsmods.industries.tech then
   end
   if mods["angelsaddons-shred"] --[[angelsmods.addons.decorations]] then
     OV.set_science_pack("deco-shred", "datacore-basic", 2)
+  end
+  if mods["angels-refining"] --[[angelsmods.addons.decorations]] then
+  OV.remove_science_pack("slag-processing-1", "datacore-basic")
   end
 
   -------------------------------------------------------------------------------
