@@ -1,0 +1,10 @@
+{
+  "name": "ruslocale_1",
+  "version": "0.1.5",
+  "title": "russian locale for mods",
+  "author": "dest",
+  "factorio_version": "1.0",
+  "description": "Bob's mods and Angels mods russian translation + some others mods",
+  "dependencies": ["base >= 1.0"
+	]
+}

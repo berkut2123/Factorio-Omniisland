@@ -2,7 +2,7 @@
 omni.lib.add_prerequisite("base-impure-extraction", tech4)
 omni.lib.add_prerequisite("base-impure-extraction", "tech-specialised-labs")
 omni.lib.remove_prerequisite("base-impure-extraction", "tech-specialised-labs-basic")
-omni.lib.remove_science_pack("slag-processing-1", "datacore-basic")
+
 
 --Disable Mineralized-Water crystallization
 RecGen:import("sb-water-mineralized-crystallization"):setEnabled(false):extend()

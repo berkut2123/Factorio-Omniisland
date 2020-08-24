@@ -109,6 +109,11 @@
     },
     
     {
+      "name": "angelsaddons-mobility",
+      "enabled": true
+    },
+    
+    {
       "name": "angelsaddons-newlocales",
       "enabled": true
     },
@@ -134,6 +139,11 @@
     },
     
     {
+      "name": "angelsaddons-storage",
+      "enabled": true
+    },
+    
+    {
       "name": "angelsaddons-warehouses",
       "enabled": true
     },
@@ -155,11 +165,6 @@
     
     {
       "name": "angelsindustries",
-      "enabled": true
-    },
-    
-    {
-      "name": "AngelsIndustriesMainLab",
       "enabled": true
     },
     
@@ -589,6 +594,11 @@
     },
     
     {
+      "name": "Load-Furn",
+      "enabled": true
+    },
+    
+    {
       "name": "LoaderRedux",
       "enabled": true
     },
@@ -734,6 +744,11 @@
     },
     
     {
+      "name": "Rampans",
+      "enabled": false
+    },
+    
+    {
       "name": "Rampant",
       "enabled": false
     },
@@ -760,7 +775,7 @@
     
     {
       "name": "reskins-library",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -785,6 +800,11 @@
     
     {
       "name": "RUSLocaleModsForFactorio",
+      "enabled": true
+    },
+    
+    {
+      "name": "ruslocale_1",
       "enabled": true
     },
     
@@ -815,6 +835,11 @@
     
     {
       "name": "SeaBlock",
+      "enabled": true
+    },
+    
+    {
+      "name": "seablock-mining",
       "enabled": true
     },
     
@@ -930,6 +955,11 @@
     
     {
       "name": "Wh40k_Armoury",
+      "enabled": true
+    },
+    
+    {
+      "name": "wiki",
       "enabled": true
     },
     

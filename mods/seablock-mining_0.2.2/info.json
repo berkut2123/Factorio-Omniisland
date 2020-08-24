@@ -1,0 +1,12 @@
+{
+  "name": "seablock-mining",
+  "version": "0.2.2",
+  "factorio_version": "0.18",
+  "title": "Seablock Mining",
+  "author": "minno",
+  "description": "Applies the mining productivity bonus to Angel's Refining's crystallizers.",
+  "dependencies": [
+    "base",
+    "angelsrefining >= 0.11.2"
+  ]
+}

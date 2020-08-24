@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.16
+Date: 08/06/2020
+  Additions:
+    - Basic support for Angel's Exploration.
+  Bugfixes:
+    - Fixed the slowdown sprite startup error.

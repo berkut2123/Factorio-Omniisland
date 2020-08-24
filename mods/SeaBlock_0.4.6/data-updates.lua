@@ -211,11 +211,11 @@ for k,v in pairs(data.raw.technology['slag-processing-2'].unit.ingredients) do
 end
 
 -- Red science level research for slag processing 1
-data.raw.technology['slag-processing-1'].unit = {
+--[[data.raw.technology['slag-processing-1'].unit = {
   count = 20,
   ingredients = {{'angels-science-pack-grey', 1}},
   time = 15
-}
+}]]
 
 -- Disable coal cracking technology
 data.raw.technology['angels-coal-cracking'].enabled = false
@@ -499,7 +499,7 @@ if data.raw.technology['sct-lab-t1'] then
   data.raw.technology['sct-lab-t1'].effects = {}
 else
   table.insert(data.raw.technology['bio-wood-processing'].effects,
-    {type = "unlock-recipe", recipe = "angels-basic-lab"})
+    {type = "unlock-recipe", recipe = "lab"})
   if data.raw.recipe['lab'].normal then
     data.raw.recipe['lab'].normal.enabled = false
     data.raw.recipe['lab'].expensive.enabled = false

@@ -88,7 +88,7 @@ data:extend({
     {type = "unlock-recipe", recipe = "pipe-to-ground"},
     {type = "unlock-recipe", recipe = "copper-pipe"},
     {type = "unlock-recipe", recipe = "copper-pipe-to-ground"},
-    {type = "unlock-recipe", recipe = "angels-girder"},
+    --{type = "unlock-recipe", recipe = "angels-girder"},
 	--{type = "unlock-recipe", recipe = "storage-tank"},
 	--{type = "unlock-recipe", recipe = "angels-rod-iron"},
 	--{type = "unlock-recipe", recipe = "automation-science-pack"},

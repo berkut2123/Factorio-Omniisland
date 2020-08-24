@@ -1,0 +1,74 @@
+Version: 0.2.2
+Date: 14 Feb 2020
+  Changes:
+    - Update to Factorio version 0.18.
+  Bugfixes:
+    - Fix collision box on hidden entity that was preventing fast-replace from working.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 3 Jun 2019
+  Bugfixes:
+    - Fix error caused by Pyanodon's Industry's interaction with this mod's items.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 1 Mar 2019
+  Changes:
+    - Update to Factorio version 0.17.
+    - Remove dependency on Sea Block.
+    - Remove need for electric connection on hidden entity, so that it doesn't show up in power grid statistics.
+  Bugfixes:
+    - Fix issue with long inserter interaction.
+    - Display productivity bonus even when machine is not powered.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 28 Feb 2019
+  Bugfixes:
+    - Allow normal-sized inserters to interact correctly with newly-placed crystallizers.
+    - Note: long inserters may still display this issue, and the feature required to fully fix this is only present in Factorio 0.17.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 25 Feb 2019
+  Bugfixes:
+    - Fix bug blocking placement of items near crystallizers.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 24 Feb 2019
+  Bugfixes:
+    - Fix bonus not being applied to crystallizers when electric poles are in certain positions.
+    - Fix crash on certain mining productivity ranks.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 20 Feb 2019
+  Bugfixes:
+    - Prevent hidden entities from contributing power to the grid.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2 Feb 2019
+  Changes:
+    - Remove mining drills and ore seeds.
+    - Provide mining productivity bonuses to crystallizers.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 17 Jul 2018
+  Changes:
+    - Change ore eraser to optional dependency. It is highly recommended to use a mod that can erase ore patches, but there are others (like PickerExtended) that also allow it.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 12 Jul 2018
+  Changes:
+    - Enable expensive recipe compatibility through a mod setting.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 11 Jul 2018
+  Bugfixes:
+    - Add compatibility with Bilka's Seablock Tweaks
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 10 Jul 2018
+  Bugfixes:
+    - Add Angel's infinite ores as a dependency.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 8 Jul 2018
+  Changes:
+    - Initial release

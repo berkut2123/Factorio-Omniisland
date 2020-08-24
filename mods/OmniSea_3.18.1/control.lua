@@ -81,7 +81,7 @@ function adjustContent(chest)
 		{"crystallizer", 2},
 		{"omnitractor-1", 2},
 		{"burner-omni-furnace", 1},
-		{"datacore-basic", 32},
+		--{"datacore-basic", 32},
 		{"basic-transport-belt", 400},
 		{"inserter", 100},
 --		{"datacore-logistic-1", 32},
