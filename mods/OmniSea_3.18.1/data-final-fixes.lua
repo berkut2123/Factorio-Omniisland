@@ -2,6 +2,7 @@
 omni.lib.add_prerequisite("base-impure-extraction", tech4)
 omni.lib.add_prerequisite("base-impure-extraction", "tech-specialised-labs")
 omni.lib.remove_prerequisite("base-impure-extraction", "tech-specialised-labs-basic")
+omni.lib.add_prerequisite("omnitech-water-omnitraction-1", tech4)
 
 
 --Disable Mineralized-Water crystallization

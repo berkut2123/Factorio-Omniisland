@@ -95,9 +95,9 @@ local function init()
     ['algae-green'] = 'bio-wood-processing',
   }
   if game.technology_prototypes['sct-automation-science-pack'] then
-    global.unlocks['angels-basic-lab'] = 'sct-automation-science-pack'
+    global.unlocks['burner-lab'] = 'sct-automation-science-pack'
   else
-    global.unlocks['angels-basic-lab'] = 'sb-startup4'
+    global.unlocks['burner-lab'] = 'sb-startup4'
   end
 end
 local function haveitem(player, itemname, crafted)

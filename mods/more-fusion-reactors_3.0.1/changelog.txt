@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 2020-08-24
+  Scripting:
+  - Updated to 1.0!
+  Fixing:
+  - Changed all the fusion reactor textures with custom ones.
+  - Changed the item descriptions.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.0
+Date: Unknown
+  Scripting:
+  - Updated to 0.17
+---------------------------------------------------------------------------------------------------
+Version: 2.3.4
+Date: Unknown
+  Scripting:
+  - Updated the newest version for 0.15! (Thanks to Xiaomei)
+---------------------------------------------------------------------------------------------------
+Version: 2.3.1
+Date: Unknown
+  Scripting:
+  - Fixed the local Italian file, now the mod is available in Italian! / Sistemato il file locale italiano, ora la mod è disponibile in Italiano! (Thanks to Eredicator)
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: Unknown
+  Fixing & Debugging:
+  - Fixed compatibility with the library.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: Unknown
+  Modding:
+  - We've reached 2000 downloads...and, as promised, Fusion Reactor Mk6 is arrived! Now you can power all your equipment from a tiny space, but to get this reactor you will need a lot of resources (obviously it's for endgame)!
+  - Rebalanced the power output for Mk5, from 1.5Mw to 1.3, for reason of space and power output in contrast to the new Mk6 equipment, (if you want to know how much power does it give for your equipment, i tell you that the power output of 6 Mk6 is lower than 9 Mk5 (not so much), but...i challenge you to craft 9 Mk5 instead of 6 Mk6! ).
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: Unknown
+  Scripting:
+  - New textures, no more name's bugs and new descriptions!
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: Unknown
+  Notes and News:
+  - Now my mods have a copyright
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: Unknown
+  Scripting:
+  - Updated to 0.16 and fixed some bugs!
+This mod is not projected for my FactorioPlus mods, however you can use it if you want with them (i'll probably integrate this one with them as a addon).
+---------------------------------------------------------------------------------------------------

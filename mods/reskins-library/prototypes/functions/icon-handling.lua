@@ -135,8 +135,6 @@ function reskins.lib.assign_technology_icons(name, inputs)
 
             technology.icon = nil
             technology.icons = inputs.technology_icon
-            technology.icon_size = nil
-            technology.icon_mipmaps = nil
         else
             technology.icon = inputs.technology_icon
             technology.icons = nil
@@ -390,38 +388,28 @@ function reskins.lib.assign_icons(name, inputs)
 
         -- Create icons that have multiple layers
         if entity then
-            entity.icon = nil        
+            entity.icon = nil
             entity.icons = inputs.icon
-            entity.icon_size = nil
-            entity.icon_mipmaps = nil
         end
 
         if item then
             item.icon = nil
             item.icons = inputs.icon
-            item.icon_size = nil
-            item.icon_mipmaps = nil
         end
 
         if item_with_data then
             item_with_data.icon = nil
             item_with_data.icons = inputs.icon
-            item_with_data.icon_size = nil
-            item_with_data.icon_mipmaps = nil
         end
 
         if explosion then 
             explosion.icon = nil        
             explosion.icons = inputs.icon
-            explosion.icon_size = nil
-            explosion.icon_mipmaps = nil
         end
 
         if remnant then
             remnant.icon = nil
             remnant.icons = inputs.icon
-            remnant.icon_size = nil
-            remnant.icon_mipmaps = nil
         end
     else
         -- Create icons that do not have multiple layers
@@ -632,6 +620,12 @@ function reskins.lib.create_icons_from_list(table, inputs)
                 reskins.lib.construct_icon(name, 0, inputs)
             end
         else
+            -- Transcribe icon properties
+            inputs.technology_icon_layers = map.technology_icon_layers or inputs.technology_icon_layers or nil
+            inputs.icon_layers = map.icon_layers or inputs.icon_layers or nil
+            inputs.technology_icon_extras = map.technology_icon_extras or inputs.technology_icon_extras or nil
+            inputs.icon_extras = map.icon_extras or inputs.icon_extras or nil
+
             -- Handle tier
             local tier = map.tier or 0
             if reskins.lib.setting("reskins-lib-tier-mapping") == "progression-map" then
@@ -640,6 +634,11 @@ function reskins.lib.create_icons_from_list(table, inputs)
 
             -- Handle tints
             inputs.tint = map.tint or inputs.tint or reskins.lib.tint_index["tier-"..tier]
+
+            -- Adjust tint to belt-type if necessary
+            if map.uses_belt_mask == true then
+                inputs.tint = reskins.lib.belt_mask_tint(inputs.tint)
+            end
 
             -- Handle icon_name and related parameters
             inputs.icon_name = map.icon_name or inputs.icon_name

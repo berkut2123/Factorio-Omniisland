@@ -278,71 +278,71 @@ end
 local knowningredients = {
 ['angels-electrolyser'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
-  {'iron-stick', 20},
+  {'circuit-grey', 5},
+  {'angels-rod-iron', 20},
   {'stone-brick', 10}
 },
 ['liquifier'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'pipe-to-ground', 2},
   {'stone-brick', 10}
 },
 ['offshore-pump'] = {
-  {'basic-circuit-board', 2},
+  {'circuit-grey', 2},
   {'pipe', 1},
   {'iron-gear-wheel', 10}
 },
 ['crystallizer'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'copper-pipe', 5},
   {'stone-brick', 10}
 },
 ['hydro-plant'] = {
   {'iron-plate', 10},
-  {'electronic-circuit', 5},
+  {'circuit-grey', 5},
   {'pipe', 5},
   {'stone-brick', 10}
 },
 ['algae-farm'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
-  {'iron-stick', 16},
+  {'circuit-grey', 5},
+  {'angels-rod-iron', 16},
   {'stone-brick', 25}
 },
 ['angels-flare-stack'] = {
   {'iron-plate', 5},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'pipe', 10},
   {'stone-brick', 10}
 },
 ['clarifier'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'iron-gear-wheel', 5},
   {'stone-brick', 10}
 },
 ['seafloor-pump'] = {
   {'iron-plate', 5},
-  {'basic-circuit-board', 2},
+  {'circuit-grey', 2},
   {'pipe', 5}
 },
 ['washing-plant'] = {
   {'iron-plate', 10},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'pipe', 10},
   {'stone-brick', 10}
 },
 ['angels-chemical-plant'] = {
   {'iron-plate', 5},
   {'iron-gear-wheel', 5},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'pipe', 5}
 },
 ['filtration-unit'] = {
   {'iron-plate', 5},
-  {'basic-circuit-board', 5},
+  {'circuit-grey', 5},
   {'pipe', 10},
   {'stone-brick', 10}
 },
@@ -492,7 +492,7 @@ data.raw.technology['basic-chemistry-2'].unit = data.raw.technology['basic-chemi
 data.raw.technology['basic-chemistry-3'].enabled = false
 
 -- unlock lab and optional components with bio-wood-processing
-if data.raw.technology['sct-lab-t1'] then
+--[[if data.raw.technology['sct-lab-t1'] then
   for k,v in pairs(data.raw.technology['sct-lab-t1'].effects) do
     table.insert(data.raw.technology['bio-wood-processing'].effects, v)
   end
@@ -506,7 +506,7 @@ else
   else
     data.raw.recipe['lab'].enabled = false
   end
-end
+end]]
 
 local startuprecipes = {
   ['angels-electrolyser'] = true,

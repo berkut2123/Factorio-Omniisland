@@ -42,8 +42,8 @@ data:extend({
 {
   type = "tool",
   name = "sb-lab-tool",
-  localised_name = {"item-name.angels-basic-lab"},
-  icon = "__angelsindustries__/graphics/icons/basic-lab-ico.png",
+  localised_name = {"item-name.burner-lab"},
+  icon = "__aai-industry__/graphics/icons/burner-lab.png",
   icon_size = 32,
   icon_mipmaps = 4,
   flags = {"hidden"},
@@ -91,7 +91,8 @@ data:extend({
     --{type = "unlock-recipe", recipe = "angels-girder"},
 	--{type = "unlock-recipe", recipe = "storage-tank"},
 	--{type = "unlock-recipe", recipe = "angels-rod-iron"},
-	--{type = "unlock-recipe", recipe = "automation-science-pack"},
+  --{type = "unlock-recipe", recipe = "automation-science-pack"},
+  {type = "unlock-recipe", recipe = "angels-girder"},
 	{type = "unlock-recipe", recipe = "iron-stick"},
     {type = "unlock-recipe", recipe = "iron-gear-wheel"},
     {type = "unlock-recipe", recipe = "burner-inserter"}
@@ -143,7 +144,7 @@ data:extend({
 {
   type = "technology",
   name = "sb-startup4",
-  icon = "__SeaBlock__/graphics/technology/lab.png",
+  icon = "__aai-industry__/graphics/entity/burner-lab/hr-burner-lab.png",
   icon_size = 128,
   effects = {
     {type = "unlock-recipe", recipe = "automation-science-pack"}

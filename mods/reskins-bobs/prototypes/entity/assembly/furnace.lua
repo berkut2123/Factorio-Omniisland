@@ -1,6 +1,6 @@
 -- Copyright (c) 2020 Kirazy
 -- Part of Artisanal Reskins: Bob's Mods
---     
+--
 -- See LICENSE.md in the project directory for license information.
 
 -- Check to see if reskinning needs to be done.
@@ -157,7 +157,7 @@ for name, map in pairs(stone_furnace_map) do
         entity.animation = stone_furnace_entities("stone-metal-mixing-furnace", "stone-furnace")
         entity.energy_source.smoke = entity_source.energy_source.smoke
         entity.working_visualisations = entity_source.working_visualisations
-        
+
         -- Setup icon
         inputs.icon_filename = inputs.directory.."/graphics/icons/assembly/stone-furnace/stone-metal-mixing-furnace.png"
         reskins.lib.construct_icon(name, tier, inputs)
@@ -415,24 +415,23 @@ for name, map in pairs(steel_furnace_map) do
     -- Reskin entities and remnants
     if map.has_4way == true then
         remnant.animation = {
-          filename = inputs.directory.."/graphics/entity/assembly/steel-furnace/remnants/"..sprite_name.."-remnants.png",
-          line_length = 4,
-          width = 134,
-          height = 119,
-          frame_count = 1,
-          direction_count = 4,
-          shift = util.by_pixel(4, 0.5),
-          hr_version =
-          {
-            filename = inputs.directory.."/graphics/entity/assembly/steel-furnace/remnants/hr-"..sprite_name.."-remnants.png",
+            filename = inputs.directory.."/graphics/entity/assembly/steel-furnace/remnants/"..sprite_name.."-remnants.png",
             line_length = 4,
-            width = 268,
-            height = 238,
+            width = 134,
+            height = 119,
             frame_count = 1,
             direction_count = 4,
             shift = util.by_pixel(4, 0.5),
-            scale = 0.5,
-          }
+            hr_version = {
+                filename = inputs.directory.."/graphics/entity/assembly/steel-furnace/remnants/hr-"..sprite_name.."-remnants.png",
+                line_length = 4,
+                width = 268,
+                height = 238,
+                frame_count = 1,
+                direction_count = 4,
+                shift = util.by_pixel(4, 0.5),
+                scale = 0.5,
+            }
         }
         entity.animation = reskins.lib.make_4way_animation_from_spritesheet(steel_furnace_entity_skin(sprite_name, shadow))
     else
@@ -466,14 +465,14 @@ for name, map in pairs(steel_furnace_map) do
             entity.working_visualisations = {
                 -- Fire effect
                 {
-                    position = {0, 0},                    
+                    position = {0, 0},
                     north_animation = util.empty_sprite(),
                     east_animation = util.empty_sprite(),
                     south_animation = steel_furnace_fire("right"),
                     west_animation = steel_furnace_fire("left"),
                     light = {intensity = 1, size = 1, color = {r = 1.0, g = 1.0, b = 1.0}}
                 },
-                  -- Small glow around the furnace mouth
+                -- Small glow around the furnace mouth
                 {
                     position = {0, 0},
                     effect = "flicker",
@@ -486,7 +485,7 @@ for name, map in pairs(steel_furnace_map) do
                 {
                     position = {0, 0},
                     effect = "flicker",
-                    north_animation = util.empty_sprite(), 
+                    north_animation = util.empty_sprite(),
                     east_animation = util.empty_sprite(),
                     south_animation = steel_furnace_working("right"),
                     west_animation = steel_furnace_working("left"),
@@ -497,14 +496,14 @@ for name, map in pairs(steel_furnace_map) do
             entity.working_visualisations = {
                 -- Fire effect
                 {
-                    position = {0, 0},                    
-                    north_animation = steel_furnace_fire(), 
+                    position = {0, 0},
+                    north_animation = steel_furnace_fire(),
                     east_animation = util.empty_sprite(),
                     south_animation = steel_furnace_fire("right"),
                     west_animation = steel_furnace_fire(),
                     light = {intensity = 1, size = 1, color = {r = 1.0, g = 1.0, b = 1.0}}
                 },
-                  -- Small glow around the furnace mouth
+                -- Small glow around the furnace mouth
                 {
                     position = {0.0, 0.0},
                     effect = "flicker",
@@ -517,7 +516,7 @@ for name, map in pairs(steel_furnace_map) do
                 {
                     position = {0, 0},
                     effect = "flicker",
-                    north_animation = steel_furnace_working(), 
+                    north_animation = steel_furnace_working(),
                     east_animation = util.empty_sprite(),
                     south_animation = steel_furnace_working("right"),
                     west_animation = steel_furnace_working(),
@@ -529,14 +528,14 @@ for name, map in pairs(steel_furnace_map) do
         entity.working_visualisations = {
             -- Fire effect
             {
-                position = {0, 0},                    
-                north_animation = util.empty_sprite(), 
+                position = {0, 0},
+                north_animation = util.empty_sprite(),
                 east_animation = steel_furnace_fire("right"),
                 south_animation = steel_furnace_fire(),
                 west_animation = steel_furnace_fire("left"),
                 light = {intensity = 1, size = 1, color = {r = 1.0, g = 1.0, b = 1.0}}
             },
-              -- Small glow around the furnace mouth
+            -- Small glow around the furnace mouth
             {
                 position = {0.0, 0.0},
                 effect = "flicker",
@@ -549,7 +548,7 @@ for name, map in pairs(steel_furnace_map) do
             {
                 position = {0, 0},
                 effect = "flicker",
-                north_animation = util.empty_sprite(), 
+                north_animation = util.empty_sprite(),
                 east_animation = steel_furnace_working("right"),
                 south_animation = steel_furnace_working(),
                 west_animation = steel_furnace_working("left"),
@@ -585,7 +584,7 @@ local electric_furnace_map = {
 }
 
 local function electric_furnace_shadow()
-    return 
+    return
     {
         filename = reskins.bobs.directory.."/graphics/entity/assembly/electric-furnace/electric-furnace-shadow.png",
         priority = "high",
@@ -674,7 +673,7 @@ local function furnace_small_propeller(is_shifted)
     if is_shifted then
         shift = util.by_pixel(1, -24)
     end
-    
+
     return
     {
         animation = {
@@ -1064,7 +1063,7 @@ for name, map in pairs(electric_furnace_map) do
                 secondary_draw_orders = { north = -1 }
             },
             off_when_no_fluid_recipe = true
-        }       
+        }
     end
 
     if name ~= "electric-furnace" then
