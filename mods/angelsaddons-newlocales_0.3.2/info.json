@@ -1,0 +1,25 @@
+{
+  "name": "angelsaddons-newlocales",
+  "version": "0.3.2",
+  "factorio_version": "1.0",
+  "title": "Angel's Addons - Locales",
+  "author": "Team.XMGTP(Factorio community)",
+  "homepage": "https://crowdin.com/project/angelsaddons-newlocales",
+  "description": "Adds translations for Angel's mods from the Community.",
+  "dependencies": [
+		"? angelsaddons-cab",
+		"? angelsaddons-mobility",
+		"? angelsaddons-nilaus",
+		"? angelsaddons-shred",
+		"? angelsaddons-storage",
+		"? angelsbioprocessing",
+		"? angelsexploration",
+		"? angelsindustries",
+		"? angelsinfiniteores",
+		"? angelspetrochem",
+		"? angelsrefining",
+		"? only-smelting",
+		"? PCPRedux",
+		"? ShinyAngelGFX"
+  ]
+}

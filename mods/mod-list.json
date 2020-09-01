@@ -64,11 +64,6 @@
     },
     
     {
-      "name": "AbandonedRuins",
-      "enabled": true
-    },
-    
-    {
       "name": "ABwirefix",
       "enabled": true
     },
@@ -459,16 +454,6 @@
     },
     
     {
-      "name": "Dectorio",
-      "enabled": true
-    },
-    
-    {
-      "name": "DectorioGateFix",
-      "enabled": true
-    },
-    
-    {
       "name": "ElectricTrain",
       "enabled": true
     },
@@ -734,6 +719,16 @@
     },
     
     {
+      "name": "power-combinator",
+      "enabled": true
+    },
+    
+    {
+      "name": "production-monitor",
+      "enabled": true
+    },
+    
+    {
       "name": "profiler",
       "enabled": true
     },
@@ -745,12 +740,7 @@
     
     {
       "name": "Rampans",
-      "enabled": false
-    },
-    
-    {
-      "name": "Rampant",
-      "enabled": false
+      "enabled": true
     },
     
     {
@@ -960,11 +950,6 @@
     
     {
       "name": "wiki",
-      "enabled": true
-    },
-    
-    {
-      "name": "YARM",
       "enabled": true
     }
   ]

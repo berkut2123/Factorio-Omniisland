@@ -25,10 +25,10 @@ data:extend(
       enabled = false,
       energy_required = 4,
       ingredients = {
-        {type = "item", name = "cellulose-fiber", amount = 12}
+        {type = "item", name = "cellulose-fiber", amount = 15}
       },
       results = {
-        {type = "item", name = "wood-pellets", amount = 2}
+        {type = "item", name = "wood-pellets", amount = 5}
       },
       icon = "__angelsbioprocessing__/graphics/icons/wood-pellets.png",
       icon_size = 32,

@@ -1,0 +1,8 @@
+{
+    "name": "power-combinator",
+    "version": "1.0.1",
+    "title": "Power Combinator",
+    "author": "Peter Meter",
+    "factorio_version": "0.18",
+    "description": "Read power consumption and production from eletric pole as signals."
+}

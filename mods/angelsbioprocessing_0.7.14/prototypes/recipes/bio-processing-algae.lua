@@ -97,11 +97,12 @@ data:extend(
       energy_required = 30,
       main_product = "algae-green",
       ingredients = {
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "water-purified", amount = 100},
+        {type = "item", name = "omnialgae", amount = 40}
       },
       results = {
-        {type = "item", name = "algae-green", amount = 25},
-        {type = "item", name = "algae-brown", amount = 5}
+        {type = "item", name = "algae-green", amount = 40},
+        --{type = "item", name = "algae-brown", amount = 5}
       },
       icons = {
         {
@@ -153,10 +154,10 @@ data:extend(
       enabled = false,
       energy_required = 3,
       ingredients = {
-        {type = "item", name = "algae-green", amount = 10}
+        {type = "item", name = "algae-green", amount = 20}
       },
       results = {
-        {type = "item", name = "cellulose-fiber", amount = 5}
+        {type = "item", name = "cellulose-fiber", amount = 10}
       },
       icon = "__angelsbioprocessing__/graphics/icons/cellulose-fiber-algae.png",
       icon_size = 32,
