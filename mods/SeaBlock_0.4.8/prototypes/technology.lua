@@ -56,7 +56,7 @@ data:extend({
   icon = "__SeaBlock__/graphics/technology/ore.png",
   icon_size = 128,
   effects = {
-    {type = "unlock-recipe", recipe = "basic-circuit-board"},
+    {type = "unlock-recipe", recipe = "circuit-grey"},
     {type = "unlock-recipe", recipe = "copper-cable"},
     {type = "unlock-recipe", recipe = "algae-farm"},
     {type = "unlock-recipe", recipe = "algae-brown"},

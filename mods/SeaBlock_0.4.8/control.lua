@@ -97,15 +97,15 @@ local function init()
     ['algae-green'] = 'bio-wood-processing',
   }
   if game.technology_prototypes['sct-automation-science-pack'] then
-    global.unlocks['lab'] = 'sct-automation-science-pack'
+    global.unlocks['burner-lab'] = 'sct-automation-science-pack'
   else
-    global.unlocks['lab'] = 'sb-startup4'
+    global.unlocks['burner-lab'] = 'sb-startup4'
   end
 end
 local function haveitem(player, itemname, crafted)
   local unlock = global.unlocks[itemname]
   -- Special case for basic-circuit because it is part of starting equipment
-  if unlock and (itemname ~= 'basic-circuit-board' or crafted) then
+  if unlock and (itemname ~= 'circuit-grey' or crafted) then
     player.force.technologies[unlock].researched = true
   end
 end
