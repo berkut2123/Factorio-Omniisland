@@ -1,0 +1,290 @@
+---------------------------------------------------------------------------------------------------
+Version: 4.1.17
+Date: 2021.08.17
+  Bugfixes:
+    - Fixed that the easy omnite brick recipe got locked behind the last startup tech by SeaBlock
+      causing the omnitor lab to be uncraftable
+---------------------------------------------------------------------------------------------------
+Version: 4.1.16
+Date: 2021.08.15
+  Changes:
+    - Added proper localisations for the modified startup techs to allow for translations
+    - Moved more recipes behind startup techs to give a better overvire of what needs to be done
+    - Use SeaBlocks remote interface to insert starting items directly into the rockchest
+    - Added some wood as starting items when playing with omniwood
+  Bugfixes:
+    - Fixed that the first startup tech existed twice with omniwood due to a typo
+---------------------------------------------------------------------------------------------------
+Version: 4.1.15
+Date: 2021.08.14
+  Changes:
+    - Compat rewrite for the new versions of energy and Seablock
+  Bugfixes:
+    - Fixed getting stuck with current versions of SB and omniwood due to a missing algae recipe
+---------------------------------------------------------------------------------------------------
+Version: 4.1.14
+Date: 2021.06.03
+  Bugfixes:
+    - Fixed a crash with omnimatter science and SCT
+---------------------------------------------------------------------------------------------------
+Version: 4.1.13
+Date: 2021.04.13
+  Changes:
+    - Changed the amount of omnic waste from pulverised Stone/Omnite from 300 to 200
+      (no more cheaty Omnite :))
+    - Adjusted lithomnic water enrichment values: total crafting speed doubled,
+      less petromnic waste, less hypomnic water required
+    - Bumped the crafting time of Hydrosalinic water enrichement from 3 to 4 seconds,
+      35 instead of 75 saline water required
+  Bugfixes:
+    - Fixed that the iron pipe icon was scaled wrong on the omnmic water drilling recipe
+---------------------------------------------------------------------------------------------------
+Version: 4.1.12
+Date: 2021.04.05
+  Bugfixes:
+    - Updated for Omnimatter 4.1.13
+---------------------------------------------------------------------------------------------------
+Version: 4.1.11
+Date: 2021.03.13
+  Bugfixes:
+    - Fixed that custom tech unlocks got overwritten on_configuration_changed
+---------------------------------------------------------------------------------------------------
+Version: 4.1.10
+Date: 2021.03.06
+  Info:
+    - Updated for Seablock 0.5.3
+    - Use Seablocks new remote interface to unlock startup techs
+---------------------------------------------------------------------------------------------------
+Version: 4.1.9
+Date: 2021.03.02
+  Bugfixes:
+    - Fixed that inserter and BCB recipe unlocks were missing with the latest SB version
+---------------------------------------------------------------------------------------------------
+Version: 4.1.7
+Date: 2021.02.28
+  Bugfixes:
+    - Fixed a tech cycle crash with SCT and omnimatter energy
+---------------------------------------------------------------------------------------------------
+Version: 4.1.6
+Date: 2021.01.30
+  Bugfixes:
+    - Fixed that coromnic vapour recipes were not unlocked with the ommnicompressor anymore
+    - Fixed various broken localisations
+---------------------------------------------------------------------------------------------------
+Version: 4.1.5
+Date: 2021.01.22
+  Info:
+    - Updated for the latest omni versions
+---------------------------------------------------------------------------------------------------
+Version: 4.1.4
+Date: 2021.01.11
+  Changes:
+    - Rewrote startup techs with omni energy. This should give you a clearer way on how to start
+  Bugfixes:
+    - Fixed a crash with omnimatter energy and SCT
+---------------------------------------------------------------------------------------------------
+Version: 4.1.3
+Date: 2021.01.10
+  Bugfixes:
+    - Fixed a deadlock with the SCT T2 lab (moved electronics and boilers to red sp techs)
+---------------------------------------------------------------------------------------------------
+Version: 4.1.2
+Date: 2021.01.02
+  Bugfixes:
+    - Fixed a tech deadlock with the new SeaBlock version and the SCT T1 Lab
+---------------------------------------------------------------------------------------------------
+Version: 4.1.1
+Date: 2020.12.29
+  Bugfixes:
+    - Fixed a crash with Artisanal reskin mods
+---------------------------------------------------------------------------------------------------
+Version: 4.1.0
+Date: 2020.12.22
+  Info:
+    - Update for factorio version 1.1
+  Changes:
+    - Internal cleanup, use omnilib´s function to add viscous mud water extraction techs + recipes
+    - Start with 50 wood pellets as initial fuel to reduce long times of handcrafting fiber
+    - Start with 1 clarifier to setup the initial omnite setup without crafting anything
+    - Water is blue again since pollution makes it green now anyways
+    - Disabled coal extractions (no cheaty power!)
+    - Cleaned up the tech tree
+---------------------------------------------------------------------------------------------------
+Version: 4.0.1
+Date: 2020.09.15
+  Changes:
+    - You start with 2 electric omnitractors instead of 1 burner and 1 electric now
+    - You start with 1 electric omniphlog instead of 1 burner omniphlog now
+  Bugfixes:
+    - Fixed an issue when starting a new save without KS-Power
+    - Fixed that you start with the wrong type of landfill when playing with landfill painting
+---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 2020.09.15
+  Changes:
+    - Updated for Factorio version 1.0
+    - Updated for current versions of Seablock and Omnimatter
+---------------------------------------------------------------------------------------------------
+Version: 3.18.1
+  Changes:
+    - Updated for current versions of Seablock and Omnimatter
+    - Omnimatters coal extractions are now enabled
+---------------------------------------------------------------------------------------------------
+Version: 3.18.0
+  Changes:
+    - Updated to Factorio version 0.18
+---------------------------------------------------------------------------------------------------
+Version: 3.0.1
+  Features:
+    - Added Thumbnail.png
+    - Clarified the starter tech description
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+  Features:
+    - Initial Update to 0.17
+    - Replaced the Omnicompressor graphics
+    - Added copper-tungsten and nitinol pipe recipes to the omnidrill
+---------------------------------------------------------------------------------------------------
+Version: 2.3.2
+  Features:
+    - Increased the Compressors Energy usage
+    - Reduced Omnidensators Module Slots to 1
+---------------------------------------------------------------------------------------------------
+Version: 2.3.1
+  Features:
+    - Completely reworked the Omnidrill recipes
+    - Added an "Omnicompressor" which turns every "gas" type liquid into Coromnic Vapour,
+      which replaces steam in the Omnidrill
+    - Added recipes and researches for all Bob�s Mod pipes to the Omnidrill
+    - Increased the crafting speed of the Omnidrills and Omnidensators to better fit with other
+      Omni-Buildings
+    - Increased the recipe duration for both buildings to compensate the crafting speed changes
+---------------------------------------------------------------------------------------------------
+Version: 2.2.11
+  Features:
+    - Disabled the Wood Mutation recipe from omniwood
+---------------------------------------------------------------------------------------------------
+Version: 2.2.10
+  Bugfixes:
+    - Removed the Boiler,Steam Engine and Electric Mining Drill recipe Unlock from the 
+      4. Tutorial tech if Omnienergy is installed
+---------------------------------------------------------------------------------------------------
+Version: 2.2.9
+  Bugfixes:
+    - Code cleanup
+---------------------------------------------------------------------------------------------------
+Version: 2.2.8
+  Features:
+    - Omnienergys Burner generator now unlocks with the 4. tutorial tech
+    - Changed Pretomnic waste water ratios so you end up with a surplus of normal water at the end 
+      of the Hypomnic water extraction chain
+  Bugfixes:
+    - Fixed that the Omnitor Lab didnt accept any fuel
+    - Fixed that the vanilla Lab unlocks with Startup-3 tech when omnienergy is installed
+---------------------------------------------------------------------------------------------------
+Version: 2.2.7
+  Features:
+    - Nerfed Bobs Enriched fuel blocks fuel value
+    - Set the fuel category of burner entities back to chemical if omni_energy is installed
+---------------------------------------------------------------------------------------------------
+Version: 2.2.3
+  Bugfixes:
+    - Fixed that viscous mud water accidently required viscous mud water instead of omnic water
+---------------------------------------------------------------------------------------------------
+Version: 2.2.2
+  Bugfixes:
+    - Fixed that the Omnidensator recipe was disabled when SCT was enabled
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+  Features:
+    - Rebalanced Recipe and Tech costs:
+    - Buffed the amount of Omnite you get in the more advanced recipe chains
+    - Increased Viscous Mud Water and Hypomnic Water research costs.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.8
+  Features:
+    - Full Omnimatter Energy support
+  Bugfixes:
+    - Internal rewrite
+---------------------------------------------------------------------------------------------------
+Version: 2.1.6
+  Bugfixes:
+    - Fixed omniwood/omniwater compat and possible crashes with some combinations of those
+---------------------------------------------------------------------------------------------------
+Version: 2.1.4
+  Features:
+    - Removed Science Cost Tweaker as hard dependency
+    - You can now play without SCT, which isnt compatible with Omnis Science/Research Mods
+---------------------------------------------------------------------------------------------------
+Version: 2.1.3
+  Features:
+    - Omniwood should be fully compatible now
+    - Added an alternative recipe for omnialgaes
+---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+  Bugfixes:
+    - Fixed a possible research cycle if Omniwater is present
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+  Features:
+    - Added a research chain for Viscous Mud Water
+    - Removed Angels Seafloor pump
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+  Features:
+    - Rebalanced all mid/endgame recipes zo be more efficient
+    - Added Hydrosalinic Water
+    - Added RGB values to each liquid
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+  Bugfixes:
+    - Declared Omniwood as incompatible to avoid further confusion
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+  Features:
+    - Complete Rewrite, this will break your saves!
+    - Complete new production chains:
+    - All the Water arround you is not usable, you depend on condensating Omnic Water very 
+      inefficiently from the air or drilling it deep out of the ground and process it
+    - Added the "Omnidensator" and "Omnidrill"
+    - Added a bunch of liquids, recipes and researches to process Omnic Water
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+  Features:
+    - Updated to the latest version of Omnimatter
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+  Features:
+    - Updated to Omnimatter 2.0.0
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+  Features:
+    - Updated to the latest SeaBlock Pack
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+  Bugfixes:
+    - Fixed that recipe changes werent applied on compressed recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+  Features:
+    - Updated for Omnimatter 1.4.0 (use 1.2.1 for older Omnimatter versions!)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+  Bugfixes:
+    - Fixed research order to avoid getting stuck in the tutorial 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+  Features:
+    - Updated for Factorio 0.16
+    - Disabled all Coal extractions from Omnimatter
+    - Removed the fuel value of Omnite
+    - Added a recipe for Mineralized water crystallization
+    - Moved the Omnimatter researches behind the tutorial researches
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Features:
+    - Added support for Omnimatter_fluid
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Features:
+    - Initial Release

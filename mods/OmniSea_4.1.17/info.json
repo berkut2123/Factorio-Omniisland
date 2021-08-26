@@ -1,0 +1,19 @@
+{
+"name":"OmniSea",
+"version": "4.1.17",
+"title":"Sea Block Omnimatter compatibility",
+"author":"Samuel2507",
+"description":"Adds a progression system for Omni-Mods in SeaBlock",
+"factorio_version":"1.1",
+"dependencies":[
+	"base",
+	"omnilib",
+	"omnimatter",
+	"omnimatter_crystal",
+	"SeaBlock",
+	"angelsrefining",
+	"bobores",
+	"? omnimatter_energy",
+	"? ScienceCostTweakerM",
+	"! omniIsland"
+]}

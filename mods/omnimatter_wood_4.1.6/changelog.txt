@@ -1,0 +1,181 @@
+---------------------------------------------------------------------------------------------------
+Version: 4.1.6
+Date: 2021.08.14
+  Bugfixes:
+    - Fixed that Basic green algae farming was not hidden properly with bioindustries
+---------------------------------------------------------------------------------------------------
+Version: 4.1.4
+Date: 2021.06.20
+  Bugfixes:
+    - Fixed a crash with BioIndustries due to a renamed icon
+---------------------------------------------------------------------------------------------------
+Version: 4.1.3
+Date: 2020.12.23
+  Changes:
+    - Nerfed the fuel values of omniwood, wood and omniseedling by 30%
+---------------------------------------------------------------------------------------------------
+Version: 4.1.2
+Date: 2020.12.16
+  Bugfixes:
+    - Fixed crashing with certain mods that add trees once again
+---------------------------------------------------------------------------------------------------
+Version: 4.1.1
+Date: 2020.12.14
+  Bugfixes:
+    - Fixed a crash that happened with mods that add trees with an icons table
+---------------------------------------------------------------------------------------------------
+Version: 4.1.0
+Date: 2020.11.26
+  Info:
+    - Updated for Factorio version 1.1.0
+---------------------------------------------------------------------------------------------------
+Version: 4.0.1
+Date: 2020.08.31
+  Changes:
+    - Renamed technology "omnimutator" to "omnitech-omnimutator"
+    - Renamed technology "omnialgae" to "omnitech-omnialgae"
+---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 2020.08.22
+  Info:
+    - Updated for Factorio version 1.0.0
+---------------------------------------------------------------------------------------------------
+Version: 3.18.7
+Date: 2020.08.13
+  Bugfixes:
+    - Fixed a crash with BioIndustries
+---------------------------------------------------------------------------------------------------
+Version: 3.18.6
+Date: 2020.08.07
+  Bugfixes:
+    - Multiple locale, recipe order and subgroup fixes
+---------------------------------------------------------------------------------------------------
+Version: 3.18.5
+Date: 2020.06.19
+  Bugfixes:
+    - Fixed a crash with BioProcessing due to icon updates
+---------------------------------------------------------------------------------------------------
+Version: 3.18.4
+Date: 2020.04.26
+  Bugfixes:
+    - Fixed the small icon of the wood sawing recipe
+---------------------------------------------------------------------------------------------------
+Version: 3.18.3
+Date: 2020.04.13
+  Bugfixes:
+    - Fixed the integration with Angel's bio
+---------------------------------------------------------------------------------------------------
+Version: 3.18.2
+Date: 2020.04.13
+  Features:
+    - Now supports Angel's Industry components
+---------------------------------------------------------------------------------------------------
+Version: 3.18.1
+Date: 2020.04.03
+  Features:
+    - Bob's Burner Lab now requires omnifused wood
+    - Angel's Bioprocessing slothful green algae recipe removed
+---------------------------------------------------------------------------------------------------
+Version: 3.18.0
+Date: 2020.04.02
+  Info:
+    - Added changelog
+  Features:
+    - Updated to 0.18
+    - Updated to match Angel's Bioprocessing
+    - Added omni-seeds to arbor farms if bobs greenhouses is installed
+    - Various other integration updates
+    - Added Thumbnail
+  Bugfixes:
+    - Fixed icon size issues
+    - Fixed localisation issues
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+  Features:
+    - Updated to 0.17
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+  Features:
+    - Updated to the new API!
+  Info:
+    - UPDATING TO THIS WILL BREAK SAVES!
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+  Features:
+    - Huge structural overhaul.
+  Info:
+    - WARNING! RECIPE DISAPPEARENCE IS EXPECTED! UPDATE AT YOUR OWN RISK!
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+  Features:
+    - Bioindustries compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+  Features:
+    - Adapts so it requires the new metal Omnicium (if around)
+    - Introduces an inefficient way to make wood.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Features:
+    - Actually added an early way to get wood automated, it is highly inefficient but automated.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+  Features:
+    - 0.16 Compatibility and other stuff
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+  Features:
+    - Omnifluid compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+  Features:
+    - Omnimarathon Compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+  Features:
+    - Compatibility with angels bioindustries
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+  Features:
+    - Compatible with bioindustries
+    - Genereal compatibility increase.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Bugfixes:
+    - Fixed the time to make seedlings when bobs greenhouses are active.
+      Reduced it to be 2 seconds instead of 20.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+  Bugfixes:
+    - Fixed bug that occured due to removal of file.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Bugfixes:
+    - Fixed compatibility issue
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Bugfixes:
+    - General bug Fixes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Features:
+    - Added an option that makes it so wood can be turned on to only come from wood.
+    - Made omnimutator cost glass if present.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Features:
+    - Finally an update
+    - Added compatibility with bobs greenhouses, have both for a real challange in wood production.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed bug where it didn't check versions properly.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+  Features:
+    - Configured so one can choose when the initial wood mutation is profitable energy wise with
+      respect to omnic acid production.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+  Features:
+    - Release

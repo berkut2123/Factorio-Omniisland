@@ -1,0 +1,13 @@
+{
+    "name": "power-combinator",
+    "version": "5.1.1",
+    "title": "Power Combinator",
+    "author": "Peter Meter",
+    "factorio_version": "1.1",
+    "description": "Have power consumption and power production as signals in your circuit network, with enabled capabilities to measure the electric network statistics up to about 1.8 × 10^308 watts. Additional envelope signals for maximal projected electric production/consumption are also provided. We use the electric network id for accounting of all calculated values within that electric network.",
+    "dependencies": [
+      "base >= 1.0.0",
+      "simhelper",
+      "? capacity-combinator"
+    ]
+}

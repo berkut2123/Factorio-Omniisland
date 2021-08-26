@@ -1,0 +1,192 @@
+---------------------------------------------------------------------------------------------------
+Version: 5.1.1
+Date: 23.03.2021
+  Changes:
+    - add support for script_raised_revive event
+
+---------------------------------------------------------------------------------------------------
+Version: 5.1.0
+Date: 17.03.2021
+  Changes:
+    - use register_on_entity_destroyed
+  Bugfixes:
+    - recover indicator light when player disconnects it
+
+---------------------------------------------------------------------------------------------------
+Version: 5.0.2
+Date: 22.02.2021
+  Bugfixes:
+    - change prescale factor default from 0 (x W) to 3 (x kW)
+
+---------------------------------------------------------------------------------------------------
+Version: 5.0.1
+Date: 17.02.2021
+  Info:
+    - forward compatibility for factorio >= 1.1.25
+  Bugfixes:
+    - change defines.flow_precision_index.one_second to defines.flow_precision_index.five_seconds
+
+---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+Date: 14.02.2021
+  Features:
+    - add filter power combinator
+    - add achievements
+    - add tips and tricks
+
+---------------------------------------------------------------------------------------------------
+Version: 4.4.0
+Date: 11.02.2021
+  Changes:
+    - use circuit connector lamp as indicator if combinator is working and values in range
+
+---------------------------------------------------------------------------------------------------
+Version: 4.3.3
+Date: 03.02.2021
+  Bugfixes:
+    - fix values not updating when out of scale
+
+---------------------------------------------------------------------------------------------------
+Version: 4.3.2
+Date: 03.02.2021
+  Bugfixes:
+    - fix migration
+
+---------------------------------------------------------------------------------------------------
+Version: 4.3.1
+Date: 13.01.2021
+  Info:
+    - release for 1.1
+  Changes:
+    - code cleanup even moar
+  Bugfixes:
+    - fix possible division by zero
+
+---------------------------------------------------------------------------------------------------
+Version: 4.3.0
+Date: 10.01.2021
+  Info:
+    - release for 1.1
+  Changes:
+    - code cleanup
+
+---------------------------------------------------------------------------------------------------
+Version: 4.2.1
+Date: 07.12.2020
+  Info:
+    - release for 1.1
+  Bugfixes:
+    - add min consumption to max consumption
+    - ceil numbers with a precision of 8 digits after decimal point
+
+---------------------------------------------------------------------------------------------------
+Version: 4.2.0
+Date: 07.12.2020
+  Info:
+    - release for 1.1
+  Changes:
+    - add selection box to network meter (electric-pole)
+    - ceil signal values
+    - code cleanup
+  Balancing:
+    - change max wire distance from 5 to 9
+
+---------------------------------------------------------------------------------------------------
+Version: 4.1.0
+Date: 05.12.2020
+  Info:
+    - release for 1.1
+  Balancing:
+    - only requires red and green science packs
+  Bugfixes:
+    - remove requirements from power combinator description in locales
+  Changes:
+    - update readme
+
+---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 03.12.2020
+  Info:
+    - release for 1.1
+  Features:
+    - add max consumption and production as signals
+
+---------------------------------------------------------------------------------------------------
+Version: 3.2.0
+Date: 07.12.2020
+  Info:
+    - release for 1.0
+  Changes:
+    - add selection box to network meter (electric-pole)
+    - ceil signal values
+    - code cleanup
+  Balancing:
+    - change max wire distance from 5 to 9
+
+---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: 05.12.2020
+  Info:
+    - release for 1.0
+  Balancing:
+    - only requires red and green science packs
+  Bugfixes:
+    - remove requirements from power combinator description in locales
+  Changes:
+    - update readme
+
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 03.12.2020
+  Info:
+    - release for 1.0
+  Features:
+    - add factor 1/10^f to scale values into signal range (int32)
+    - integrate electric pole and lamp into combinator
+  Balancing:
+    - change combinator prices up cuz moar features
+  Bugfixes:
+    - fix changelog
+  Locale:
+    - updated
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 25. 11. 2020
+  Info:
+    - release for 1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 25. 11. 2020
+  Info:
+    - release for 1.0
+
+  Changes:
+    - add power satisfaction factoring (requires power combinator to connect to an additional power consumer)
+    - change signal icon color from black to white
+    - add changelog & readme
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 24. 11. 2020
+  Info:
+    - update to 1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 14. 11. 2020
+  Info:
+    - update to 1.0
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 28. 01. 2020
+  Info:
+    - update to 0.18
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 28. 01. 2020
+  Changes:
+    - add thumbnail

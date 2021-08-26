@@ -1,0 +1,19 @@
+{
+  "name": "Rampans",
+  "version": "0.18.16",
+  "factorio_version": "0.18",
+  "title": "Rampant Fixes",
+  "author": "zero318",
+  "homepage": "https://mods.factorio.com/mod/Rampans",
+  "description": "Fixes the sprite size bug preventing Rampant 0.18.16 from loading. WARNING This mod uses the sethook function from the lua debug library, so it won't be compatibile with any other mods using debug hooks.",
+  "dependencies": [
+    "base >= 0.18.26",
+    "(?) bobenemies",
+    "(?) Natural_Evolution_Enemies >= 0.17.0",
+    "(?) Clockwork",
+    "(?) Orbital Ion Cannon",
+    "(?) RampantArsenal",
+    "(?) RampantResources",
+    "(?) ArmouredBiters"
+  ]
+}
