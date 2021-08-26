@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+  Changes:
+    - disabled color tiers for miners till I make new GFX
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+  Changes:
+    - fixed crash related to robot shadows
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+  Changes:
+    - fixed crash related to using bob's legacy assembler colors
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+  Changes:
+    - initial release, seems functional
+	- new ammo/rocket tech graphics (Thanks Vigil)
+	- please report bugs

@@ -1,0 +1,11 @@
+{
+  "name": "simhelper",
+  "version": "1.1.1",
+  "factorio_version": "1.1",
+  "title": "Simulation Helper",
+  "author": "justarandomgeek",
+  "homepage": "",
+  "contact": "justarandomgeek@gmail.com",
+  "description": "Helper scripts for making simulations",
+  "dependencies": ["base"]
+}

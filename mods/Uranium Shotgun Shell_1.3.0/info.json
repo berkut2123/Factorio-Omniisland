@@ -1,0 +1,10 @@
+{
+	"name":"Uranium Shotgun Shell",
+	"author":"Rhaane",
+	"version":"1.3.0",
+	"title":"Uranium Shotgun Shell",
+	"homepage":"",
+	"description":"Adds shotgun shells fused with U-238",
+  "factorio_version": "1.1",
+	"dependencies": ["base"]
+}

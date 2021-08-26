@@ -1,0 +1,25 @@
+{
+  "name": "SeaBlock",
+  "version": "0.5.6",
+  "factorio_version": "1.1",
+  "title": "Sea Block",
+  "author": "Trainwreck",
+  "contact": "",
+  "homepage": "https://forums.factorio.com/viewtopic.php?t=93136",
+  "description": "No ore patches, expand from a small island. Also install the 'Sea Block Pack' mod for a complete modpack",
+  "dependencies": [
+    "base",
+    "angelsbioprocessing >= 0.7.20",
+    "angelsrefining >= 0.12.0",
+    "angelspetrochem >= 0.9.20",
+    "bobelectronics",
+    "boblogistics",
+    "angelssmelting >= 0.6.17",
+    "bobplates",
+    "? KS_Power",
+    "(?) KS_Power_quickfix",
+    "? LandfillPainting",
+    "? ScienceCostTweakerM >= 1.1.6",
+    "? SpaceMod"
+  ]
+}

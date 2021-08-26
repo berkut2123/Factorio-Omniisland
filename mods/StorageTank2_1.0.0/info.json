@@ -1,0 +1,11 @@
+{
+  "name": "StorageTank2",
+  "version": "1.0.0",
+  "title": "Storage Tank Mk2",
+  "author": "Optera",
+  "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=21729",
+  "homepage": "",
+  "description": "Adds a fast replacable upgraded storage tank with 100k capacity and more pipe connections.",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1.0", "flib >= 0.6.0"]
+}

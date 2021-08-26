@@ -1,0 +1,12 @@
+{
+    "name": "Dev Container Definition Template - Dockerfile",
+    "dockerFile": "Dockerfile",
+    "runArgs": [],
+    "extensions": [
+        "sumneko.lua",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "koihik.vscode-lua-format"
+    ],
+    "postCreateCommand": "( cd /opt/lua-language-server/; ./build/lua make/copy.lua /root/.vscode-server/extensions )"
+}

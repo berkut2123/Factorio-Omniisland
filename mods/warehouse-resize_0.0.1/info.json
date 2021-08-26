@@ -1,0 +1,13 @@
+{
+  "name": "warehouse-resize",
+  "version": "0.0.1",
+  "title": "Warehousing Mod Resize",
+  "author": "Soggs",
+  "contact": "",
+  "homepage": "",
+  "description": "Minimod that allows you to set the stack size of the Warehouses from the Warehousing Mod by anoyomouse",
+  "dependencies": ["base >= 0.18.0", 
+    "Warehousing >= 0.3.0"
+  ],
+  "factorio_version": "0.18"
+}
