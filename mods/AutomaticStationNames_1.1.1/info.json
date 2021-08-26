@@ -1,0 +1,10 @@
+{
+  "name": "AutomaticStationNames",
+  "version": "1.1.1",
+  "factorio_version": "1.1",
+  "title": "Automatic Train Station Names",
+  "author": "steffenk",
+  "homepage": "https://github.com/steffen-kiess/factorio-AutomaticStationNames",
+  "dependencies": [],
+  "description": "Automatically set names of newly built train stations"
+}

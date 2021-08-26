@@ -1,9 +1,0 @@
-{  
-   "name": "AAI_Language_Pack",
-   "title": "AAI Language Pack",
-   "description": "Multi-language support for AAI mods.",
-   "author": "Shadow_Man",
-   "version": "0.1.4",
-   "factorio_version": "0.18",
-   "dependencies": ["base >= 0.14.0"]
-}

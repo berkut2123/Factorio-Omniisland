@@ -1,0 +1,10 @@
+{
+  "name": "MustardArtilleryShell",
+  "version": "1.0.9",
+  "title": "Mustard Gas Artillery Shells",
+  "author": "IngoKnieto",
+  "homepage": "",
+  "description": "Adds artillery shells with mustard gas.",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 0.18"]	
+}

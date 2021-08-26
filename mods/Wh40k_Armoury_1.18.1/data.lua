@@ -1,7 +1,0 @@
-require("prototypes.ammo")
-require("prototypes.weapon")
-require("prototypes.recipe")
-require("prototypes.technology")
-require("prototypes.ammo-category")
-require("prototypes.projectiles")
-require("prototypes.entity")

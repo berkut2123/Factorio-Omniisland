@@ -1,0 +1,10 @@
+{
+	"name": "aai-vehicles-flame-tank",
+	"version": "0.5.1",
+	"title": "AAI Vehicles: Flame Tank",
+	"author": "Earendel",
+	"dependencies": ["base >= 1.1.0"],
+	"description": "A Tank with a flamethrower. The Flame Tank has good acceleration, armour and is fireproof.",
+	"factorio_version": "1.1",
+	"homepage": "https://factorio.miraheze.org"
+}

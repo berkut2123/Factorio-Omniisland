@@ -1,0 +1,7 @@
+1.1.0 - 2019/07/21 - Added options to use 0.2.0 fuel cycle, craft nukes from U-235, and reactor working sound
+1.0.0 - 2019/03/10 - Reworked fuel cycle and modified tech progression
+0.2.0 - 2019/03/03 - Updated to 0.17
+0.1.3 - 2017/12/24 - Tooltips no longer show spent fuel as an ingredient for fuel cells (thanks to chlue for the fix)
+0.1.2 - 2017/12/18 - Moved new "nuclear fuel" item from Kovarex to Rocket Silo tech and fixed migration
+0.1.1 - 2017/12/16 - Update to Factorio 0.16
+0.1.0 - 2017/04/30 - Initial test release for Factorio 0.15

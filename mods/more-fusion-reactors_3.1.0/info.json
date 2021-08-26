@@ -1,0 +1,11 @@
+{
+  "name": "more-fusion-reactors",
+  "version": "3.1.0",
+  "factorio_version": "1.1",
+  "title": "Extended Vanilla: Fusion Reactors",
+  "author": "DiegoPro_77",
+  "contact": "",
+  "homepage": "",
+  "description": "This mod adds 4 new tiers of fusion reactor for boost your power production.",
+  "dependencies": ["base", "? Better-Power-Armor-Grid"]
+}

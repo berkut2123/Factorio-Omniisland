@@ -1,0 +1,58 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.21
+Date: 2021-02-19
+  Changes:
+    - Updated icon names for AAI Industry version 0.5.4.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.20
+Date: 2020-12-01
+  Bugfixes:
+    - Fixed version number mismatch.
+  Changes:
+    - Added stacked icon for processed fuel.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2020-11-28
+  Changes:
+    - Updated major version to 1.1.
+      As of the update date, Deadlock crating is still not in 1.1, so it cannont be used atm.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.18
+Date: 2020/01/31
+  Changes:
+    - Ported to 0.18.
+    - Fixed changelog format. Hopefully it shows up ingame now.
+  Optimizations:
+    - Some code optimization.
+  Info:
+    - Crating plugin still remains, despite the crating mod being decrepit (for those who still want to use it and know how to fix it).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Changes:
+    - Removed conditional stacking for sand\glass, as the update to Deadlock Crating removed the issue with Bob's Metals.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Changes:
+    - If Bob's Metals, Chemicals and Intermediates mod is used, glass will not be stacked or crated by this mod to prevent crasing.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Bugfixes:
+    - Fixed broken icons for crating mod.
+  Info:
+    - Updated description to mention crating mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Changes:
+    - Added code to prevent duplicate stack\crate creation.
+    - Added support to Deadlock Crating.
+  Info:
+    - Moved Deadlock stacking dependancy to optional, to enable using this mod with only crating.
+    - Updated AAI Industry dependancy.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Graphics:
+    - Added custom icons (provided and hosted by Earendel)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+  Info:
+    - Created

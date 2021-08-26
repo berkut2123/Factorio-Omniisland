@@ -1,0 +1,143 @@
+---------------------------------------------------------------------------------------------------
+Version: 2020.8.22
+Date: 22. 8. 2020
+  Modding:
+    - Removed trailing zeros in LSlib.utils.units.getLocalisedUnit(...)
+    - Fixed crash in LSlib.recipe.duplicate(...) when the recipe didn't exist
+    - Added LSlib.item.getAllModuleNames(...)
+    - Updated LSlib.recipe.allowModuleEffect(...) to default to allow all modules
+    - Updated LSlib.recipe.canUseModuleEffect(...) to default to check all modules
+    - Updated LSlib.recipe.removeModuleEffect(...) to default to remove all modules
+---------------------------------------------------------------------------------------------------
+Version: 2020.8.7
+Date: 7. 8. 2020
+  Modding:
+    - Fixed missed cases in LSlib.recipe.editResult(...)
+---------------------------------------------------------------------------------------------------
+Version: 2020.7.24
+Date: 24. 7. 2020
+  Modding:
+    - Fixed LSlib.recipe.recipePrototypeCleanup(...) setting values to default when value is false
+    - Fixed LSlib.item.getIcons(...) not working correctly if shift existed and scale is set
+    - Fixed LSlib.item.getIcons(...) not working correctly if no tint was supplied
+    - Fixed typo in LSlib.recipe.setEngergyRequired(...) and added backwards compatibility
+    - Fixed typo in LSlib.recipe.editEngergyRequired(...) and added backwards compatibility
+    - Fixed typo in LSlib.recipe.getEngergyRequired(...) and added backwards compatibility
+    - Added compatibility for recipe difficulites in LSlib.recipe.setShowMadeIn(...)
+    - Added LSlib.recipe.setShowProduct(...)
+---------------------------------------------------------------------------------------------------
+Version: 2020.7.4
+Date: 4. 7. 2020
+  Modding:
+    - Fixed edge case in LSlib.technology.removeIngredient(...)
+    - Fixed edge case in LSlib.technology.addIngredient(...)
+---------------------------------------------------------------------------------------------------
+Version: 2020.5.26
+Date: 26. 5. 2020
+  Modding:
+    - Fixed crash related to base game update v0.18.27
+---------------------------------------------------------------------------------------------------
+Version: 2020.5.11
+Date: 11. 5. 2020
+  Modding:
+    - Fixed LSlib.recipe.setMainResult(...) crashing when used
+    - Added LSlib.recipe.recipePrototypeCleanup(...)
+---------------------------------------------------------------------------------------------------
+Version: 2020.3.16
+Date: 14. 3. 2020
+  Modding:
+    - Fixed LSlib.item.getIconSize(...) crashing when an invalid item name is passed
+    - Added LSlib.technology.setVisible(...) as counterpart of LSlib.technology.setHidden(...)
+---------------------------------------------------------------------------------------------------
+Version: 2020.2.23
+Date: 23. 2. 2020
+  Modding:
+    - Updated LSlib.technology.removeHiddenPrerequisites(...) to take enabled setting into account
+---------------------------------------------------------------------------------------------------
+Version: 2020.2.11
+Date: 11. 2. 2020
+  Modding:
+    - Updated LSlib.item.changeIcon(...) to allow icon mipmaping
+    - Updated LSlib.item.changeIcons(...) to allow icon mipmaping
+---------------------------------------------------------------------------------------------------
+Version: 2020.1.24
+Date: 24. 1. 2020
+  Modding:
+    - Updated the parameter localised string to reflect the new GUI layout
+---------------------------------------------------------------------------------------------------
+Version: 2020.1.23
+Date: 23. 1. 2020
+  Features:
+    - Updated for factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 2020.1.18
+Date: 18. 1. 2020
+  Modding:
+    - Added LSlib.technology.removeHiddenPrerequisites(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.8.23
+Date: 30. 8. 2019
+  Modding:
+    - Optimized LSlib.utils.directions.oposite(...)
+    - Optimized LSlib.utils.directions.toString(...)
+    - Added LSlib.utils.shapes.createCircleContour(...)
+    - Added LSlib.utils.shapes.getCircleContour(...)
+    - Extended LSlib.styles.addFlowStyle(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.8.19
+Date: 19. 8. 2019
+  Modding:
+    - Added LSlib.entity.removeShadowsFromSprite(...)
+    - Added LSlib.entity.removeShadowsFromSpriteVariation(...)
+    - Added LSlib.entity.removeShadowFromSprite4Way(...)
+    - Fixed LSlib.entity.getIcons(...)
+    - Fixed LSlib.utils.string.split(...)
+    - Added LSlib.styles.addTableStyle(...)
+    - Fixed LSlib.styles.addButtonStyle(...)
+    - Fixed LSlib.styles.addLabelStyle(...)
+    - Fixed LSlib.gui.layout.addTable(...)
+    - Added LSlib.utils.units.getLocalisedUnit(...)
+    - Added some localised utility messages
+---------------------------------------------------------------------------------------------------
+Version: 2019.8.7
+Date: 7. 8. 2019
+  Modding:
+    - Added LSlib.recipe.getLocalisedName(...)
+    - Added LSlib.recipe.getSubgroup(...)
+    - Added LSlib.recipe.getOrderstring(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.7.31
+Date: 31. 7. 2019
+  Modding:
+    - Added LSlib.item.getSubgroup(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.7.30
+Date: 30. 7. 2019
+  Modding:
+    - Added LSlib.recipe.canUseModuleEffect(...)
+    - Added LSlib.recipe.getIngredientsCount(...)
+    - Added LSlib.technology.isEnabled(...)
+    - Added LSlib.technology.isHidden(...)
+    - Added LSlib.technology.setHidden(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.7.25
+Date: 25. 7. 2019
+  Modding:
+    - Added LSlib.utils.table.size(...)
+    - Added LSlib.recipe.getIcons(...)
+    - Added LSlib.recipe.getIconSize(...)
+    - Added LSlib.recipe.changeIcon(...)
+    - Added LSlib.recipe.changeIcons(...)
+    - Added LSlib.recipe.addIconTint(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.7.22
+Date: 22. 7. 2019
+  Modding:
+    - Added LSlib.utils.table.orderedPairs(...)
+---------------------------------------------------------------------------------------------------
+Version: 2019.7.21 - Pre-release
+Date: 21. 7. 2019
+  Major Features:
+    - Initial stand alone release (with all existing functions)
+  Modding:
+    - Added LSlib.entity.addCraftingCategory(...)

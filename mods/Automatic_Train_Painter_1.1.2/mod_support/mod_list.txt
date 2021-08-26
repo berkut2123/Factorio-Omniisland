@@ -1,0 +1,100 @@
+//additional colors//
+Supported mods:
+
+5Dim's mod - Automatization
+5Dim's mod - Battlefield
+5Dim's mod - Bot Recaller
+5Dim's mod - Decoration
+5Dim's mod - Energy
+5Dim's mod - Equipment
+5Dim's mod - Logistic
+5Dim's mod - Mining
+5Dim's mod - Module
+5Dim's mod - Nuclear
+5Dim's mod - Ores
+5Dim's mod - Resources
+5Dim's mod - Trade
+5Dim's mod - Trains
+5Dim's mod - Transport
+5Dim's mod - Vehicle
+AAI Industry
+AAI Programmable Structures
+AAI Programmable Vehicles
+AAI Signal Transmission
+AAI Vehicles: Chaingunner
+AAI Vehicles: Flame Tank
+AAI Vehicles: Flame Tumbler
+AAI Vehicles: Hauler
+AAI Vehicles: Laser Tank
+AAI Vehicles: Miner
+AAI Vehicles: Warden
+AAI Zones
+Angel's Addons - Pressure Tanks
+Angel's Addons - Warehouses
+Angel's Bio Processing
+Angel's Industries
+Angel's Petro Chemical Processing
+Angel's Refining
+Angel's Smelting
+Bio Industries
+Bob's Assembling machines
+Bob's Electronics
+Bob's Enemies
+Bob's Greenhouse mod
+Bob's Logistics mod
+Bob's Metals, Chemicals and Intermediates
+Bob's Mining
+Bob's Modules
+Bob's Ores
+Bob's Power
+Bob's Revamp mod
+Bob's Tech
+Bob's Vehicle Equipment
+Bob's Warfare
+Dark Matter Replicators
+Dark Matter Replicators (updated for 0.18)
+Dark Matter Replicators .18+
+Dark Matter Replicators Replicated
+Dark Matter Replicators(Fix for 0.17.69)
+Deadlock-Mod Integrations
+Deadlock's Stacking Beltboxes & Compact Loaders
+Dectorio
+DirtyMining
+FactorioExtended-Armory
+FactorioExtended-Core
+FactorioExtended-Energy
+FactorioExtended-Equipment
+FactorioExtended-Logistics
+FactorioExtended-Machines
+FactorioExtended-Trains
+FactorioExtended-Transport
+Industrial Revolution 2
+Jetpack
+Krastorio 2
+Krastorio Legacy
+Liquify 3: Mining Edition
+Pressurized fluids
+Pyanodons Coal Processing
+Pyanodons Fusion Energy
+Pyanodons HighTech
+Pyanodons Industry
+Pyanodons Petroleum Handling
+Pyanodons Raw Ores
+Realistic Ores
+Realistic Reactor Glow
+Reverse Factory
+ShinyAngelGFX
+ShinyBobGFX
+Space Exploration
+Xander Mod
+Yuoki Industries
+
+//painting//
+Supported mods:
+
+Logistic Train Network
+
+Exempted mods:
+
+Shuttle Train Continued
+Fully Automated Rail Layer

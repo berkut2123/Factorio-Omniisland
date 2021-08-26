@@ -1,0 +1,57 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 26. 11. 2020
+  Changes:
+    - Updated to Factorio 1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 01. 09. 2020
+  Bugfixes:
+    - Fixed crash on loading a game with atomic bomb ingredients not set to "both"
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 01. 09. 2020
+  Changes:
+    - Added option to enable Kovarex process technology, this replaces the migration script and can be used to re-enable Kovarex technology before uninstalling this mod
+    - New high-rest icons to match base graphics
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 01. 03. 2020
+  Bugfixes:
+    - Migration script now correctly disables Kovarex tech even if not researched
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 23. 01. 2020
+  Changes:
+    - Updated to 0.18
+    - Reactor geiger sound option now defaults to off, as vanilla reactor has sound now
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 21. 07. 2019
+  Changes:
+    - Added options to choose 0.2.0 or 1.0.0 fuel cycle, and make nukes from U-235 or Pu or both
+    - Added option for reactors to make geiger counter noise when active
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 10. 03. 2019
+  Changes:
+    - Significantly changed fuel cycle, consider reverting to 0.2.0 if this is not to your liking.
+    - Renamed plutonium cell to breeder cell
+    - Breeder cell reprocessing no longer produces U-235, it can now only be obtained by centrifuging ore
+    - Instead of having to balance the use of both fuel types, you now choose the cycle that best suits your needs
+    - Power generation can now run off a simple, MOX-only processing loop with no excess waste products
+    - Researching breeder technology and running that cycle yields an excess of plutonium which can be used to rapidly expand fuel supply or construct nucear weapons
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 03. 2019
+  Changes:
+    - Updated to Factorio 0.17
+    - Added new technology to unlock nuclear rocket fuel
+    - Added alternate recipe for nuclear rocket fuel, using plutonium
+    - Atomic bomb research now requires nuclear fuel reprocessing instead of Kovarex process
+    - Reprocessing ingredient and product quantities increased to allow consistent, non-random products
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 24. 12. 2017
+  Bugfixes:
+    - Tooltips no longer show spent fuel as an ingredient for fuel cells (thanks to chlue).

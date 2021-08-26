@@ -1,0 +1,252 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021.02.07
+  New Features:
+    - Added support for Pressurized fluids.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2021.02.07
+  New Features:
+    - Added Map settings for custom unpainted locomotive and wagon colors.
+    - Added some rich text to settings.
+    - Updated support for Industrial Revolution 2.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020.11.23
+  New Features:
+    - November 2020 mod colors refresh.
+    - Added support for Xander Mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.08.14
+  Updates:
+    - Factorio version 1.0 release.
+  New Features:
+    - Added Spidertron colors.
+    - August 2020 mod colors refresh.
+    - Liquify compatibility added.
+    - DirtyMining compatibility added.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 2020.06.27
+  New Features:
+    - Revised color blending algorithm to preserve brightness of mixed colors.
+    - Revised Electric Mining Drill and Beacon colors.
+    - Added support for Alien Biomes via Dectorio.
+    - Added Russian localization. Thanks Va7ya!
+  Optimizations:
+    - Bypassed color mixing sequence for trains with only one item.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 2020.06.07
+  New Features:
+    - June 2020 mod colors refresh.
+    - Added support for Angel's Bio Processing, Angel's Industries, Bio Industries, Jetpack, Reverse Factory, and Yuoki Industries.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 2020.06.01
+  New Features:
+    - Revised Engine Unit and Sulfur colors.
+    - Revised colors for Space Exploration 0.3
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 2020.05.26
+  New Features:
+    - Revised colors for new high resolution game icons.
+    - New high resolution icons for Manual Color Module.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 2020.05.05
+  Bug Fixes:
+    - Added additional conditional logic to prevent crashes in certain scenarios where LTN variables are undefined.
+  New Features:
+    - Colors for Space Exploration, AAI Industry, AAI Programmable Structures, AAI Programmable Vehicles (incl. AAI Vehicle mods), AAI Signal Transmission, and AAI Zones.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2020.05.04
+  Bug Fixes:
+    - Fixed crash when LTN is installed, but train changes state before dispatcher has updated for the first time.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 2020.05.03
+  Bug Fixes:
+    - Fixed crash when looking for LTN deliveries when LTN is not installed.  Déjà vu...
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2020.05.03
+  Bug Fixes:
+    - Restored Logistic Train Network features. Thanks to Optera for coding this fix!
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2020.04.29
+  Optimizations:
+    - Refactored color database and item filters into individual packages for ease of access and modification.
+  New Features:
+    - Complete colors for 5dim, Angels/ShinyAngelGFX, Bobs/ShinyBobGFX, Dectorio, FactorioExtended, Krastorio2, Pyanodons and more.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2020.04.10
+  New Features:
+    - Added ores, plates, fluids, and more for Krastorio 2.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2020.02.29
+  New Features:
+    - Updated thumbnail.
+    - Added optional dependency for Fluid Wagon Color Mask mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2020.02.23
+  Bug Fixes:
+    - Temporarily removed Logistic Train Network features due to LTN version 1.12.3 refactor incompatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2020.02.16
+  Bug Fixes:
+    - Modded items that share item-name strings with base game (and certain other modded items) are now colored properly.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2020.01.21
+  Updates:
+    - Factorio version 0.18 release compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2019.09.11
+  Bug Fixes:
+    - Manual Color Module now compatible with modded Equipment Grids.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2019.09.09
+  New Features:
+    - Startup settings option for enabling/disabling locomotive Equipment Grid.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2019.09.07
+  New Features:
+    - Enabled 2x4 locomotive Equipment Grid.
+    - Manual Color Module: an inexpensive 2x2 Equipment item that can be placed in locomotive Equipment Grid.  When present, automatic painting will be prevented for that train.
+    - Colors for Pyanodons Raw Ores, Coal Processing, Petroleum Handling, and Industry.
+    - Colors for Realistic Ores.
+    - Colors for Industrial Revolution.
+  Optimizations:
+    - Implemented algorithm to automatically color Barrels and Deadlock Stacks based on their fluid and stacked item, respectively, eliminating redundancies in color database.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 2019.09.02
+  New Features:
+    - Colors for Krastorio (except Equipment).
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2019.06.15
+  New Features:
+    - Minor updates for Bob's/Angel's colors.
+    - Colors for Deadlock's Stacking Beltboxes & Compact Loaders compatibility (including Bob's/Angel's Ores, Plates, Smelting, Electronics).
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2019.03.24
+  New Features:
+    - Colors for 5dim's Automatization, Decoration, Energy, Equipment, Logistics, Mining, Module, Nuclear, Ores, Resources, Trade, Trains, Transport, & Vehicle.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2019.03.24
+  New Features:
+    - Colors for Angel's Petrochem.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2019.03.23
+  New Features:
+    - Painting exemption for trains equipped with F.A.R.L. Module.
+    - Colors for Angel's Refining & Smelting; Bob's Electronics & Enemies.
+    - Colors for Bob's Metals & Ores revised.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2019.03.23
+  Bug Fixes:
+    - Fixed crash when looking for LTN deliveries when LTN is not installed.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2019.03.23
+  New Features:
+    - Logistic Train Network (LTN) support to paint trains as they are dispatched from LTN Depot.
+  Known Issues:
+    - LTN Trains will only be painted at dispatch when light at depot turns yellow.  This does not always happen for unknown reasons.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019.03.15
+  New Features:
+    - Trains without cargo or fluid wagons will no longer be affected by mod.
+    - Painting exemption for trains equipped with Shuttle Train Module.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019.03.14
+  New Features:
+    - Colors for *all* base game items now supported.
+    - Colors for Bob's Assembling Machines, Greenhouse, Logistics, Metals, Mining, Modules, Ores, Power, Revamp Mod, & Tech.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019.03.11
+  Bug Fixes:
+    - Fixed crash when train contains item not in entity color list.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019.03.11
+  New Features:
+    - Complete rewrite and refactor.  Under the hood, it's a brand new mod.
+    - Color mixing algorithm is now perfectly proportional for item quantities.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2019.03.08
+  New Features:
+    - New thumbnail!
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2019.03.07
+  Bug Fixes:
+    - If "Paint locomotives" setting turned off and "Unpaint empty trains" turned on, locomotives of non-empty trains would still be unpainted.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2019.03.07
+  New Features:
+    - Many, many new base game entity colors.
+    - Changelog.
+    - German (DE) localization
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2019.03.06
+  New Features:
+    - Settings option: "Paint locomotives."
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2019.03.06
+  New Features:
+    - Settings option: "Unpaint empty trains."
+  Bug Fixes:
+    - Empty cargo and fluid wagons would keep their color even when "Paint cargo/fluid wagons" setting(s) unchecked.
+    - Removed optional dependency for WagonColors.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2019.03.06
+  New Features:
+    - Settings options: "Paint cargo wagons" and "Paint fluid wagons."
+  Bug Fixes:
+    - Cargo and fluid wagons will now revert to default colors when setting is unchecked and item is present in inventory.
+    - Reduced fluid inventory color value counting by factor of 5 to more evenly blend colors when used in trains with cargo wagons.
+    - Updated version number so mod actually appears on Mod Portal...
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2019.03.06
+  New Features:
+    - Optional dependency for WagonColors mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2019.03.05
+  New Features:
+    - Thumbnail
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2019.03.05
+  New Features:
+    - Ported from Train Ore Color mod.
+    - Fluid content functionality.
+    - Cargo and fluid wagon painting functionality.
+    - Additional entity colors.

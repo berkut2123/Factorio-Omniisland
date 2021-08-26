@@ -1,0 +1,314 @@
+---------------------------------------------------------------------------------------------------
+Version: 21.06.27
+  Locale:
+    - scattergun_turret; update
+    - SpaceMod; update
+    - Camera-san
+---------------------------------------------------------------------------------------------------
+Version: 21.06.17
+  Locale:
+    - even-distribution; trimmed few strings to match GUI window
+    - autodrive; typo fix
+    - SchallInserters; typo fix
+    - bitercide
+    - biter_extermination
+    - BeastFinder; update
+    - UraniumArtilleryShells
+    - pollution-detector
+    - assemblyanalyst; update
+    - EquipmentGridLogisticModule; partial
+    - robot-recall
+    - SmartPowerSwitcher; update
+---------------------------------------------------------------------------------------------------
+Version: 21.05.07
+  Locale:
+    - vacuum-cleaner
+    - SmartPowerSwitcher
+    - improved-spacex-ftl
+    - Inventory Sensor; update
+    - TrainOverhaul; update
+    - TrainDriver_A16_fix; update
+---------------------------------------------------------------------------------------------------
+Version: 21.04.23
+  Locale:
+    - Aircraft; update
+    - scattergun_turret; update
+    - SpaceMod; update
+    - VehicleSnap
+    - inserter-throughput; update
+    - Gun_Turret_Alerts
+    - underground-pipe-pack; partial
+    - Reactor Interface; update
+    - even-distribution
+    - Electric_Transformators
+    - TrainOverhaul
+---------------------------------------------------------------------------------------------------
+Version: 21.02.13
+  Update:
+    - versions 1.0, 1.1
+  Locale:
+    - LogisticTrainNetwork; update
+    - ModuleInserter; update
+    - extended-descriptions
+  Fix:
+    - added dependency for ruLocale, RU-locale
+---------------------------------------------------------------------------------------------------
+Version: 20.08.04
+  Locale:
+    - factoryplanner; update
+    - scattergun_turret; update
+    - inserter-throughput
+    - Repair_Turret; update
+    - autodrive; update
+    - robot_attrition
+  Fix:
+    - minor typos and rewording for few mods
+---------------------------------------------------------------------------------------------------
+Version: 20.07.25
+  Fix:
+    - returned lost changelog
+  Locale:
+    - Rich_Text_Helper; update
+    - TrainNetworkForPlayers; update
+    - trainpause2
+    - factoryplanner; update
+    - GCKI; update
+    - platforms
+    - PickerBeltTools
+---------------------------------------------------------------------------------------------------
+Version: 20.07.01
+  Feature:
+    - reuploaded for 0.17
+    - removed reference to outdated ruslocale mod
+  Locale:
+    - LogisticTrainNetwork; update
+    - Vehicle-turrets
+---------------------------------------------------------------------------------------------------
+Version: 20.05.03
+  Locale:
+    - SchallInserters; update
+    - reverse-factory; update
+    - assemblyanalyst
+    - factoryplanner; update
+    - Nanobots; update
+    - Edit-Blueprints
+    - ArmouredBiters; update
+    - AircraftRealism; update
+    - Bio_Industries; update
+    - scattergun_turret; fix
+---------------------------------------------------------------------------------------------------
+Version: 20.04.04
+  Locale:
+    - core; fix
+    - Rich_Text_Helper; update
+    - factoryplanner; update
+    - HelicopterRevival
+    - Nanobots; update
+    - SchallTransportGroup
+    - SchallAlienMutation
+    - belt-balancer; update
+    - SchallPrimaryBattery; update
+    - Dectorio; update
+---------------------------------------------------------------------------------------------------
+Version: 20.01.24
+  Locale:
+    - TrainNetworkForPlayers; update
+    - SchallRechargingWeapon; update
+---------------------------------------------------------------------------------------------------
+Version: 20.01.04
+  Locale:
+    - RailSignalPlanner
+    - Hiladdar_Scrubbers
+    - initial-scan
+    - laser_fix
+---------------------------------------------------------------------------------------------------
+Version: 19.12.29
+  Locale:
+    - autodrive; update
+    - ArmouredBiters
+    - TrainNetworkForPlayers; update
+    - Cursed-BCR (Cursed Better Construction Robots)
+    - Cursed-ELB (Cursed Easy Line Building)
+    - Fill4Me; update
+    - MouseoverDeconstruct
+---------------------------------------------------------------------------------------------------
+Version: 19.12.21
+  Locale:
+    - better-air-filtering; update
+    - factoryplanner; update
+    - Fill4Me; update
+    - FluidMustFlow; update
+    - logicarts; append
+    - LTN_Combinator; update
+    - TrainNetworkForPlayers; update
+    - transparent-inventory
+---------------------------------------------------------------------------------------------------
+Version: 19.11.24
+  Locale:
+    - better-air-filtering; update
+    - GCKI; update
+    - factoryplanner; update
+    - SchallInserters; fix
+---------------------------------------------------------------------------------------------------
+Version: 19.11.16
+  Locale:
+    - SchallInserters; fix
+    - TrainNetworkForPlayers; fix
+    - factoryplanner; update
+    - Early-Armor-Grid
+---------------------------------------------------------------------------------------------------
+Version: 19.11.13
+  Locale:
+    - SchallRechargingWeapon; update
+    - SchallInserters; update
+    - LogisticTrainNetwork; update
+    - TrainNetworkForPlayers; update
+    - TrainDriver_A16_fix; fix
+    - factoryplanner; update
+---------------------------------------------------------------------------------------------------
+Version: 19.10.25
+  Locale:
+    - factoryplanner; update
+    - GCKI; update
+    - PickerExtended
+---------------------------------------------------------------------------------------------------
+Version: 19.10.19
+  Locale:
+    - radar-signals; update
+    - factoryplanner; update
+    - Squeak Through
+    - Blue-Ghosts
+---------------------------------------------------------------------------------------------------
+Version: 19.10.15
+  Locale:
+    - TrainNetworkForPlayers; update
+    - SchallMachineScaling; update
+    - SchallPipeScaling; update
+    - SchallInserters; update
+    - SchallPrimaryBattery; update
+    - SchallRechargingWeapon
+    - PortableReactor
+    - better-air-filtering
+    - exhaustfilter
+    - ModuleInserter; update
+    - DeadlockResearchNotifications
+    - GCKI; update
+  Fix:
+    - removed RTG localization, because it interferes with vanilla Fission reactor name (mod owner, Optera, declined locale integration)
+---------------------------------------------------------------------------------------------------
+Version: 19.10.05
+  Locale:
+    - helmod; fix for settings' descriptions keys
+    - dont-touch-my-ghost; update
+    - SchallPipeScaling
+    - SchallMachineScaling
+    - Noxys_Extra_Settings_Info
+    - ModuleInserter
+    - AircraftRealism
+---------------------------------------------------------------------------------------------------
+Version: 19.10.03
+  Locale:
+    - GCKI; update
+    - factoryplanner; update
+    - SchallSuit; update
+    - SchallInserters
+    - SchallPrimaryBattery
+    - reverse-factory
+    - Repair_Turret
+    - TrainNetworkForPlayers; update
+    - Reactor Interface
+    - helmod; update, partial
+    - inventory-repair
+    - UnminableBots
+---------------------------------------------------------------------------------------------------
+Version: 19.09.29
+  Locale:
+    - GCKI; update
+    - factoryplanner; update
+    - Rich_Text_Helper; update
+    - helmod; update, partially
+    - Noxys_Multidirectional_Trains
+    - InlaidLampsExtended; update
+    - RTG
+    - SchallSuit
+    - SolarPanelEquipmentMK2
+    - Train_Alerts
+---------------------------------------------------------------------------------------------------
+Version: 19.09.26
+  Locale:
+    - TrainNetworkForPlayers
+    - PavementDriveAssist
+---------------------------------------------------------------------------------------------------
+Version: 19.09.22
+  Locale:
+    - AquiferDrill
+    - air-filtering
+    - Poison
+    - Advanced-Solar
+    - PickerDollies
+    - Transformers
+    - scattergun_turret (Modular turrets)
+---------------------------------------------------------------------------------------------------
+Version: 19.09.21
+  Locale:
+    - LogisticTrainNetwork
+    - LTN_Combinator
+---------------------------------------------------------------------------------------------------
+Version: 19.09.20
+  Locale:
+    - Rich_Text_Helper; update
+    - belt-balancer; update
+    - factoryplanner; update
+    - shortwave
+    - VehicleGrid
+    - Soundpack-alerts-and-sirens
+---------------------------------------------------------------------------------------------------
+Version: 19.09.16
+  Locale:
+    - factoryplanner
+    - TostsChests
+---------------------------------------------------------------------------------------------------
+Version: 19.09.15
+  Locale:
+    - Helmod (helmod-optimized); partially
+    - dont-touch-my-ghost; update
+    - StorageTank2
+    - radar-signals
+    - TrainDriver_A16_fix
+    - Fill4Me; update
+    - Rich_Text_Helper
+    - BeastFinder
+    - factoryplanner; partially
+---------------------------------------------------------------------------------------------------
+Version: 19.09.14
+  Locale:
+    - Helmod (helmod-optimized); partially
+---------------------------------------------------------------------------------------------------
+Version: 19.09.11
+  Locale:
+    - ShowMe
+    - Automatic_Train_Painter
+    - module-requestor
+    - Circuit_Power_Measurement_Combinator
+    - GhostScanner
+    - dont-touch-my-ghost
+  Fixes:
+    - BOM in few files that prevented correct dependency export
+---------------------------------------------------------------------------------------------------
+Version: 19.09.10
+  Locale:
+    - Multiple Units Train Control
+    - Autodrive
+    - upgrade-planner-next
+    - GCKI (Gizmo Car Keys Improved)
+    - SupplyToggle
+---------------------------------------------------------------------------------------------------
+Version: 19.09.09
+  Locale:
+    - Nanobots
+  Fixes:
+    - Changelog format
+---------------------------------------------------------------------------------------------------
+Version: 19.09.06
+  Release:
+    - Initial release

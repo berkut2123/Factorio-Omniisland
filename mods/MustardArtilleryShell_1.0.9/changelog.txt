@@ -1,0 +1,56 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2020.12.23
+  Changes:
+    - set Factorio 1.1 compatibility flag
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2020.08.01
+  Changes:
+    - removed slow down effect cause it was causing an error
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2020.02.02
+  Changes:
+    - v 0.18 compatibility
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2019.04.07
+  Bugfixes:
+    - fixed wrong formatting of changelog.txt
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2019.04.06
+  Bugfixes:
+    - corrected damage type of gas cloud again. It NOW correctly damages players*, worms and biters. 
+      (*to be clear: all entities of the player force with the flag not-repairable. That should only be the player and maybe some modded entities.)
+  Changes:
+    - gas cloud now also slows down affected entities 
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2019.03.04
+  Changes:
+    - added compatibility with Factorio 0.17 (I think...)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2018.09.21
+  Changes:
+    - added shell explosion
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2018.09.16
+  Bugfixes:
+    - corrected damage type of the gas cloud. It now correctly damages players, worms and biters.
+  Changes:
+    - reduced research costs a little
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2018.09.16
+  Changes:
+    - changed damage type of the gas cloud 
+    - it now only damages worms and biters. As a side effect, the player is not damaged anymore - I'm working on that.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2018.09.03
+  Info:
+    - initial release

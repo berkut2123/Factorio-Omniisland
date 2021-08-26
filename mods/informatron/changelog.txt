@@ -1,0 +1,101 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 14. 05. 2021
+  Locale:
+    - Changed Informatron to InformaTron.
+    - Added Russian translation thanks to Дозер.
+    - Added Korean translation thanks to PolarZero.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 23. 11. 2020
+  Info:
+    - Updated for Factorio 1.1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 21. 09. 2020
+  Bugfixes:
+    - Fixed overhead button would not appear immediately.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 25. 08. 2020
+  Changes:
+    - Added remote interface support for: informatron_menu_caption_override
+    - Added remote interface support for: informatron_title_caption_override
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 20. 08. 2020
+  Bugfixes:
+    - Fixed crash when opening certain GUIs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 20. 08. 2020
+  Changes:
+    - Moved the main GUI to the player 'screen' instead of 'center' so it now a draggable window and won't close other windows.
+    - Added an in-game clock in the Informatron GUI title bar.
+    - Added an overhead button to the top-left of the screen with a mod option to disable.
+    - Added the ability to have 1s page updates for pages that need constant updating, such as countdown timers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 16. 08. 2020
+  Changes:
+    - Delayed new player window by 10s (due to new cutscene).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 16. 08. 2020
+  Bugfixes:
+    - Fixed weird formatting for textboxes on the console page.
+    - Fixed typo in the intro.
+
+  Changes:
+    - Reduced content width by 60.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 31. 05. 2020
+  Locale:
+    - Added Chinese translation thanks to Frost.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 29. 05. 2020
+  Changes:
+    - Updated close button.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 07. 05. 2020
+  Changes:
+    - Show on startup option is now per-user.
+    - Altered event system for multiplayer.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 04. 03. 2020
+  Bugfixes:
+    - Fixed issue when other mods cause pages to open.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 27. 02. 2020
+  Changes:
+    - Added locale text for Informatron virtual signal.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 20. 02. 2020
+  Changes:
+    - Added mod option for new player screen.
+    - Updated console page text.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 15. 02. 2020
+  Bugfixes:
+    - Fixed scripting error.

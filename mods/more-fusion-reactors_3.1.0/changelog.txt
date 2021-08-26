@@ -1,0 +1,63 @@
+---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: 2020.12.09
+  Features:
+    - Updated to 1.1!
+---------------------------------------------------------------------------------------------------
+Version: 3.0.2
+Date: 2020.09.02
+  Info:
+    - Fixed and ordered the changelog file: now you can see it directly from the in-game parser.
+  Dependences:
+    - Updated the (optional) dependence with Extended Vanilla: Power Armors mod.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 2020.08.24
+  Features:
+    - Updated to 1.0.
+  Graphics:
+    - Changed all the fusion reactor textures with some new custom ones.
+    - Changed the items' descriptions.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.0
+Date: 2019.03.??
+  Features:
+    - Updated to 0.17!
+---------------------------------------------------------------------------------------------------
+Version: 2.3.4
+Date: 2018.??.??
+  Retro-Compatibility:
+    - Updated the newest version for 0.15 (Thanks to Xiaomei).
+---------------------------------------------------------------------------------------------------
+Version: 2.3.1
+Date: 2018.??.??
+  Scripting:
+    - Fixed the local Italian file, now the mod is available in Italian (Thanks to Eredicator).
+    - Sistemato il file locale italiano, ora la mod è disponibile anche in Italiano (Grazie ad Eredicator).
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 2018.??.??
+  Compatibility:
+    - Fixed compatibility with the library.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 2018.??.??
+  Modding:
+  Graphics:
+    - We've reached 2000 downloads...and, as promised, Fusion Reactor Mk6 is arrived! Now you can power all your equipment from a tiny space, but to get this reactor you will need a lot of resources (obviously it's for endgame)!
+    - Rebalanced the power output for Mk5, from 1.5Mw to 1.3Mw.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2018.??.??
+  Scripting:
+    - New textures, no more name's bugs and new descriptions on both the techs and the equipments.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2018.??.??
+  Info:
+    - Now my mods have a copyright.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2018.??.??
+  Features:
+    - Updated to 0.16 and fixed some bugs!

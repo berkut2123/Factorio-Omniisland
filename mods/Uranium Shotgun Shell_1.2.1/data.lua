@@ -1,1 +1,0 @@
-require("uranium-shotgun-shell")

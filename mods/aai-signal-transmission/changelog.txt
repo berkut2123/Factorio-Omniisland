@@ -1,0 +1,221 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 12. 05. 2021
+  Changes:
+    - Fix a crash if the player blueprints an area with only tiles.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 12. 05. 2021
+  Changes:
+    - Added support for copy/paste and blueprints thanks to test447.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 07. 05. 2021
+  Changes:
+    - Added dropdown for channel selection thanks to test447.
+    - Changed default channel to "Deafault".
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 24. 11. 2020
+  Info:
+    - Updated for Factorio 1.1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.22
+Date: 18. 10. 2020
+  Bugfixes:
+    - Potentially fixed a problem opening a transmission structure in unknown circumstances.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.21
+Date: 14. 10. 2020
+  Bugfixes:
+    - Fixed a problem with migration code. All signal entities will be rebuilt, please check the your existing setup works before overwiting your old save.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.20
+Date: 13. 10. 2020
+  Bugfixes:
+    - Another update chasing down elusive invalid entities issues.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+Date: 27. 09. 2020
+  Bugfixes:
+    - Fixed error interacting with a structure if one of the hidden surface entities was missing for some reason.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+Date: 26. 09. 2020
+  Bugfixes:
+    - Fixed error deconstructing a structure if one of the hidden surface entities was missing for some reason.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 23. 09. 2020
+  Bugfixes:
+    - Internal code update, changes the way that migrations are handled, should help with desync issues and inconsistent behaviour of structures if added to an existing game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 10. 09. 2020
+  Bugfixes:
+    - Fixed some cases where signal transmission setup would fail if the map generator was under load.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 07. 08. 2020
+  Locale:
+    - Added Japanese translation.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 06. 08. 2020
+  Bugfixes:
+    - Fix error in migration code if signal surface had not been created yet.
+    - Fixed potential crash if another mod was acting during gui.opened event (v2)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 06. 08. 2020
+  Changes:
+    - Swapped helper entities from arithmetic to decider combinators (potentially faster)
+
+  Bugfixes:
+    - Added support for on_entity_cloned (e.g. transceivers on spaceships)
+    - Fixed potential crash if another mod was acting during gui.opened event
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 16. 07. 2020
+  Bugfixes:
+    - Fixed crash when two forces are merged and the removed force did not have any transmissions channels.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 25. 06. 2020
+  Bugfixes:
+    - Fixed error with latest Factorio version (style was removed).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 20. 06. 2020
+  Bugfixes:
+    - Fixed error if another mod changed the player's opened modded gui.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 31. 05. 2020
+  Locale:
+    - Added Chinese translation thanks to Frost.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 27. 05. 2020
+  Bugfixes:
+    - Code to handle situation where an existing entity was not initialised when the gui was opened.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 27. 05. 2020
+  Bugfixes:
+    - Improved interface for the sender GUI to match the receiver GUI changes.
+    - Update GUI styles to utilize the styles changed in 0.18.27
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 18. 05. 2020
+  Bugfixes:
+    - Included the actual fix from the previous version in this one.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 18. 05. 2020
+  Changes:
+    - Improved interface functionality:
+      Window can be dragged
+      Window has close button
+      Namechange box starts with focus
+      Namechange box responds to enter key
+  Bugfixes:
+    - Improved robustness of helper entity cleanup code.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 08. 05. 2020
+  Bugfixes:
+    - Fixed another error caused by cleanup of unused helper entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 07. 05. 2020
+  Bugfixes:
+    - Fixed possible error caused by cleanup of unused helper entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 02. 05. 2020
+  Bugfixes:
+    - Fixed potential crash if forces were merged
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 19. 04. 2020
+  Info:
+    - Overhauled logic to improve performance (by Mylon).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 12. 04. 2020
+  Info:
+    - Update for Factorio 0.18.18
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 23. 03. 2020
+  Bugfixes:
+    - Fixed crash on entity being removed by another script.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 27. 01. 2020
+  Info:
+    - Updated for Factorio 0.18.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Bugfixes:
+    - Fixed crash if a signal was received outside of Factorio's numerical range.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+  Changes:
+    - Added a mod option to set how frequently signals are processed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Bugfixes:
+    - Removed tooltip that referenced space exploration (because this mod was originally a subsection of space exploration).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Changes:
+    - Improved support for entities being built via script.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Changes:
+    - The technology no longer costs space science packs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Changes:
+    - Added more event handling for script-created entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed that mod could not load if a style dependency was missing.

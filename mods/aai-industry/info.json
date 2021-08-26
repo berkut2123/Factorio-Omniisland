@@ -1,0 +1,14 @@
+{
+	"name": "aai-industry",
+	"version": "0.5.9",
+	"title": "AAI Industry",
+	"author": "Earendel",
+	"dependencies": [
+		"base >= 1.1.0",
+    "? aai-containers >= 0.1.1",
+		"(?) angelsrefining"
+	],
+	"description": "The industry part of Advanced Autonomous Industries. Adds motors, powered offshore pumps, burner labs, and more. Introduces an optional crash sequence to start the map. Alters tech and recipes, more items follow an upgrade paths, such as armour requiring the previous tier as an ingredient.",
+	"factorio_version": "1.1",
+	"homepage": "https://factorio.miraheze.org"
+}

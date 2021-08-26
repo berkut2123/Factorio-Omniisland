@@ -1,0 +1,10 @@
+{
+    "name": "Command_and_Conquer_RedAlert_Sounds",
+    "version": "0.2.3",
+    "title": "C&C RedAlert Sounds",
+	"description": "Adds selectable sounds from C&C Red Alert to play with programmable speakers.",
+	"factorio_version": "1.1",
+    "dependencies": ["base >= 0.15"],
+    "author": "blauball",
+    "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=20179"  
+}

@@ -1,0 +1,14 @@
+{
+  "name": "flib",
+  "version": "0.3.1",
+  "title": "Factorio Library",
+  "author": "Raiguard, Optera, justarandomgeek, Nexela",
+  "contact": "https://github.com/factoriolib/flib",
+  "homepage": "https://github.com/factoriolib/flib",
+  "description": "Factorio modding library, containing several high-quality and well-tested modules to make modding easier. Contributions are welcome!",
+  "factorio_version": "1.0",
+  "dependencies": ["? base >= 1.0.0"],
+  "package": {
+    "ignore": ["*.code-workspace", "docs/**"]
+  }
+}

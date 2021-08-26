@@ -1,0 +1,192 @@
+--default colors
+default_cargo_color = {['r']=109, ['g']=058, ['b']=000, ['a']=127,}
+default_fluid_color = {['r']=200, ['g']=200, ['b']=200, ['a']=127,}
+default_loco_color 	= {['r']=228, ['g']=209, ['b']=199, ['a']=127,}
+
+--entity colors
+require('color.database.Factorio')
+colors = Factorio
+
+--  //MOD COLORS// --
+require('color.database.5dim_automatization')
+require('color.database.5dim_battlefield')
+require('color.database.5dim_botrecaller')
+require('color.database.5dim_decoration')
+require('color.database.5dim_energy')
+require('color.database.5dim_equipment')
+require('color.database.5dim_logistic')
+require('color.database.5dim_mining')
+require('color.database.5dim_module')
+require('color.database.5dim_nuclear')
+require('color.database.5dim_ores')
+require('color.database.5dim_resources')
+require('color.database.5dim_trade')
+require('color.database.5dim_trains')
+require('color.database.5dim_transport')
+require('color.database.5dim_vehicle')
+require('color.database.aai-industry')
+require('color.database.aai-programmable-structures')
+require('color.database.aai-programmable-vehicles')
+require('color.database.aai-signal-transmission')
+require('color.database.aai-vehicles-chaingunner')
+require('color.database.aai-vehicles-flame-tank')
+require('color.database.aai-vehicles-flame-tumbler')
+require('color.database.aai-vehicles-hauler')
+require('color.database.aai-vehicles-laser-tank')
+require('color.database.aai-vehicles-miner')
+require('color.database.aai-vehicles-warden')
+require('color.database.aai-zones')
+require('color.database.angelsaddons-pressuretanks')
+require('color.database.angelsaddons-warehouses')
+require('color.database.angelsbioprocessing')
+require('color.database.angelsindustries')
+require('color.database.angelspetrochem')
+require('color.database.angelsrefining')
+require('color.database.angelssmelting')
+require('color.database.Bio_Industries')
+require('color.database.bobassembly')
+require('color.database.bobelectronics')
+require('color.database.bobenemies')
+require('color.database.bobgreenhouse')
+require('color.database.boblogistics')
+require('color.database.bobmining')
+require('color.database.bobmodules')
+require('color.database.bobores')
+require('color.database.bobplates')
+require('color.database.bobpower')
+require('color.database.bobrevamp')
+require('color.database.bobtech')
+require('color.database.bobvehicleequipment')
+require('color.database.bobwarfare')
+require('color.database.CompressedFluids')
+require('color.database.DarkMatterReplicators')
+require('color.database.deadlock-beltboxes-loaders')
+require('color.database.deadlock-integrations')
+require('color.database.Dectorio')
+require('color.database.DirtyMining')
+require('color.database.FactorioExtended-Armory')
+require('color.database.FactorioExtended-Core')
+require('color.database.FactorioExtended-Energy')
+require('color.database.FactorioExtended-Equipment')
+require('color.database.FactorioExtended-Logistics')
+require('color.database.FactorioExtended-Machines')
+require('color.database.FactorioExtended-Trains')
+require('color.database.FactorioExtended-Transport')
+require('color.database.IndustrialRevolution')
+require('color.database.jetpack')
+require('color.database.Krastorio')
+require('color.database.Krastorio2')
+require('color.database.Liquify')
+require('color.database.pycoalprocessing')
+require('color.database.pyfusionenergy')
+require('color.database.pyhightech')
+require('color.database.pyindustry')
+require('color.database.pypetroleumhandling')
+require('color.database.pyrawores')
+require('color.database.RealisticOres')
+require('color.database.RealisticReactorGlow')
+require('color.database.reverse-factory')
+require('color.database.ShinyAngelGFX')
+require('color.database.ShinyBobGFX')
+require('color.database.space-exploration')
+require('color.database.xander-mod')
+require('color.database.Yuoki')
+
+mod_list={
+	["IndustrialRevolution"]={IndustrialRevolution,"-IR",IndustrialRevolution_filters},
+	["RealisticOres"]={RealisticOres,"-realistic",RealisticOres_filters},
+	["RealisticReactorGlow"]={RealisticReactorGlow,"-realistic",RealisticReactorGlow_filters},
+	["5dim_automatization"]={_5dim_automatization,"-5da",_5dim_automatization_filters},
+	["5dim_battlefield"]={_5dim_battlefield,"-5db",_5dim_battlefield_filters},
+	["5dim_botrecaller"]={_5dim_botrecaller,"-5dbr",_5dim_botrecaller_filters},
+	["5dim_decoration"]={_5dim_decoration,"-5dd",_5dim_decoration_filters},
+	["5dim_energy"]={_5dim_energy,"-5de",_5dim_energy_filters},
+	["5dim_equipment"]={_5dim_equipment,"-5deq",_5dim_equipment_filters},
+	["5dim_logistic"]={_5dim_logistic,"-5dl",_5dim_logistic_filters},
+	["5dim_mining"]={_5dim_mining,"-5dmm",_5dim_mining_filters},
+	["5dim_module"]={_5dim_module,"-5dm",_5dim_module_filters},
+	["5dim_nuclear"]={_5dim_nuclear,"-5dn",_5dim_nuclear_filters},
+	["5dim_ores"]={_5dim_ores,"-5do",_5dim_ores_filters},
+	["5dim_resources"]={_5dim_resources,"-5dr",_5dim_resources_filters},
+	["5dim_trade"]={_5dim_trade,"-5dtd",_5dim_trade_filters},
+	["5dim_trains"]={_5dim_trains,"-5dtr",_5dim_trains_filters},
+	["5dim_transport"]={_5dim_transport,"-5dtp",_5dim_transport_filters},
+	["5dim_vehicle"]={_5dim_vehicle,"-5dv",_5dim_vehicle_filters},
+	["aai-industry"]={aai_industry,"-aaii",aai_industry_filters},
+	["aai-programmable-structures"]={aai_programmable_structures,"-aaips",aai_programmable_structures_filters},
+	["aai-programmable-vehicles"]={aai_programmable_vehicles,"-aaipv",aai_programmable_vehicles_filters},
+	["aai-signal-transmission"]={aai_signal_transmission,"-aaist",aai_signal_transmission_filters},
+	["aai-vehicles-chaingunner"]={aai_vehicles_chaingunner,"-aaivc",aai_vehicles_chaingunner_filters},
+	["aai-vehicles-flame-tank"]={aai_vehicles_flame_tank,"-aaivft",aai_vehicles_flame_tank_filters},
+	["aai-vehicles-flame-tumbler"]={aai_vehicles_flame_tumbler,"-aaivft2",aai_vehicles_flame_tumbler_filters},
+	["aai-vehicles-hauler"]={aai_vehicles_hauler,"-aaivh",aai_vehicles_hauler_filters},
+	["aai-vehicles-laser-tank"]={aai_vehicles_laser_tank,"-aaivlt",aai_vehicles_laser_tank_filters},
+	["aai-vehicles-miner"]={aai_vehicles_miner,"-aaivm",aai_vehicles_miner_filters},
+	["aai-vehicles-warden"]={aai_vehicles_warden,"-aaivw",aai_vehicles_warden_filters},
+	["aai-zones"]={aai_zones,"-aaiz",aai_zones_filters},
+	["ShinyAngelGFX"]={ShinyAngelGFX,"-sa",ShinyAngelGFX_filters},
+	["angelsaddons-pressuretanks"]={angelsaddons_pressuretanks,"-angelsaopt",angelsaddons_pressuretanks_filters},
+	["angelsaddons-warehouses"]={angelsaddons_warehouses,"-angelsaowh",angelsaddons_warehouses_filters},
+	["angelsbioprocessing"]={angelsbioprocessing,"-angelsb",angelsbioprocessing_filters},
+	["angelsindustries"]={angelsindustries,"-angelsi",angelsindustries_filters},
+	["angelspetrochem"]={angelspetrochem,"-angelsp",angelspetrochem_filters},
+	["angelsrefining"]={angelsrefining,"-angelsr",angelsrefining_filters},
+	["angelssmelting"]={angelssmelting,"-angelss",angelssmelting_filters},
+	["Bio_Industries"]={Bio_Industries,"-BI",Bio_Industries_filters},
+	["ShinyBobGFX"]={ShinyBobGFX,"-sb",ShinyBobGFX_filters},
+	["bobassembly"]={bobassembly,"-boba",bobassembly_filters},
+	["bobelectronics"]={bobelectronics,"-bobe",bobelectronics_filters},
+	["bobenemies"]={bobenemies,"-boben",bobenemies_filters},
+	["bobgreenhouse"]={bobgreenhouse,"-bobg",bobgreenhouse_filters},
+	["boblogistics"]={boblogistics,"-bobl",boblogistics_filters},
+	["bobmining"]={bobmining,"-bobmm",bobmining_filters},
+	["bobmodules"]={bobmodules,"-bobm",bobmodules_filters},
+	["bobores"]={bobores,"-bobo",bobores_filters},
+	["bobplates"]={bobplates,"-bobpl",bobplates_filters},
+	["bobpower"]={bobpower,"-bobpo",bobpower_filters},
+	["bobrevamp"]={bobrevamp,"-bobr",bobrevamp_filters},
+	["bobtech"]={bobtech,"-bobt",bobtech_filters},
+	["bobvehicleequipment"]={bobvehicleequipment,"-bobv",bobvehicleequipment_filters},
+	["bobwarfare"]={bobwarfare,"-bobw",bobwarfare_filters},
+	["CompressedFluids"]={CompressedFluids,"-cf",CompressedFluids_filters},
+	["Dark_Matter_Replicators_Replicated"]={DarkMatterReplicators,"-DMR",DarkMatterReplicators_filters},
+	["dark-matter-replicators"]={DarkMatterReplicators,"-DMR",DarkMatterReplicators_filters},
+	["dark-matter-replicators-18"]={DarkMatterReplicators,"-DMR",DarkMatterReplicators_filters},
+	["dark-matter-replicators-18-patch"]={DarkMatterReplicators,"-DMR",DarkMatterReplicators_filters},
+	["dark-matter-replicators-R"]={DarkMatterReplicators,"-DMR",DarkMatterReplicators_filters},
+	["deadlock-beltboxes-loaders"]={deadlock_beltboxes_loaders,"-dlbl",deadlock_beltboxes_loaders_filters},
+	["deadlock-integrations"]={deadlock_integrations,"-dli",deadlock_integrations_filters},
+	["Dectorio"]={Dectorio,"-dectorio",Dectorio_filters},
+	["DirtyMining"]={DirtyMining,"-dm",DirtyMining_filters},
+	["FactorioExtended-Armory"]={FactorioExtended_Armory,"-Fea",FactorioExtended_Armory_filters},
+	["FactorioExtended-Core"]={FactorioExtended_Core,"-FEc",FactorioExtended_Core_filters},
+	["FactorioExtended-Energy"]={FactorioExtended_Energy,"-FEe",FactorioExtended_Energy_filters},
+	["FactorioExtended-Equipment"]={FactorioExtended_Equipment,"-Feeq",FactorioExtended_Equipment_filters},
+	["FactorioExtended-Logistics"]={FactorioExtended_Logistics,"-FEl",FactorioExtended_Logistics_filters},
+	["FactorioExtended-Machines"]={FactorioExtended_Machines,"-FEm",FactorioExtended_Machines_filters},
+	["FactorioExtended-Trains"]={FactorioExtended_Trains,"-Fetr",FactorioExtended_Trains_filters},
+	["FactorioExtended-Transport"]={FactorioExtended_Transport,"-FEt",FactorioExtended_Transport_filters},
+	["jetpack"]={jetpack,"-jp",jetpack_filters},
+	["Krastorio"]={Krastorio,"-kras",Krastorio_filters},
+	["Krastorio2"]={Krastorio2,"-k2",Krastorio2_filters},
+	["Liquify"]={Liquify,"-lq",Liquify_filters},
+	["pycoalprocessing"]={pycoalprocessing,"-pycp",pycoalprocessing_filters},
+	["pyfusionenergy"]={pyfusionenergy,"-pyfe",pyfusionenergy_filters},
+	["pyhightech"]={pyhightech,"-pyht",pyhightech_filters},
+	["pyindustry"]={pyindustry,"-pyi",pyindustry_filters},
+	["pypetroleumhandling"]={pypetroleumhandling,"-pyph",pypetroleumhandling_filters},
+	["pyrawores"]={pyrawores,"-pyro",pyrawores_filters},
+	["reverse-factory"]={reverse_factory,"-rf",reverse_factory_filters},
+	["space-exploration"]={space_exploration,"-se",space_exploration_filters},
+	["xander-mod"]={xander_mod,"-xm",xander_mod_filters},
+	["Yuoki"]={Yuoki,"-y",Yuoki_filters},
+}
+
+for mod, modcolorlist in pairs(mod_list) do
+	if script.active_mods[mod] then
+		tableMerge(colors, modcolorlist[1])
+		if(mod=="ShinyBobGFX") then
+			ShinyBobGFX_settings()
+		end
+	end
+end

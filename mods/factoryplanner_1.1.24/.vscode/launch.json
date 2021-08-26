@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "factoriomod",
+            "request": "launch",
+            "name": "Factorio Profile",
+            "factorioPath": "/Applications/Factorio.app/Contents/MacOS/factorio",
+            "modsPath": "/Users/claude/Library/Application Support/factorio/mods",
+            "hookMode": "profile"
+        },
+        {
+            "type": "factoriomod",
+            "request": "launch",
+            "name": "Factorio Debug",
+            "factorioPath": "/Applications/Factorio.app/Contents/MacOS/factorio",
+            "modsPath": "/Users/claude/Library/Application Support/factorio/mods"
+        },
+        {
+            "type": "factoriomod",
+            "request": "launch",
+            "name": "Factorio Dev Debug",
+            "factorioPath": "/Users/claude/Documents/Factorio/Factorio/build/bin/Factorio_unity",
+            "modsPath": "/Users/claude/Documents/Factorio/Factorio/mods"
+        }
+    ]
+}

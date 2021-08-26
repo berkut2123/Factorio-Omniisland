@@ -1,0 +1,11 @@
+{
+  "name": "LootChestPlus",
+  "version": "1.4.7",
+  "factorio_version": "1.1",
+  "title": "Loot Chest+",
+  "author": "PiggyWhiskey, fishycat", 
+  "contact": "",
+  "homepage": "https://mods.factorio.com/mods/hanes",
+  "description": "Automagically collects alien-artifacts, corpses, alien-biomass, artifact-ore, coins and flesh. Useful in combination with artillery. \nConvenient for mods that add loot when aliens die, like Bob's mods, Necromant, Reika's EndgameCombat, Alien Loot Economy and Alien Space Science. \nThe chest acts now as a passive provider chest and gets unlocked with logistic-robotics tech.", 
+  "dependencies": ["base >= 1.1.0", "? bobenemies >= 1.1.0", "? necromant >= 1.1.0", "? AlienSpaceScience >= 1.1.0", "? EndgameCombat >= 1.105.1", "? alien-module >= 1.2.0", "? Darkstar_utilities >= 0.19.4", "? Darkstar_utilities_Low_Spec-0_17-Port >= 0.18.7", "?  TheDeadBurn_v17 >= 1.1.0", "? PollutionSolutions >= 1.0.0"]
+}

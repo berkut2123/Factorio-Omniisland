@@ -15,16 +15,15 @@ local research_cost = {
 		}},
 	["level-1"] = {
 		unit = {
-			count = 300,
+			count = 50,
 			ingredients = {
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
-				{"chemical-science-pack", 1}
 			},
 			time = 45},
 		prerequisites = {
 			"concrete", 
-			"chemical-science-pack"
+			"oil-processing"
 		}},
 	["level-2"] = {
 		unit = {

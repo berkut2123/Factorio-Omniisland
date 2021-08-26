@@ -1,9 +1,0 @@
-{
-	"name": "Barrel_Coolant",
-	"version": "1.4.0",
-	"factorio_version": "0.18",
-	"title": "Barrel Used Coolant",
-	"author": "Samuel",
-	"description": "Adds Recipes to Barrel / Unbarrel Angels Smelting Used Coolant",
-	"dependencies": ["base >= 0.18.0", "angelssmelting", "angelsrefining"]
-}

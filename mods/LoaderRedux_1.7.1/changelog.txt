@@ -1,0 +1,255 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.7.1
+Date: 2019-11-26
+  Bugfixes:
+    - Loader recipes are no longer hidden
+---------------------------------------------------------------------------------------------------
+Version: 1.7.0
+Date: 2020-11-26
+  Features:
+    - pushed Factorio to 1.1
+    - added lights to loaders at night
+---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: 2020-11-19
+  Features:
+    - updated graphics for normal and high resolutions by Kirazy #50
+    - made make_loader_entity and make_loader_item available in whole data scope
+  Changes:
+    - adjusted recipes for Bobs
+---------------------------------------------------------------------------------------------------
+Version: 1.5.3
+Date: 2020-09-13
+  Changes:
+    - pushed Factorio to 1.0
+    - pushed FLib to 0.3.3
+---------------------------------------------------------------------------------------------------
+Version: 1.5.2
+Date: 2020-05-26
+  Changes:
+    - replaced OpteraLib with FLib
+---------------------------------------------------------------------------------------------------
+Version: 1.5.1
+Date: 2020-04-04
+  Features:
+    - snap to loader 1x1
+  Changes:
+    - moved snapping to script/snapping
+    - moved wagon functions to script/wagon_handler.lua
+---------------------------------------------------------------------------------------------------
+Version: 1.5.0
+Date: 2020-01-21
+  Features:
+    - updated to Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 1.4.10
+Date: 2019-05-23
+  Bugfixes:
+    - Loader speeds are always synced to belt speed in data-final-fixes
+---------------------------------------------------------------------------------------------------
+Version: 1.4.9
+Date: 2019-04-12
+  Features:
+    - updated hr graphics by Kamsta99 #44
+---------------------------------------------------------------------------------------------------
+Version: 1.4.8
+Date: 2019-03-31
+  Bugfixes:
+    - crash trying to add loader for boblogistics without boblogistics being active #43
+---------------------------------------------------------------------------------------------------
+Version: 1.4.7
+Date: 2019-03-31
+  Changes:
+    - updated for boblogistics tech changes
+---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+Date: 2019-03-21
+  Features:
+    - upscaled hr graphics by Kamsta99
+---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 2019-03-19
+  Changes:
+    - moved functionality to Opteras Library
+---------------------------------------------------------------------------------------------------
+Version: 1.4.4
+Date: 2019-03-10
+  Features:
+    - loader can be upgraded with empty upgrade planer
+---------------------------------------------------------------------------------------------------
+Version: 1.4.3
+Date: 2019-03-01
+  Bugfixes:
+    - loader graphics work nice alongside underground belts https://forums.factorio.com/viewtopic.php?f=11&t=65627
+---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 2019-03-01
+  Bugfixes:
+    - updated loader belt animations to 0.17 standard #38
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2019-02-27
+  Changes:
+    - loaders no longer face away from non belt entities, fixes a bug with blueprinting chest-loader-loader-chest connections
+    - updated recipes matching base and boblogistics
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2019-02-26
+  Features:
+    - updated to Factorio 0.17
+    - added thumbnail
+    - loader unlocks moved into corresponding logistics technologies
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2018-10-15
+  Changes:
+    - moved remote interface from on_configuration_changed to on_load to be more in line with other mods
+    - use cargo wagons defaults to disabled, players have to implicitly accept performance drop of this feature
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2018-10-05
+  Features:
+    - added remote interface to register and unregister supported loaders by entity name
+  Changes:
+    - push to 0.16.51 stable
+    - mods using snapping functionality have to register their loaders through remote interface
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 2018-05-30
+  Changes:
+    - allow handcrafting Express Loader for Bobs #27
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 2018-05-17
+  Changes:
+    - push to 0.16.36 stable
+  Bugfixes:
+    - Bob loaders use respective belt colors by magu5026
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 2018-04-02
+  changes:
+    - loaders use belt speeds
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 2018-04-01
+  Bugfixes:
+    - green and purple loader tech unlocks where swapped #25
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2018-03-30
+  Changes:
+    - support for Bob v0.16.x #23
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2018-01-12
+  Features:
+    - support for any wagon width by ReikaKalseki #19
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2018-01-04
+  Features:
+    - color update by Incvisitor #8
+    - in game changelog
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2017-12-13
+  Features:
+    - updated to Factorio 0.16
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2017-10-17
+  Bugfixes:
+    - disabling belts in bobs disables respective loader #4
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: ???
+  Features:
+    - deconstruction events trigger only when train usage is auto or all trains
+  Bugfixes:
+    - on_tick runs only if there are wagons to load/unload (was broken in 1.1.0)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: ???
+  Features:
+    - Rewritten Train loading/unloading by ReverseStateMonad Pull #3
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: ???
+  Features:
+    - loaders snap to bot built belts
+    - changed setting Snap Loaders from player to map setting so bots can use it
+  Bugfixes:
+    - fixed typo in setting tooltip
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: ???
+  Features:
+    - rebalanced recipes to match progression of belts and inserters
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: ???
+  Bugfixes:
+    - fixed loaders snapping to belts 2 tiles away
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: ???
+  Bugfixes:
+    - fixed update to 0.2.6 didn't correctly write wagon inventories to storage
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: ???
+  Features:
+    - reduced ups when un-/loading wagons by Nexela
+    - Loader Snapping warning Text include both mod name and mod display name
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: ???
+  Bugfixes:
+    - fixed entity.neighbours changed in 0.15.13
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: ???
+  Features:
+    - snapping turns loaders away from non-belt entities
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: ???
+  Bugfixes:
+    - fixed MP desync on starting new maps
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: ???
+  changes:
+    - snapping enabled by default
+    - replaced automatic only toggle with dropdown disabled, automatic-only, all trains
+    - train events are only active when trains are enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: ???
+  Removed:
+    - workaround of replacing loaders in script to rotate them, no longer necessary
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: ???
+  Features:
+    - Rewritten Train loading/unloading by Nexela
+    - On_Tick only runs if there are wagons to load/unload
+    - Rewritten Loader snapping. Defaults to off
+    - added toggle settings for loader snapping and Automatic mode trains
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: ???
+  Changes:
+    - switch to built in copy-paste functions
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: ???
+  Bugfixes:
+    - fixed some errors with boblogistics
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: ???
+  Features:
+    - made loaders available
+    - graphics from Archangel666

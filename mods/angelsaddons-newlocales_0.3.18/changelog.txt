@@ -1,0 +1,380 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+Date: 2021-08-03
+  Changes:
+    - Updated русском (by 88react, Алексей Гусаров, Anton Klimovich)
+    - Updated 한국어 (by hwan862)
+    - Updated Deutsch (by adoa)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+Date: 2021-06-04
+  Changes:
+    - Updated čeština (by Bakendrid)
+    - Updated Deutsch (by adoa)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 2021-05-25
+  Changes:
+    - Updated Polski (by Adrian Ostromęcki, Tomirad Trela)
+    - Updated 日本語 (by Zarath8128)
+    - Updated 中文 - 繁體字 (by mmuzi, WanKim)
+    - Updated 中文 - 简体字 (by mmuzi)
+    - Updated Español (by OZMQ, David Ledesma)
+    - Updated Português, brasileiro (by King-BR)
+    - Updated čeština (by Bakendrid)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 2021-03-24
+  Changes:
+    - Updated Polski (by Adrian Ostromęcki, Tomirad Trela)
+    - Updated Deutsch (by adoa)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 2021-03-02
+  Changes:
+    - Updated русском (by Anton Klimovich)
+    - Updated 中文 - 繁體字 (Wu Jiayou)
+    - Updated Polski (by Adrian Ostromęcki, Tomirad Trela)
+    - Updated Português, brasileiro (by King-BR)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 2021-01-23
+  Changes:
+    - Updated русском (by Anton Klimovich)
+    - Updated 한국어 (by ksyksy11)
+    - Updated Polski (by Fenikxs)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 2020-12-04
+  Changes:
+    - Updated Deutsch (by adoa)
+    - Updated 한국어 (by Xagros)
+    - Updated Polski (by Fenikxs)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2020-11-26
+  Changes:
+    - Updated to Factorio version 1.1
+    - Updated Deutsch (by adoa)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 2020-11-15
+  Changes:
+    - Updated Tiếng Việt (by Quang Minh)
+    - Updated русском (by Anton Klimovich)
+    - Updated 中文 - 简体字 (by 1151953352)
+    - Updated Deutsch (by adoa)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2020-10-30
+  Changes:
+    - Updated 日本語 (by Shirutan)
+    - Updated Deutsch (by adoa)
+    - Fixed additional surrounding double quotes in some translated strings
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2020-10-14
+  Changes:
+    - Updated čeština (by JerryCZZ)
+    - Updated Deutsch (by adoa)
+    - Updated русском (by Anton Klimovich)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2020-09-14
+  Changes:
+    - Updated 한국어 (by Xagros, seung789)
+    - Updated čeština (by greater_goblin, JerryCZZ)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2020-09-08
+  Changes:
+    - Updated changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2020-09-08
+  Changes:
+    - A startup error has been fixed (русском)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2020-09-03
+  Changes:
+    - The bug has been fixed (Polski)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2020-09-02
+  Changes:
+    - Updated Deutsch (by adoa)
+    - Updated русском (by D7PEK)
+    - Updated 日本語 (by Shirutan)
+    - Updated čeština (by JerryCZZ)
+    - Updated Український (by Anton Fedorenko)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2020-08-29
+  Changes:
+    - Updated Deutsch (by adoa)
+    - Updated русском (by D7PEK)
+    - Updated Polski (by jari01988)
+    - Updated čeština (by JerryCZZ)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2020-02-28
+  Changes:
+    - Updated Deutsch (by adoa)
+    - Updated 日本語 (by Shirutan, Yuki Furukawa)
+    - Updated čeština (by greater_goblin, Honza Hnz, Miroslav Folber)
+    - Updated Polski (by jari01988)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2020-08-26
+  Changes:
+    - Updated for Factorio 1.0
+---------------------------------------------------------------------------------------------------
+Version: 0.2.19
+Date: 2020-05-05
+  Changes:
+    - Updated Polski (by Tomirad Trela)
+    - Updated русском (by Bolt07)
+    - Updated Nederlands (by Joery Pigmans)
+    - Updated Deutsch (by adoa, Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.18
+Date: 2020-02-26
+  Changes:
+    - Updated Polski (by Tomirad Trela)
+    - Updated le francais (Firerazer)
+    - Updated Deutsch (by adoa)
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.17
+Date: 2020-02-14
+  Changes:
+    - Updated to Factorio 0.18
+    - Updated Deutsch (by adoa)
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.16
+Date: 2020-02-06
+  Changes:
+    - Updated to Factorio 0.18
+    - Updated русском (by ToxaSTN)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.15
+Date: 2020-01-06
+  Changes:
+    - Updated for Petrochem Plus 0.17 Redux
+    - Updated Nederlands (by Irwon, Tee-Jay)
+    - Updated Deutsch (by adoa, theicewatch)
+    - Updated Español (notallme)
+    - Updated Polski (by trix55)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.14
+Date: 2019-10-27
+  Changes:
+    - Updated for Petrochem Plus 0.17 Redux
+    - Updated Nederlands (by Irwon)
+    - Updated Deutsch (by adoa, Karosieben)
+    - Updated 한국어
+    - Updated 中文 - 繁體字 (by k98a, Wu Jiayou)
+    - Updated русском (ToxaSTN)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.13
+Date: 2019-09-21
+  Changes:
+    - Updated Deutsch (by adoa, Karosieben)
+    - Updated 日本語 (by Shirutan)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.12
+Date: 2019-09-19
+  Changes:
+    - Updated Deutsch (by Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 2019-09-04
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 2019-08-22
+  Changes:
+    - Updated Deutsch (by Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2019-08-13
+  Changes:
+    - Fixed initial error (Deutsch) (by Karosieben)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2019-08-12
+  Changes:
+    - Reflect the latest update
+    - Updated Deutsch (by adoa, Karosieben)
+    - Updated 中文 - 简体字(簡體字) (by 2437581835)
+    - Updated 中文 - 繁體字 (by Wu Jiayou)
+    - Updated русском (by ToxaSTN)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2019-07-04
+  Changes:
+    - Updated Polski (molta212)
+    - Updated 中文 - 繁體字 (Dan)
+    - Updated le francais (Firerazer, bokounet)
+    - Updated русском (ri4, Ragwarod, andy.deluser)
+    - Updated 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2019-05-16
+  Changes:
+    - Updated Español (Samuel Shaaban)
+    - Updated le francais (Firerazer)
+    - Updated Nederlands (ppaasman)
+    - Updated 한국어 (oosat, DispHunter)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2019-05-08
+  Changes:
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2019-04-25
+  Changes:
+    - Updated 한국어 (oosat, DispHunter)
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019-04-14
+  Changes:
+    - Updated Español (Samuel Shaaban)
+    - Updated le francais (Firerazer)
+    - Updated 한국어
+    - Updated русском (Dmitry Korotkov)
+    - Updated 日本語 (Shirutan)
+    - Updated 中文 - 繁體字 (k98a)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019-03-25
+  Changes:
+    - Updated for Angel's Bio Processing
+    - Updated русском (by Anton Klimovich, Dmitry Korotkov)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019-03-18
+  Changes:
+    - Fixed initial error (中文 - 繁體字) (by orient0724)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019-03-15
+  Changes:
+    - Updated 한국어
+    - Updated for Factorio 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.50
+Date: 2019-01-23
+  Changes:
+    - Updated 한국어
+    - Updated Deutsch (by Karosieben)
+    - Updated русском (by Hormister, AleksTJ, Dmitry Korotkov, AlberTT)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.49
+Date: 2018-01-19
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated русском (by Anton Klimovich)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.48
+Date: 2018-12-18
+  Changes:
+    - Updated Deutsch (by Karosieben)
+    - Updated le francais
+    - Updated Espanol (by OZMQ)
+    - Updated Polski (by Cylindryk Cylindrykowy)
+    - Updated Português, brasileiro (by Junior Lopes)
+    - Updated русском
+---------------------------------------------------------------------------------------------------
+Version: 0.1.47
+Date: 2018-12-11
+  Changes:
+    - Updated Deutsch (by Oliver Stotzem, Karosieben)
+    - Updated le francais
+    - Updated 日本語 (by Shirutan)
+    - Updated 한국어
+    - Updated Polski
+    - Updated русском (by Anton Klimovich, Dmitry Korotkov, diraria)
+    - Updated 中文 - 简体字(簡體字)
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.46
+Date: 2018-07-19
+  Changes:
+    - Fixed initial error (Polski)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.45
+Date: 2018-07-18
+  Changes:
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+    - Updated 한국어
+    - Updated Deutsch (by lennardjones, blackerking & Jonas Siewert)
+    - Updated Polski (by Kamil Czesak & Igor Frelikowski)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.44
+Date: 2018-06-19
+  Changes:
+    - Updated 日本語 (by Shirutan)
+    - Updated 中文 - 繁體字(繁体字) (by Gallons)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.43
+Date: 2018-06-15
+  Changes:
+    - Updated Angel's third party mods
+---------------------------------------------------------------------------------------------------
+Version: 0.1.42
+Date: 2018-06-11
+  Changes:
+    - Updated Angel's Petro Chemical Processing & Smelting (한국어)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.41
+Date: 2018-06-10
+  Changes:
+    - Updated Angel's Refining (日本語, 한국어, русском)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.40
+Date: 2018-06-07
+  Changes:
+    - Minor fixes (русском yoficator)
+    - Angel's mod crowdin open
+---------------------------------------------------------------------------------------------------
+Version: 0.1.39
+Date: 2018-06-01
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.38
+Date: 2018-04-26
+  Changes:
+    - Renewal of русском
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.37
+Date: 2018-04-15
+  Changes:
+    - 한국어 수정: 쿼츠 → 석영
+---------------------------------------------------------------------------------------------------
+Version: 0.1.36
+Date: 2018-04-13
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.35
+Date: 2018-04-02
+  Changes:
+    - Fixed 日本語, 한국어
+---------------------------------------------------------------------------------------------------
+Version: 0.1.34
+Date: 2018-04-01
+  Changes:
+    - Renewal of le francais, 日本語, 한국어 and русском

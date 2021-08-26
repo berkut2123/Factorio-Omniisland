@@ -1,0 +1,16 @@
+{
+  "name": "Load-Furn",
+  "version": "0.8.8",
+  "title": "Advanced Furnaces",
+  "author": "badway",
+  "contact": "https://mods.factorio.com/mod/Load-Furn/discussion",
+  "homepage": "",
+  "description": "Adds 5 furnaces whose crafting speed depends on the transport-belt speed * 3. Energy consumption and pollution is appropriate. In the settings, you can increase energy consumption. Сan work with other mods for example angelssmelting, bobplates, PY, IndustrialRevolution. Language en, ru, de, fi.",
+  "factorio_version": "0.18",
+  "dependencies": ["base >= 0.16",
+					"? deadlock-experiments",
+                    "? angelssmelting",
+                    "? bobplates",
+					"? pycoalprocessing",
+					"? IndustrialRevolution"]
+}
