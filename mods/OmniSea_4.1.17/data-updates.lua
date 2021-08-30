@@ -40,7 +40,7 @@ omni.lib.enable_recipe("omnic-water-condensation")
 --Omniwood compat: Add an early low-yield omnialgae recipe and fix the fuel value of wood
 if mods["omnimatter_wood"] then
     RecGen:create("OmniSea","omnialgae-processing-0"):
-        setIngredients({type="fluid",name="water-purified",amount=100}, {type="item",name="omnite",amount=40}):
+        setIngredients({type="fluid",name="water",amount=100}, {type="item",name="omnite",amount=40}):
         setIcons("omnialgae","omnimatter_wood"):
         setResults({type="item",name="omnialgae",amount=40}):
         setEnergy(20.0):
