@@ -136,6 +136,7 @@ if bobmods then
       }
     )
     OV.add_unlock("bio-paper-1", "wooden-board-paper")
+    OV.add_unlock("bio-paper-1", "basic-circuit-board")
   end
 
 end
